@@ -88,6 +88,9 @@ def build_final_json(message_struct_path, segments_db):
 
             node = {"pos_msg": m.group(1), "mandatory": status == 'M', "max": max_occ}
 
+            # Supprimer les marqueurs EDIFACT (* | -) en debut de label
+            label = re.sub(r'^[*|\-+#]+\s*', '', label).strip()
+
             if "Segment group" in label:
                 node.update({"type": "group", "id": label.split()[-1], "children": []})
                 is_group = True
