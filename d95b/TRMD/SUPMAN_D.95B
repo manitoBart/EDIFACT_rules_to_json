@@ -489,57 +489,57 @@ Pos    Tag Name                                      S   R
 0050   DTM Date/time/period                          C   9     
 0060   FTX Free text                                 C   5     
 
-0070       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   6ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-                                                                     ³
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0100   CTA Contact information                       M   1          ³³
-0110   COM Communication contact                     C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0070             Segment group 1                     C   6            
+0080   NAD Name and address                          M   1            
+                                                                      
+0090             Segment group 2                     C   5            
+0100   CTA Contact information                       M   1            
+0110   COM Communication contact                     C   1            
 
            DETAIL SECTION
 
 0120   UNS Section control                           M   1     
 
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999999ÄÄÄÄÄÄ¿
-0140   NAD Name and address                          M   1           ³
-0150   DTM Date/time/period                          M   15          ³
-0160   ATT Attribute                                 C   9           ³
-0170   RFF Reference                                 C   9           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0190   REL Relationship                              M   1          ³³
-0200   NAD Name and address                          M   1          ³³
-0210   PCD Percentage details                        C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0220       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0230   EMP Employment details                        M   1          ³³
-0240   PCD Percentage details                        C   1          ³³
-0250   CUX Currencies                                C   1          ³³
-0260   NAD Name and address                          C   9          ³³
-                                                                    ³³
-0270       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0280   MOA Monetary amount                           M   1         ³³³
-0290   PAT Payment terms basis                       C   1         ³³³
-0300   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0310       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   20ÄÄÄÄÄÄÄÄÄ¿³
-0320   GIS General indicator                         M   1          ³³
-0330   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0340       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0350   MEM Membership details                        M   1          ³³
-                                                                    ³³
-0360       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0370   ATT Attribute                                 M   1         ³³³
-0380   PCD Percentage details                        C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0390       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄ¿³³
-0400   COT Contribution details                      M   1         ³³³
-0410   MOA Monetary amount                           C   1         ³³³
-0420   PCD Percentage details                        C   1         ³³³
-0430   DTM Date/time/period                          C   3         ³³³
-0440   PAT Payment terms basis                       C   1         ³³³
-0450   FTX Free text                                 C   3ÄÄÄÄÄÄÄÄÄÁÁÙ
+0130             Segment group 3                     M   999999       
+0140   NAD Name and address                          M   1            
+0150   DTM Date/time/period                          M   15           
+0160   ATT Attribute                                 C   9            
+0170   RFF Reference                                 C   9            
+                                                                      
+0180             Segment group 4                     C   99           
+0190   REL Relationship                              M   1            
+0200   NAD Name and address                          M   1            
+0210   PCD Percentage details                        C   1            
+                                                                      
+0220             Segment group 5                     C   9            
+0230   EMP Employment details                        M   1            
+0240   PCD Percentage details                        C   1            
+0250   CUX Currencies                                C   1            
+0260   NAD Name and address                          C   9            
+                                                                      
+0270             Segment group 6                     C   9            
+0280   MOA Monetary amount                           M   1            
+0290   PAT Payment terms basis                       C   1            
+0300   DTM Date/time/period                          C   1            
+                                                                      
+0310             Segment group 7                     M   20           
+0320   GIS General indicator                         M   1            
+0330   DTM Date/time/period                          C   1            
+                                                                      
+0340             Segment group 8                     C   9            
+0350   MEM Membership details                        M   1            
+                                                                      
+0360             Segment group 9                     C   9            
+0370   ATT Attribute                                 M   1            
+0380   PCD Percentage details                        C   1            
+                                                                      
+0390             Segment group 10                    C   99           
+0400   COT Contribution details                      M   1            
+0410   MOA Monetary amount                           C   1            
+0420   PCD Percentage details                        C   1            
+0430   DTM Date/time/period                          C   3            
+0440   PAT Payment terms basis                       C   1            
+0450   FTX Free text                                 C   3            
 
            SUMMARY SECTION
 

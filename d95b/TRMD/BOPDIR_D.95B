@@ -527,83 +527,83 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   3     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0050   RFF Reference                                 M   1           ³
-0060   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     C   2            
+0050   RFF Reference                                 M   1            
+0060   DTM Date/time/period                          C   1            
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-0090   CTA Contact information                       C   1           ³
-0100   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0070             Segment group 2                     M   2            
+0080   NAD Name and address                          M   1            
+0090   CTA Contact information                       C   1            
+0100   COM Communication contact                     C   5            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0120   LIN Line item                                 M   1           ³
-0130   FII Financial institution information         M   1           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄ¿³
-0150   RCS Requirements and conditions               M   1          ³³
-0160   FTX Free text                                 C   10         ³³
-                                                                    ³³
-0170       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0180   RFF Reference                                 M   1         ³³³
-0190   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÙ³³
-0200   NAD Name and address                          M   2          ³³
-                                                                    ³³
-0210       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄ¿³³
-0220   MOA Monetary amount                           M   1         ³³³
-0230   CUX Currencies                                C   1ÄÄÄÄÄÄÄÄÄÙ³³
-0240   LOC Place/location identification             C   4ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 3                     C   999          
+0120   LIN Line item                                 M   1            
+0130   FII Financial institution information         M   1            
+                                                                      
+0140             Segment group 4                     M   9999         
+0150   RCS Requirements and conditions               M   1            
+0160   FTX Free text                                 C   10           
+                                                                      
+0170             Segment group 5                     C   1            
+0180   RFF Reference                                 M   1            
+0190   DTM Date/time/period                          C   1            
+0200   NAD Name and address                          M   2            
+                                                                      
+0210             Segment group 6                     M   1            
+0220   MOA Monetary amount                           M   1            
+0230   CUX Currencies                                C   1            
+0240   LOC Place/location identification             C   4            
 
            DETAIL SECTION
 
 0250   UNS Section control                           M   1     
 
-0260       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0270   LIN Line item                                 M   1           ³
-0280   RCS Requirements and conditions               M   1           ³
-0290   FII Financial institution information         C   1           ³
-0300   NAD Name and address                          C   1           ³
-0310   MOA Monetary amount                           M   2           ³
-                                                                     ³
-0320       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0330   RCS Requirements and conditions               M   1          ³³
-0340   FTX Free text                                 C   10         ³³
-                                                                    ³³
-0350       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0360   GIR Related identification numbers            M   1         ³³³
-0370   QTY Quantity                                  C   1         ³³³
-0380   PRI Price details                             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0390       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0400   RFF Reference                                 M   1         ³³³
-0410   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÙ³³
-0420   FII Financial institution information         C   1          ³³
-0430   NAD Name and address                          C   1          ³³
-0440   MOA Monetary amount                           M   1          ³³
-0450   LOC Place/location identification             C   4ÄÄÄÄÄÄÄÄÄÄÁÙ
+0260             Segment group 7                     C   999          
+0270   LIN Line item                                 M   1            
+0280   RCS Requirements and conditions               M   1            
+0290   FII Financial institution information         C   1            
+0300   NAD Name and address                          C   1            
+0310   MOA Monetary amount                           M   2            
+                                                                      
+0320             Segment group 8                     C   9999         
+0330   RCS Requirements and conditions               M   1            
+0340   FTX Free text                                 C   10           
+                                                                      
+0350             Segment group 9                     C   1            
+0360   GIR Related identification numbers            M   1            
+0370   QTY Quantity                                  C   1            
+0380   PRI Price details                             C   1            
+                                                                      
+0390             Segment group 10                    C   1            
+0400   RFF Reference                                 M   1            
+0410   DTM Date/time/period                          C   1            
+0420   FII Financial institution information         C   1            
+0430   NAD Name and address                          C   1            
+0440   MOA Monetary amount                           M   1            
+0450   LOC Place/location identification             C   4            
 
-0460       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0470   RFF Reference                                 M   1           ³
-                                                                     ³
-0480       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄ¿³
-0490   RCS Requirements and conditions               M   1          ³³
-0500   FTX Free text                                 C   1          ³³
-                                                                    ³³
-0510       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄ¿³³
-0520   SEQ Sequence details                          M   1         ³³³
-                                                                   ³³³
-0530       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄ¿³³³
-0540   GIR Related identification numbers            M   1        ³³³³
-0550   QTY Quantity                                  C   1        ³³³³
-0560   PRI Price details                             C   1ÄÄÄÄÄÄÄÄÙ³³³
-                                                                   ³³³
-0570       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄ¿³³³
-0580   MOA Monetary amount                           M   1        ³³³³
-0590   NAD Name and address                          C   1ÄÄÄÄÄÄÄÄÁÁÁÙ
+0460             Segment group 11                    C   99           
+0470   RFF Reference                                 M   1            
+                                                                      
+0480             Segment group 12                    M   99           
+0490   RCS Requirements and conditions               M   1            
+0500   FTX Free text                                 C   1            
+                                                                      
+0510             Segment group 13                    M   9999         
+0520   SEQ Sequence details                          M   1            
+                                                                      
+0530             Segment group 14                    C   1            
+0540   GIR Related identification numbers            M   1            
+0550   QTY Quantity                                  C   1            
+0560   PRI Price details                             C   1            
+                                                                      
+0570             Segment group 15                    M   999          
+0580   MOA Monetary amount                           M   1            
+0590   NAD Name and address                          C   1            
 
            SUMMARY SECTION
 
-0600       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0610   AUT Authentication result                     M   1           ³
-0620   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0600             Segment group 16                    C   1            
+0610   AUT Authentication result                     M   1            
+0620   DTM Date/time/period                          C   1            
 0630   UNT Message trailer                           M   1     

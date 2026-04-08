@@ -428,36 +428,36 @@ Pos    Tag Name                                      S   R
 0030   FTX Free text                                 C   9     
 0040   RFF Reference                                 C   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   TDT Details of transport                      M   1           ³
-0070   LOC Place/location identification             C   9           ³
-0080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     M   1            
+0060   TDT Details of transport                      M   1            
+0070   LOC Place/location identification             C   9            
+0080   DTM Date/time/period                          C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 2                     M   9            
+0100   NAD Name and address                          M   1            
+0110   CTA Contact information                       C   9            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0130   GID Goods item details                        M   1           ³
-0140   HAN Handling instructions                     C   9           ³
-0150   TMP Temperature                               C   9           ³
-0160   RNG Range details                             C   9           ³
-0170   SGP Split goods placement                     C   999         ³
-0180   DGS Dangerous goods                           C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 3                     C   999          
+0130   GID Goods item details                        M   1            
+0140   HAN Handling instructions                     C   9            
+0150   TMP Temperature                               C   9            
+0160   RNG Range details                             C   9            
+0170   SGP Split goods placement                     C   999          
+0180   DGS Dangerous goods                           C   9            
 
-0190       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0200   EQD Equipment details                         M   1           ³
-0210   RFF Reference                                 C   9           ³
-0220   EQN Number of units                           C   1           ³
-0230   MEA Measurements                              C   9           ³
-0240   DIM Dimensions                                C   9           ³
-0250   SEL Seal number                               C   9           ³
-0260   EQA Attached equipment                        C   1           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0280   TDT Details of transport                      M   1          ³³
-0290   LOC Place/location identification             C   9          ³³
-0300   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-0310   NAD Name and address                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0190             Segment group 4                     M   999          
+0200   EQD Equipment details                         M   1            
+0210   RFF Reference                                 C   9            
+0220   EQN Number of units                           C   1            
+0230   MEA Measurements                              C   9            
+0240   DIM Dimensions                                C   9            
+0250   SEL Seal number                               C   9            
+0260   EQA Attached equipment                        C   1            
+                                                                      
+0270             Segment group 5                     C   9            
+0280   TDT Details of transport                      M   1            
+0290   LOC Place/location identification             C   9            
+0300   DTM Date/time/period                          C   9            
+0310   NAD Name and address                          C   9            
 0320   CNT Control total                             M   1     
 0330   UNT Message trailer                           M   1     

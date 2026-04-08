@@ -292,20 +292,20 @@ Pos    Tag Name                                      S   R
 0030   RFF Reference                                 C   9     
 0040   DTM Date/time/period                          C   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0060   NAD Name and address                          M   1           ³
-0070   CTA Contact information                       C   1           ³
-0080   COM Communication contact                     C   5           ³
-0090   FII Financial institution information         C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   99           
+0060   NAD Name and address                          M   1            
+0070   CTA Contact information                       C   1            
+0080   COM Communication contact                     C   5            
+0090   FII Financial institution information         C   1            
 
-0100       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0110   DOC Document/message details                  M   1           ³
-0120   MOA Monetary amount                           C   1           ³
-0130   CUX Currencies                                C   1           ³
-0140   DTM Date/time/period                          C   5           ³
-0150   CCD Credit cover details                      C   1           ³
-0160   PCD Percentage details                        C   1           ³
-0170   PAT Payment terms basis                       C   1           ³
-0180   FTX Free text                                 C   1           ³
-0190   RFF Reference                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0100             Segment group 2                     C   99           
+0110   DOC Document/message details                  M   1            
+0120   MOA Monetary amount                           C   1            
+0130   CUX Currencies                                C   1            
+0140   DTM Date/time/period                          C   5            
+0150   CCD Credit cover details                      C   1            
+0160   PCD Percentage details                        C   1            
+0170   PAT Payment terms basis                       C   1            
+0180   FTX Free text                                 C   1            
+0190   RFF Reference                                 C   1            
 0200   UNT Message trailer                           M   1     

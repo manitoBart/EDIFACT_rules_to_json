@@ -493,80 +493,80 @@ Pos    Tag Name                                      S   R
 0040   LOC Place/location identification             C   5     
 0050   CNT Control total                             C   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-                                                                     ³
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0090   CTA Contact information                       M   1          ³³
-0100   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0060             Segment group 1                     M   1            
+0070   NAD Name and address                          M   1            
+                                                                      
+0080             Segment group 2                     C   5            
+0090   CTA Contact information                       M   1            
+0100   COM Communication contact                     C   5            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0120   TDT Details of transport                      M   1           ³
-0130   DTM Date/time/period                          C   1           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0150   LOC Place/location identification             M   1          ³³
-0160   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 3                     M   1            
+0120   TDT Details of transport                      M   1            
+0130   DTM Date/time/period                          C   1            
+                                                                      
+0140             Segment group 4                     C   9            
+0150   LOC Place/location identification             M   1            
+0160   DTM Date/time/period                          C   9            
 
-0170       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0180   EQD Equipment details                         M   1           ³
-0190   SEL Seal number                               C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0170             Segment group 5                     C   99           
+0180   EQD Equipment details                         M   1            
+0190   SEL Seal number                               C   9            
 
-0200       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0210   RFF Reference                                 M   1           ³
-0220   NAD Name and address                          C   2           ³
-0230   CNT Control total                             C   1           ³
-                                                                     ³
-0240       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄ¿³
-0250   CNI Consignment information                   M   1          ³³
-0260   SGP Split goods placement                     C   9          ³³
-0270   CNT Control total                             C   9          ³³
-0280   MEA Measurements                              C   1          ³³
-0290   LOC Place/location identification             C   2          ³³
-0300   NAD Name and address                          C   5          ³³
-                                                                    ³³
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0320   GDS Nature of cargo                           M   1         ³³³
-0330   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0340       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0350   PAC Package                                   M   1         ³³³
-0360   PCI Package identification                    C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0370       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0380   TOD Terms of delivery or transport            M   1         ³³³
-0390   LOC Place/location identification             C   1         ³³³
-0400   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0410       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0420   MOA Monetary amount                           M   1         ³³³
-                                                                   ³³³
-0430       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄ¿³³³
-0440   CUX Currencies                                M   1        ³³³³
-0450   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-0460       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0470   TAX Duty/tax/fee details                      M   1         ³³³
-0480   MOA Monetary amount                           C   1         ³³³
-0490   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0500       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0510   DOC Document/message details                  M   1         ³³³
-0520   DTM Date/time/period                          C   1         ³³³
-0530   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0540       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄ¿³³
-0550   CST Customs status of goods                   M   1         ³³³
-0560   FTX Free text                                 C   1         ³³³
-0570   LOC Place/location identification             M   1         ³³³
-0580   MEA Measurements                              C   9         ³³³
-                                                                   ³³³
-0590       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄ¿³³³
-0600   TAX Duty/tax/fee details                      M   1        ³³³³
-0610   MOA Monetary amount                           C   1        ³³³³
-0620   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÁÁÁÙ
+0200             Segment group 6                     C   999          
+0210   RFF Reference                                 M   1            
+0220   NAD Name and address                          C   2            
+0230   CNT Control total                             C   1            
+                                                                      
+0240             Segment group 7                     M   9999         
+0250   CNI Consignment information                   M   1            
+0260   SGP Split goods placement                     C   9            
+0270   CNT Control total                             C   9            
+0280   MEA Measurements                              C   1            
+0290   LOC Place/location identification             C   2            
+0300   NAD Name and address                          C   5            
+                                                                      
+0310             Segment group 8                     C   1            
+0320   GDS Nature of cargo                           M   1            
+0330   FTX Free text                                 C   1            
+                                                                      
+0340             Segment group 9                     C   999          
+0350   PAC Package                                   M   1            
+0360   PCI Package identification                    C   1            
+                                                                      
+0370             Segment group 10                    C   1            
+0380   TOD Terms of delivery or transport            M   1            
+0390   LOC Place/location identification             C   1            
+0400   FTX Free text                                 C   1            
+                                                                      
+0410             Segment group 11                    C   10           
+0420   MOA Monetary amount                           M   1            
+                                                                      
+0430             Segment group 12                    C   1            
+0440   CUX Currencies                                M   1            
+0450   DTM Date/time/period                          C   1            
+                                                                      
+0460             Segment group 13                    C   9            
+0470   TAX Duty/tax/fee details                      M   1            
+0480   MOA Monetary amount                           C   1            
+0490   GIS General indicator                         C   1            
+                                                                      
+0500             Segment group 14                    C   9            
+0510   DOC Document/message details                  M   1            
+0520   DTM Date/time/period                          C   1            
+0530   LOC Place/location identification             C   1            
+                                                                      
+0540             Segment group 15                    C   99           
+0550   CST Customs status of goods                   M   1            
+0560   FTX Free text                                 C   1            
+0570   LOC Place/location identification             M   1            
+0580   MEA Measurements                              C   9            
+                                                                      
+0590             Segment group 16                    C   9            
+0600   TAX Duty/tax/fee details                      M   1            
+0610   MOA Monetary amount                           C   1            
+0620   GIS General indicator                         C   1            
 
-0630       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0640   AUT Authentication result                     M   1           ³
-0650   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0630             Segment group 17                    C   1            
+0640   AUT Authentication result                     M   1            
+0650   DTM Date/time/period                          C   1            
 0660   UNT Message trailer                           M   1     

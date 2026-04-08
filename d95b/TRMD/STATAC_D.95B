@@ -317,20 +317,20 @@ Pos    Tag Name                                      S   R
 0040   RFF Reference                                 C   5     
 0050   CUX Currencies                                C   1     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-                                                                     ³
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0090   CTA Contact information                       M   1          ³³
-0100   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0060             Segment group 1                     M   5            
+0070   NAD Name and address                          M   1            
+                                                                      
+0080             Segment group 2                     C   5            
+0090   CTA Contact information                       M   1            
+0100   COM Communication contact                     C   5            
 
            DETAIL SECTION
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   200000ÄÄÄÄÄÄ¿
-0120   DOC Document/message details                  M   1           ³
-0130   MOA Monetary amount                           M   5           ³
-0140   DTM Date/time/period                          C   5           ³
-0150   RFF Reference                                 C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0110             Segment group 3                     M   200000       
+0120   DOC Document/message details                  M   1            
+0130   MOA Monetary amount                           M   5            
+0140   DTM Date/time/period                          C   5            
+0150   RFF Reference                                 C   5            
 
            SUMMARY SECTION
 

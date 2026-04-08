@@ -357,39 +357,39 @@ Pos    Tag Name                                      S   R
 0040   RFF Reference                                 M   9     
 0050   DTM Date/time/period                          M   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-0080   CTA Contact information                       C   1           ³
-0090   COM Communication contact                     C   3           ³
-0100   RFF Reference                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     M   2            
+0070   NAD Name and address                          M   1            
+0080   CTA Contact information                       C   1            
+0090   COM Communication contact                     C   3            
+0100   RFF Reference                                 C   9            
 
-0110       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0120   DOC Document/message details                  M   1           ³
-                                                                     ³
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0140   GIS General indicator                         M   1          ³³
-0150   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-0160   DTM Date/time/period                          C   9           ³
-0170   NAD Name and address                          C   1           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0190   MOA Monetary amount                           M   1          ³³
-0200   DTM Date/time/period                          C   1          ³³
-0210   PCD Percentage details                        C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-0220   RFF Reference                                 M   9           ³
-0230   ICD Insurance cover description               C   1           ³
-                                                                     ³
-0240       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0250   ATT Attribute                                 M   1          ³³
-0260   PCD Percentage details                        C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-0270   CUX Currencies                                C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0110             Segment group 2                     C   99           
+0120   DOC Document/message details                  M   1            
+                                                                      
+0130             Segment group 3                     C   1            
+0140   GIS General indicator                         M   1            
+0150   FTX Free text                                 C   1            
+0160   DTM Date/time/period                          C   9            
+0170   NAD Name and address                          C   1            
+                                                                      
+0180             Segment group 4                     M   9            
+0190   MOA Monetary amount                           M   1            
+0200   DTM Date/time/period                          C   1            
+0210   PCD Percentage details                        C   1            
+0220   RFF Reference                                 M   9            
+0230   ICD Insurance cover description               C   1            
+                                                                      
+0240             Segment group 5                     C   9            
+0250   ATT Attribute                                 M   1            
+0260   PCD Percentage details                        C   1            
+0270   CUX Currencies                                C   1            
 
-0280       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0290   MOA Monetary amount                           M   1           ³
-0300   GIS General indicator                         C   1           ³
-0310   DTM Date/time/period                          C   1           ³
-0320   RFF Reference                                 C   1           ³
-0330   ATT Attribute                                 C   1           ³
-0340   ICD Insurance cover description               C   1           ³
-0350   CUX Currencies                                C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0280             Segment group 6                     C   99           
+0290   MOA Monetary amount                           M   1            
+0300   GIS General indicator                         C   1            
+0310   DTM Date/time/period                          C   1            
+0320   RFF Reference                                 C   1            
+0330   ATT Attribute                                 C   1            
+0340   ICD Insurance cover description               C   1            
+0350   CUX Currencies                                C   1            
 0360   UNT Message trailer                           M   1     

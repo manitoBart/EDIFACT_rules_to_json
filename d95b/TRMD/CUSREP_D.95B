@@ -406,51 +406,51 @@ Pos    Tag Name                                      S   R
 0060   MEA Measurements                              C   9     
 0070   GIS General indicator                         C   9     
 
-0080       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0090   RFF Reference                                 M   1           ³
-0100   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 1                     C   99           
+0090   RFF Reference                                 M   1            
+0100   DTM Date/time/period                          C   1            
 
-0110       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0120   LOC Place/location identification             M   1           ³
-0130   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0110             Segment group 2                     C   99           
+0120   LOC Place/location identification             M   1            
+0130   DTM Date/time/period                          C   9            
 
-0140       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0150   DOC Document/message details                  M   1           ³
-0160   RFF Reference                                 C   1           ³
-0170   DTM Date/time/period                          C   1           ³
-0180   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0140             Segment group 3                     C   9            
+0150   DOC Document/message details                  M   1            
+0160   RFF Reference                                 C   1            
+0170   DTM Date/time/period                          C   1            
+0180   LOC Place/location identification             C   1            
 
-0190       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0200   TAX Duty/tax/fee details                      M   1           ³
-0210   MOA Monetary amount                           C   1           ³
-0220   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0190             Segment group 4                     C   9            
+0200   TAX Duty/tax/fee details                      M   1            
+0210   MOA Monetary amount                           C   1            
+0220   GIS General indicator                         C   1            
 
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0240   NAD Name and address                          M   1           ³
-                                                                     ³
-0250       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0260   CTA Contact information                       M   1          ³³
-0270   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0280       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0290   RFF Reference                                 M   1          ³³
-0300   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0230             Segment group 5                     C   5            
+0240   NAD Name and address                          M   1            
+                                                                      
+0250             Segment group 6                     C   9            
+0260   CTA Contact information                       M   1            
+0270   COM Communication contact                     C   5            
+                                                                      
+0280             Segment group 7                     C   9            
+0290   RFF Reference                                 M   1            
+0300   DTM Date/time/period                          C   1            
 
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0320   TDT Details of transport                      M   1           ³
-0330   TPL Transport placement                       C   1           ³
-0340   DTM Date/time/period                          C   1           ³
-                                                                     ³
-0350       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0360   LOC Place/location identification             M   1          ³³
-0370   DTM Date/time/period                          C   9          ³³
-0380   QTY Quantity                                  C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0310             Segment group 8                     C   99           
+0320   TDT Details of transport                      M   1            
+0330   TPL Transport placement                       C   1            
+0340   DTM Date/time/period                          C   1            
+                                                                      
+0350             Segment group 9                     C   99           
+0360   LOC Place/location identification             M   1            
+0370   DTM Date/time/period                          C   9            
+0380   QTY Quantity                                  C   9            
 
-0390       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0400   EQD Equipment details                         M   1           ³
-0410   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0390             Segment group 10                    C   999          
+0400   EQD Equipment details                         M   1            
+0410   EQN Number of units                           C   1            
 
-0420       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0430   AUT Authentication result                     M   1           ³
-0440   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0420             Segment group 11                    C   1            
+0430   AUT Authentication result                     M   1            
+0440   DTM Date/time/period                          C   1            
 0450   UNT Message trailer                           M   1     

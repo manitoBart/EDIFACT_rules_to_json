@@ -537,62 +537,62 @@ Pos    Tag Name                                      S   R
 0060   FTX Free text                                 C   10    
 0070   QTY Quantity                                  C   5     
 
-0080       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   10ÄÄÄÄÄÄÄÄÄÄ¿
-0090   RFF Reference                                 M   1           ³
-0100   DOC Document/message details                  C   1           ³
-0110   DTM Date/time/period                          C   1           ³
-0120   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 1                     M   10           
+0090   RFF Reference                                 M   1            
+0100   DOC Document/message details                  C   1            
+0110   DTM Date/time/period                          C   1            
+0120   FTX Free text                                 C   5            
 
-0130       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0140   NAD Name and address                          M   1           ³
-0150   LOC Place/location identification             C   99          ³
-0160   FTX Free text                                 C   10          ³
-0170   INP Parties to instruction                    C   10          ³
-0180   RCS Requirements and conditions               C   10          ³
-                                                                     ³
-0190       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0200   RFF Reference                                 M   1          ³³
-0210   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0220       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0230   CTA Contact information                       M   1          ³³
-0240   COM Communication contact                     C   5          ³³
-0250   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0130             Segment group 2                     M   999          
+0140   NAD Name and address                          M   1            
+0150   LOC Place/location identification             C   99           
+0160   FTX Free text                                 C   10           
+0170   INP Parties to instruction                    C   10           
+0180   RCS Requirements and conditions               C   10           
+                                                                      
+0190             Segment group 3                     C   5            
+0200   RFF Reference                                 M   1            
+0210   DTM Date/time/period                          C   1            
+                                                                      
+0220             Segment group 4                     C   10           
+0230   CTA Contact information                       M   1            
+0240   COM Communication contact                     C   5            
+0250   LOC Place/location identification             C   1            
 
-0260       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0270   EFI External file link identification         M   1           ³
-0280   CED Computer environment details              M   10          ³
-0290   RFF Reference                                 C   10          ³
-0300   DTM Date/time/period                          C   5           ³
-0310   QTY Quantity                                  C   5           ³
-                                                                     ³
-0320       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   100000ÄÄÄÄÄ¿³
-0330   BII Structure identification                  M   1          ³³
-0340   GIS General indicator                         C   5          ³³
-0350   DTM Date/time/period                          C   10         ³³
-0360   IMD Item description                          C   1          ³³
-0370   QTY Quantity                                  C   10         ³³
-0380   CTA Contact information                       C   1          ³³
-0390   AUT Authentication result                     C   2          ³³
-0400   AGR Agreement identification                  C   2          ³³
-0410   INP Parties to instruction                    C   10         ³³
-0420   RCS Requirements and conditions               C   10         ³³
-0430   LOC Place/location identification             C   5          ³³
-0440   DIM Dimensions                                C   5          ³³
-0450   MEA Measurements                              C   1          ³³
-                                                                    ³³
-0460       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄ¿³³
-0470   RFF Reference                                 M   1         ³³³
-                                                                   ³³³
-0480       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄ¿³³³
-0490   DOC Document/message details                  M   1        ³³³³
-0500   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÙ³³³
-                                                                   ³³³
-0510       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄ¿³³³
-0520   SEQ Sequence details                          M   1        ³³³³
-0530   BII Structure identification                  M   1        ³³³³
-0540   RFF Reference                                 C   1        ³³³³
-0550   GIS General indicator                         M   5        ³³³³
-0560   DTM Date/time/period                          C   1        ³³³³
-0570   IMD Item description                          C   1ÄÄÄÄÄÄÄÄÁÁÁÙ
+0260             Segment group 5                     C   99           
+0270   EFI External file link identification         M   1            
+0280   CED Computer environment details              M   10           
+0290   RFF Reference                                 C   10           
+0300   DTM Date/time/period                          C   5            
+0310   QTY Quantity                                  C   5            
+                                                                      
+0320             Segment group 6                     C   100000       
+0330   BII Structure identification                  M   1            
+0340   GIS General indicator                         C   5            
+0350   DTM Date/time/period                          C   10           
+0360   IMD Item description                          C   1            
+0370   QTY Quantity                                  C   10           
+0380   CTA Contact information                       C   1            
+0390   AUT Authentication result                     C   2            
+0400   AGR Agreement identification                  C   2            
+0410   INP Parties to instruction                    C   10           
+0420   RCS Requirements and conditions               C   10           
+0430   LOC Place/location identification             C   5            
+0440   DIM Dimensions                                C   5            
+0450   MEA Measurements                              C   1            
+                                                                      
+0460             Segment group 7                     C   99           
+0470   RFF Reference                                 M   1            
+                                                                      
+0480             Segment group 8                     C   1            
+0490   DOC Document/message details                  M   1            
+0500   DTM Date/time/period                          C   1            
+                                                                      
+0510             Segment group 9                     C   999          
+0520   SEQ Sequence details                          M   1            
+0530   BII Structure identification                  M   1            
+0540   RFF Reference                                 C   1            
+0550   GIS General indicator                         M   5            
+0560   DTM Date/time/period                          C   1            
+0570   IMD Item description                          C   1            
 0580   UNT Message trailer                           M   1     

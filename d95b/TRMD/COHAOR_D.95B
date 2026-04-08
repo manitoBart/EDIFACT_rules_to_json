@@ -352,30 +352,30 @@ Pos    Tag Name                                      S   R
 0030   DTM Date/time/period                          C   9     
 0040   FTX Free text                                 C   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   9            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   9            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   NAD Name and address                          M   1           ³
-0100   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 2                     M   9            
+0090   NAD Name and address                          M   1            
+0100   CTA Contact information                       C   9            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0120   EQD Equipment details                         M   1           ³
-0130   RFF Reference                                 C   9           ³
-0140   DTM Date/time/period                          C   9           ³
-0150   LOC Place/location identification             C   9           ³
-0160   FTX Free text                                 C   9           ³
-0170   GOR Governmental requirements                 C   9           ³
-0180   HAN Handling instructions                     C   9           ³
-                                                                     ³
-0190       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0200   TDT Details of transport                      M   1          ³³
-0210   LOC Place/location identification             C   9          ³³
-0220   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0240   NAD Name and address                          M   1          ³³
-0250   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 3                     M   999          
+0120   EQD Equipment details                         M   1            
+0130   RFF Reference                                 C   9            
+0140   DTM Date/time/period                          C   9            
+0150   LOC Place/location identification             C   9            
+0160   FTX Free text                                 C   9            
+0170   GOR Governmental requirements                 C   9            
+0180   HAN Handling instructions                     C   9            
+                                                                      
+0190             Segment group 4                     C   9            
+0200   TDT Details of transport                      M   1            
+0210   LOC Place/location identification             C   9            
+0220   DTM Date/time/period                          C   9            
+                                                                      
+0230             Segment group 5                     C   9            
+0240   NAD Name and address                          M   1            
+0250   CTA Contact information                       C   9            
 0260   CNT Control total                             M   1     
 0270   UNT Message trailer                           M   1     

@@ -609,94 +609,94 @@ Pos    Tag Name                                      S   R
 0060   DTM Date/time/period                          M   3     
 0070   FTX Free text                                 C   9     
 
-0080       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   FII Financial institution information         M   1           ³
-0100   RFF Reference                                 C   2           ³
-0110   CTA Contact information                       C   1           ³
-0120   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 1                     M   9            
+0090   FII Financial institution information         M   1            
+0100   RFF Reference                                 C   2            
+0110   CTA Contact information                       C   1            
+0120   COM Communication contact                     C   5            
 
-0130       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0140   NAD Name and address                          M   1           ³
-0150   RFF Reference                                 C   1           ³
-0160   CTA Contact information                       C   1           ³
-0170   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0130             Segment group 2                     M   9            
+0140   NAD Name and address                          M   1            
+0150   RFF Reference                                 C   1            
+0160   CTA Contact information                       C   1            
+0170   COM Communication contact                     C   5            
 
-0180       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0190   DTM Date/time/period                          M   1           ³
-0200   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0180             Segment group 3                     M   1            
+0190   DTM Date/time/period                          M   1            
+0200   LOC Place/location identification             C   1            
 
-0210       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0220   MOA Monetary amount                           M   1           ³
-                                                                     ³
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0240   ALC Allowance or charge                       M   1          ³³
-0250   PCD Percentage details                        C   2ÄÄÄÄÄÄÄÄÄÄÁÙ
+0210             Segment group 4                     M   5            
+0220   MOA Monetary amount                           M   1            
+                                                                      
+0230             Segment group 5                     C   1            
+0240   ALC Allowance or charge                       M   1            
+0250   PCD Percentage details                        C   2            
 
-0260       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   3ÄÄÄÄÄÄÄÄÄÄÄ¿
-0270   LOC Place/location identification             M   1           ³
-0280   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0260             Segment group 6                     M   3            
+0270   LOC Place/location identification             M   1            
+0280   DTM Date/time/period                          C   1            
 
-0290       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0300   PAI Payment instructions                      M   1           ³
-0310   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0290             Segment group 7                     M   1            
+0300   PAI Payment instructions                      M   1            
+0310   LOC Place/location identification             C   1            
 
-0320       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0330   PAT Payment terms basis                       M   1           ³
-0340   FII Financial institution information         C   1           ³
-0350   DTM Date/time/period                          C   1           ³
-0360   MOA Monetary amount                           C   1           ³
-0370   PCD Percentage details                        C   1           ³
-0380   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0320             Segment group 8                     M   5            
+0330   PAT Payment terms basis                       M   1            
+0340   FII Financial institution information         C   1            
+0350   DTM Date/time/period                          C   1            
+0360   MOA Monetary amount                           C   1            
+0370   PCD Percentage details                        C   1            
+0380   FTX Free text                                 C   1            
 
-0390       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0400   TOD Terms of delivery or transport            M   1           ³
-0410   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0390             Segment group 9                     C   1            
+0400   TOD Terms of delivery or transport            M   1            
+0410   LOC Place/location identification             C   1            
 
-0420       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0430   TSR Transport service requirements            M   1           ³
-0440   LOC Place/location identification             C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0420             Segment group 10                    C   1            
+0430   TSR Transport service requirements            M   1            
+0440   LOC Place/location identification             C   5            
 
-0450       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0460   INP Parties to instruction                    M   1           ³
-0470   FTX Free text                                 C   1           ³
-0480   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÄÄÙ
+0450             Segment group 11                    C   5            
+0460   INP Parties to instruction                    M   1            
+0470   FTX Free text                                 C   1            
+0480   DTM Date/time/period                          C   2            
 
-0490       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0500   FCA Financial charges allocation              M   1           ³
-0510   MOA Monetary amount                           C   2           ³
-                                                                     ³
-0520       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-0530   ALC Allowance or charge                       M   1          ³³
-0540   PCD Percentage details                        C   3          ³³
-0550   MOA Monetary amount                           C   3          ³³
-0560   DTM Date/time/period                          C   1          ³³
-                                                                    ³³
-0570       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0580   TAX Duty/tax/fee details                      M   1         ³³³
-0590   MOA Monetary amount                           C   2         ³³³
-0600   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0490             Segment group 12                    C   5            
+0500   FCA Financial charges allocation              M   1            
+0510   MOA Monetary amount                           C   2            
+                                                                      
+0520             Segment group 13                    C   20           
+0530   ALC Allowance or charge                       M   1            
+0540   PCD Percentage details                        C   3            
+0550   MOA Monetary amount                           C   3            
+0560   DTM Date/time/period                          C   1            
+                                                                      
+0570             Segment group 14                    C   5            
+0580   TAX Duty/tax/fee details                      M   1            
+0590   MOA Monetary amount                           C   2            
+0600   DTM Date/time/period                          C   1            
 
-0610       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0620   RFF Reference                                 M   1           ³
-0630   DTM Date/time/period                          C   1           ³
-0640   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0610             Segment group 15                    M   9            
+0620   RFF Reference                                 M   1            
+0630   DTM Date/time/period                          C   1            
+0640   FTX Free text                                 C   1            
 
-0650       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   20ÄÄÄÄÄÄÄÄÄÄ¿
-0660   DOC Document/message details                  M   1           ³
-0670   MOA Monetary amount                           C   1           ³
-0680   PCD Percentage details                        C   1           ³
-0690   LOC Place/location identification             C   1           ³
-0700   FTX Free text                                 C   1           ³
-                                                                     ³
-0710       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0720   ALI Additional information                    M   1          ³³
-                                                                    ³³
-0730       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   3ÄÄÄÄÄÄÄÄÄ¿³³
-0740   NAD Name and address                          M   1         ³³³
-0750   CTA Contact information                       C   1         ³³³
-0760   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÁÁÙ
+0650             Segment group 16                    M   20           
+0660   DOC Document/message details                  M   1            
+0670   MOA Monetary amount                           C   1            
+0680   PCD Percentage details                        C   1            
+0690   LOC Place/location identification             C   1            
+0700   FTX Free text                                 C   1            
+                                                                      
+0710             Segment group 17                    C   9            
+0720   ALI Additional information                    M   1            
+                                                                      
+0730             Segment group 18                    C   3            
+0740   NAD Name and address                          M   1            
+0750   CTA Contact information                       C   1            
+0760   COM Communication contact                     C   5            
 
-0770       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0780   AUT Authentication result                     M   1           ³
-0790   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0770             Segment group 19                    C   1            
+0780   AUT Authentication result                     M   1            
+0790   DTM Date/time/period                          C   1            
 0800   UNT Message trailer                           M   1     

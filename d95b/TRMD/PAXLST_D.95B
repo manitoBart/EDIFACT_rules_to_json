@@ -351,34 +351,34 @@ Pos    Tag Name                                      S   R
 0030   RFF Reference                                 C   1     
 0040   DTM Date/time/period                          C   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   NAD Name and address                          M   1           ³
-0070   CTA Contact information                       C   1           ³
-0080   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   5            
+0060   NAD Name and address                          M   1            
+0070   CTA Contact information                       C   1            
+0080   COM Communication contact                     C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   10ÄÄÄÄÄÄÄÄÄÄ¿
-0100   TDT Details of transport                      M   1           ³
-0110   DTM Date/time/period                          M   1           ³
-                                                                     ³
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0130   LOC Place/location identification             M   1          ³³
-0140   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     M   10           
+0100   TDT Details of transport                      M   1            
+0110   DTM Date/time/period                          M   1            
+                                                                      
+0120             Segment group 3                     C   99           
+0130   LOC Place/location identification             M   1            
+0140   DTM Date/time/period                          C   5            
 
-0150 *     ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99999ÄÄÄÄÄÄÄ¿
-0160   NAD Name and address                          M   1           ³
-0170   ATT Attribute                                 C   9           ³
-0180   DTM Date/time/period                          C   9           ³
-0190   MEA Measurements                              C   9           ³
-0200   GIS General indicator                         C   5           ³
-0210   FTX Free text                                 C   5           ³
-0220   LOC Place/location identification             C   25          ³
-                                                                     ³
-0230 *     ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0240   DOC Document/message details                  M   1          ³³
-0250   DTM Date/time/period                          C   5          ³³
-0260 * GIS General indicator                         C   9          ³³
-0270 * RFF Reference                                 C   9          ³³
-0280   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0150 *           Segment group 4                     C   99999        
+0160   NAD Name and address                          M   1            
+0170   ATT Attribute                                 C   9            
+0180   DTM Date/time/period                          C   9            
+0190   MEA Measurements                              C   9            
+0200   GIS General indicator                         C   5            
+0210   FTX Free text                                 C   5            
+0220   LOC Place/location identification             C   25           
+                                                                      
+0230 *           Segment group 5                     C   5            
+0240   DOC Document/message details                  M   1            
+0250   DTM Date/time/period                          C   5            
+0260 * GIS General indicator                         C   9            
+0270 * RFF Reference                                 C   9            
+0280   LOC Place/location identification             C   1            
 0290   CNT Control total                             C   1     
 0300   AUT Authentication result                     C   1     
 0310   UNT Message trailer                           M   1     

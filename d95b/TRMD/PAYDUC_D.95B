@@ -419,36 +419,36 @@ Pos    Tag Name                                      S   R
 0070   PAT Payment terms basis                       C   1     
 0080   FTX Free text                                 C   5     
 
-0090       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0100   RFF Reference                                 M   1           ³
-0110   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 1                     C   99           
+0100   RFF Reference                                 M   1            
+0110   DTM Date/time/period                          C   1            
 
-0120       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   6ÄÄÄÄÄÄÄÄÄÄÄ¿
-0130   NAD Name and address                          M   1           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0150   CTA Contact information                       M   1          ³³
-0160   COM Communication contact                     C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0120             Segment group 2                     C   6            
+0130   NAD Name and address                          M   1            
+                                                                      
+0140             Segment group 3                     C   5            
+0150   CTA Contact information                       M   1            
+0160   COM Communication contact                     C   1            
 
            DETAIL SECTION
 
-0170       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0180   GIS General indicator                         M   1           ³
-0190   RFF Reference                                 M   1           ³
-0200   MOA Monetary amount                           M   9           ³
-0210   BUS Business function                         C   1           ³
-0220   CUX Currencies                                C   1           ³
-                                                                     ³
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄ¿³
-0240   DTM Date/time/period                          M   1          ³³
-                                                                    ³³
-0250       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999999ÄÄÄÄ¿³³
-0260   NAD Name and address                          M   1         ³³³
-0270   RFF Reference                                 M   9         ³³³
-0280   MOA Monetary amount                           M   9         ³³³
-0290   AJT Adjustment details                        C   1         ³³³
-0300   PAT Payment terms basis                       C   1         ³³³
-0310   FTX Free text                                 C   3ÄÄÄÄÄÄÄÄÄÁÁÙ
+0170             Segment group 4                     M   9            
+0180   GIS General indicator                         M   1            
+0190   RFF Reference                                 M   1            
+0200   MOA Monetary amount                           M   9            
+0210   BUS Business function                         C   1            
+0220   CUX Currencies                                C   1            
+                                                                      
+0230             Segment group 5                     M   99           
+0240   DTM Date/time/period                          M   1            
+                                                                      
+0250             Segment group 6                     C   999999       
+0260   NAD Name and address                          M   1            
+0270   RFF Reference                                 M   9            
+0280   MOA Monetary amount                           M   9            
+0290   AJT Adjustment details                        C   1            
+0300   PAT Payment terms basis                       C   1            
+0310   FTX Free text                                 C   3            
 
            SUMMARY SECTION
 

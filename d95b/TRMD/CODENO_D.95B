@@ -328,26 +328,26 @@ Pos    Tag Name                                      S   R
 0030   FTX Free text                                 C   9     
 0040   RFF Reference                                 M   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   TDT Details of transport                      M   1           ³
-0070   LOC Place/location identification             C   9           ³
-0080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     M   1            
+0060   TDT Details of transport                      M   1            
+0070   LOC Place/location identification             C   9            
+0080   DTM Date/time/period                          C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 2                     M   9            
+0100   NAD Name and address                          M   1            
+0110   CTA Contact information                       C   9            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0130   GID Goods item details                        M   1           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0150   DOC Document/message details                  M   1          ³³
-0160   DTM Date/time/period                          M   9ÄÄÄÄÄÄÄÄÄÄÙ³
-0170   SGP Split goods placement                     M   999ÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 3                     C   999          
+0130   GID Goods item details                        M   1            
+                                                                      
+0140             Segment group 4                     M   9            
+0150   DOC Document/message details                  M   1            
+0160   DTM Date/time/period                          M   9            
+0170   SGP Split goods placement                     M   999          
 
-0180       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0190   EQD Equipment details                         M   1           ³
-0200   RFF Reference                                 C   1           ³
-0210   NAD Name and address                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0180             Segment group 5                     M   999          
+0190   EQD Equipment details                         M   1            
+0200   RFF Reference                                 C   1            
+0210   NAD Name and address                          C   9            
 0220   CNT Control total                             M   1     
 0230   UNT Message trailer                           M   1     

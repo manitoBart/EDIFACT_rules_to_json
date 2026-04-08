@@ -395,46 +395,46 @@ Pos    Tag Name                                      S   R
 0030   DTM Date/time/period                          C   1     
 0040   BUS Business function                         C   1     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   2            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   1            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   FII Financial institution information         M   1           ³
-0100   CTA Contact information                       C   1           ³
-0110   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 2                     C   5            
+0090   FII Financial institution information         M   1            
+0100   CTA Contact information                       C   1            
+0110   COM Communication contact                     C   5            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   3ÄÄÄÄÄÄÄÄÄÄÄ¿
-0130   NAD Name and address                          M   1           ³
-0140   CTA Contact information                       C   1           ³
-0150   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 3                     C   3            
+0130   NAD Name and address                          M   1            
+0140   CTA Contact information                       C   1            
+0150   COM Communication contact                     C   5            
 
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0170   LIN Line item                                 M   1           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0190   RFF Reference                                 M   1          ³³
-0200   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0220   SEQ Sequence details                          M   1          ³³
-0230   GIS General indicator                         M   1          ³³
-0240   DTM Date/time/period                          C   2          ³³
-0250   MOA Monetary amount                           C   1          ³³
-0260   DOC Document/message details                  C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0280   FII Financial institution information         M   1          ³³
-0290   CTA Contact information                       C   1          ³³
-0300   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0320   NAD Name and address                          M   1          ³³
-0330   CTA Contact information                       C   1          ³³
-0340   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0160             Segment group 4                     M   9999         
+0170   LIN Line item                                 M   1            
+                                                                      
+0180             Segment group 5                     C   5            
+0190   RFF Reference                                 M   1            
+0200   DTM Date/time/period                          C   1            
+                                                                      
+0210             Segment group 6                     C   9999         
+0220   SEQ Sequence details                          M   1            
+0230   GIS General indicator                         M   1            
+0240   DTM Date/time/period                          C   2            
+0250   MOA Monetary amount                           C   1            
+0260   DOC Document/message details                  C   5            
+                                                                      
+0270             Segment group 7                     C   2            
+0280   FII Financial institution information         M   1            
+0290   CTA Contact information                       C   1            
+0300   COM Communication contact                     C   5            
+                                                                      
+0310             Segment group 8                     C   2            
+0320   NAD Name and address                          M   1            
+0330   CTA Contact information                       C   1            
+0340   COM Communication contact                     C   5            
 0350   CNT Control total                             C   5     
 
-0360       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0370   AUT Authentication result                     M   1           ³
-0380   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0360             Segment group 9                     C   5            
+0370   AUT Authentication result                     M   1            
+0380   DTM Date/time/period                          C   1            
 0390   UNT Message trailer                           M   1     

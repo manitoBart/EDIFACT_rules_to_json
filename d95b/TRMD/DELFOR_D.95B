@@ -896,157 +896,157 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   10    
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0050   RFF Reference                                 M   1           ³
-0060   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     C   10           
+0050   RFF Reference                                 M   1            
+0060   DTM Date/time/period                          C   1            
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-0090   LOC Place/location identification             C   10          ³
-                                                                     ³
-0100       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0110   CTA Contact information                       M   1          ³³
-0120   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0070             Segment group 2                     C   20           
+0080   NAD Name and address                          M   1            
+0090   LOC Place/location identification             C   10           
+                                                                      
+0100             Segment group 3                     C   5            
+0110   CTA Contact information                       M   1            
+0120   COM Communication contact                     C   5            
 
            DETAIL SECTION
 
 0130   UNS Section control                           M   1     
 
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   500ÄÄÄÄÄÄÄÄÄ¿
-0150   NAD Name and address                          M   1           ³
-0160   LOC Place/location identification             C   10          ³
-0170   FTX Free text                                 C   5           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0190   DOC Document/message details                  M   1          ³³
-0200   DTM Date/time/period                          C   10ÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0220   CTA Contact information                       M   1          ³³
-0230   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0240       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0250   TDT Details of transport                      M   1          ³³
-0260   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0280   LIN Line item                                 M   1          ³³
-0290   PIA Additional product id                     C   10         ³³
-0300   IMD Item description                          C   10         ³³
-0310   MEA Measurements                              C   5          ³³
-0320   ALI Additional information                    C   5          ³³
-0330   GIN Goods identity number                     C   100        ³³
-0340   GIR Related identification numbers            C   100        ³³
-0350   LOC Place/location identification             C   100        ³³
-0360   DTM Date/time/period                          C   5          ³³
-0370   FTX Free text                                 C   5          ³³
-                                                                    ³³
-0380       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0390   CTA Contact information                       M   1         ³³³
-0400   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0410       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0420   RFF Reference                                 M   1         ³³³
-0430   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0440       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0450   TDT Details of transport                      M   1         ³³³
-0460   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0470       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   200ÄÄÄÄÄÄÄ¿³³
-0480   QTY Quantity                                  M   1         ³³³
-0490   SCC Scheduling conditions                     C   1         ³³³
-0500   DTM Date/time/period                          C   2         ³³³
-                                                                   ³³³
-0510       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0520   RFF Reference                                 M   1        ³³³³
-0530   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-0540       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   50ÄÄÄÄÄÄÄÄ¿³³
-0550   PAC Package                                   M   1         ³³³
-0560   MEA Measurements                              C   10        ³³³
-0570   QTY Quantity                                  C   5         ³³³
-0580   DTM Date/time/period                          C   5         ³³³
-                                                                   ³³³
-0590       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0600   PCI Package identification                    M   1        ³³³³
-0610   GIN Goods identity number                     C   10ÄÄÄÄÄÄÄÙ³³³
-                                                                   ³³³
-0620       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0630   QVR Quantity variances                        M   1        ³³³³
-0640   DTM Date/time/period                          C   5        ³³³³
-                                                                  ³³³³
-0650       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄ¿³³³³
-0660   RFF Reference                                 M   1       ³³³³³
-0670   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÁÁÁÁÙ
+0140             Segment group 4                     C   500          
+0150   NAD Name and address                          M   1            
+0160   LOC Place/location identification             C   10           
+0170   FTX Free text                                 C   5            
+                                                                      
+0180             Segment group 5                     C   10           
+0190   DOC Document/message details                  M   1            
+0200   DTM Date/time/period                          C   10           
+                                                                      
+0210             Segment group 6                     C   5            
+0220   CTA Contact information                       M   1            
+0230   COM Communication contact                     C   5            
+                                                                      
+0240             Segment group 7                     C   10           
+0250   TDT Details of transport                      M   1            
+0260   DTM Date/time/period                          C   5            
+                                                                      
+0270             Segment group 8                     C   9999         
+0280   LIN Line item                                 M   1            
+0290   PIA Additional product id                     C   10           
+0300   IMD Item description                          C   10           
+0310   MEA Measurements                              C   5            
+0320   ALI Additional information                    C   5            
+0330   GIN Goods identity number                     C   100          
+0340   GIR Related identification numbers            C   100          
+0350   LOC Place/location identification             C   100          
+0360   DTM Date/time/period                          C   5            
+0370   FTX Free text                                 C   5            
+                                                                      
+0380             Segment group 9                     C   5            
+0390   CTA Contact information                       M   1            
+0400   COM Communication contact                     C   5            
+                                                                      
+0410             Segment group 10                    C   10           
+0420   RFF Reference                                 M   1            
+0430   DTM Date/time/period                          C   1            
+                                                                      
+0440             Segment group 11                    C   10           
+0450   TDT Details of transport                      M   1            
+0460   DTM Date/time/period                          C   5            
+                                                                      
+0470             Segment group 12                    C   200          
+0480   QTY Quantity                                  M   1            
+0490   SCC Scheduling conditions                     C   1            
+0500   DTM Date/time/period                          C   2            
+                                                                      
+0510             Segment group 13                    C   10           
+0520   RFF Reference                                 M   1            
+0530   DTM Date/time/period                          C   1            
+                                                                      
+0540             Segment group 14                    C   50           
+0550   PAC Package                                   M   1            
+0560   MEA Measurements                              C   10           
+0570   QTY Quantity                                  C   5            
+0580   DTM Date/time/period                          C   5            
+                                                                      
+0590             Segment group 15                    C   10           
+0600   PCI Package identification                    M   1            
+0610   GIN Goods identity number                     C   10           
+                                                                      
+0620             Segment group 16                    C   10           
+0630   QVR Quantity variances                        M   1            
+0640   DTM Date/time/period                          C   5            
+                                                                      
+0650             Segment group 17                    C   10           
+0660   RFF Reference                                 M   1            
+0670   DTM Date/time/period                          C   1            
 
-0680       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0690   LIN Line item                                 M   1           ³
-0700   PIA Additional product id                     C   10          ³
-0710   IMD Item description                          C   10          ³
-0720   MEA Measurements                              C   5           ³
-0730   ALI Additional information                    C   5           ³
-0740   GIN Goods identity number                     C   100         ³
-0750   GIR Related identification numbers            C   100         ³
-0760   DTM Date/time/period                          C   5           ³
-0770   FTX Free text                                 C   5           ³
-                                                                     ³
-0780       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0790   RFF Reference                                 M   1          ³³
-0800   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0810       ÄÄÄÄÄ Segment group 20 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   50ÄÄÄÄÄÄÄÄÄ¿³
-0820   QTY Quantity                                  M   1          ³³
-0830   SCC Scheduling conditions                     C   1          ³³
-0840   DTM Date/time/period                          C   2          ³³
-                                                                    ³³
-0850       ÄÄÄÄÄ Segment group 21 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0860   RFF Reference                                 M   1         ³³³
-0870   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0880       ÄÄÄÄÄ Segment group 22 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0890   PAC Package                                   M   1          ³³
-0900   MEA Measurements                              C   10         ³³
-0910   QTY Quantity                                  C   5          ³³
-0920   DTM Date/time/period                          C   5          ³³
-                                                                    ³³
-0930       ÄÄÄÄÄ Segment group 23 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0940   PCI Package identification                    M   1         ³³³
-0950   GIN Goods identity number                     C   10ÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0960       ÄÄÄÄÄ Segment group 24 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   500ÄÄÄÄÄÄÄÄ¿³
-0970   NAD Name and address                          M   1          ³³
-0980   LOC Place/location identification             C   10         ³³
-0990   FTX Free text                                 C   5          ³³
-                                                                    ³³
-1000       ÄÄÄÄÄ Segment group 25 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-1010   DOC Document/message details                  M   1         ³³³
-1020   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1030       ÄÄÄÄÄ Segment group 26 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-1040   CTA Contact information                       M   1         ³³³
-1050   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1060       ÄÄÄÄÄ Segment group 27 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   50ÄÄÄÄÄÄÄÄ¿³³
-1070   QTY Quantity                                  M   1         ³³³
-1080   SCC Scheduling conditions                     C   1         ³³³
-1090   DTM Date/time/period                          C   2         ³³³
-                                                                   ³³³
-1100       ÄÄÄÄÄ Segment group 28 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-1110   RFF Reference                                 M   1        ³³³³
-1120   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-1130       ÄÄÄÄÄ Segment group 29 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-1140   QVR Quantity variances                        M   1         ³³³
-1150   DTM Date/time/period                          C   5         ³³³
-                                                                   ³³³
-1160       ÄÄÄÄÄ Segment group 30 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-1170   RFF Reference                                 M   1        ³³³³
-1180   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-1190       ÄÄÄÄÄ Segment group 31 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-1200   TDT Details of transport                      M   1         ³³³
-1210   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÁÁÙ
+0680             Segment group 18                    C   9999         
+0690   LIN Line item                                 M   1            
+0700   PIA Additional product id                     C   10           
+0710   IMD Item description                          C   10           
+0720   MEA Measurements                              C   5            
+0730   ALI Additional information                    C   5            
+0740   GIN Goods identity number                     C   100          
+0750   GIR Related identification numbers            C   100          
+0760   DTM Date/time/period                          C   5            
+0770   FTX Free text                                 C   5            
+                                                                      
+0780             Segment group 19                    C   10           
+0790   RFF Reference                                 M   1            
+0800   DTM Date/time/period                          C   1            
+                                                                      
+0810             Segment group 20                    C   50           
+0820   QTY Quantity                                  M   1            
+0830   SCC Scheduling conditions                     C   1            
+0840   DTM Date/time/period                          C   2            
+                                                                      
+0850             Segment group 21                    C   10           
+0860   RFF Reference                                 M   1            
+0870   DTM Date/time/period                          C   1            
+                                                                      
+0880             Segment group 22                    C   10           
+0890   PAC Package                                   M   1            
+0900   MEA Measurements                              C   10           
+0910   QTY Quantity                                  C   5            
+0920   DTM Date/time/period                          C   5            
+                                                                      
+0930             Segment group 23                    C   10           
+0940   PCI Package identification                    M   1            
+0950   GIN Goods identity number                     C   10           
+                                                                      
+0960             Segment group 24                    C   500          
+0970   NAD Name and address                          M   1            
+0980   LOC Place/location identification             C   10           
+0990   FTX Free text                                 C   5            
+                                                                      
+1000             Segment group 25                    C   10           
+1010   DOC Document/message details                  M   1            
+1020   DTM Date/time/period                          C   1            
+                                                                      
+1030             Segment group 26                    C   5            
+1040   CTA Contact information                       M   1            
+1050   COM Communication contact                     C   5            
+                                                                      
+1060             Segment group 27                    C   50           
+1070   QTY Quantity                                  M   1            
+1080   SCC Scheduling conditions                     C   1            
+1090   DTM Date/time/period                          C   2            
+                                                                      
+1100             Segment group 28                    C   10           
+1110   RFF Reference                                 M   1            
+1120   DTM Date/time/period                          C   1            
+                                                                      
+1130             Segment group 29                    C   10           
+1140   QVR Quantity variances                        M   1            
+1150   DTM Date/time/period                          C   5            
+                                                                      
+1160             Segment group 30                    C   10           
+1170   RFF Reference                                 M   1            
+1180   DTM Date/time/period                          C   1            
+                                                                      
+1190             Segment group 31                    C   10           
+1200   TDT Details of transport                      M   1            
+1210   DTM Date/time/period                          C   5            
 
            SUMMARY SECTION
 

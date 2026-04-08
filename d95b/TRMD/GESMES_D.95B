@@ -601,96 +601,96 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      C   1     
 0030   DTM Date/time/period                          C   9     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0050   FNT Footnote                                  M   1           ³
-0060   FTX Free text                                 C   9999ÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     C   9999         
+0050   FNT Footnote                                  M   1            
+0060   FTX Free text                                 C   9999         
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-0090   IDE Identity                                  C   1           ³
-                                                                     ³
-0100       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0110   CTA Contact information                       M   1          ³³
-0120   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0070             Segment group 2                     C   9            
+0080   NAD Name and address                          M   1            
+0090   IDE Identity                                  C   1            
+                                                                      
+0100             Segment group 3                     C   5            
+0110   CTA Contact information                       M   1            
+0120   COM Communication contact                     C   5            
 
-0130       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0140   VLI Value list identification                 M   1           ³
-0150   DTM Date/time/period                          C   9999        ³
-0160   FTX Free text                                 C   9999        ³
-0170   IDE Identity                                  C   9           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0190   GIR Related identification numbers            M   1          ³³
-0200   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0220   CDV Code value definition                     M   1          ³³
-0230   FTX Free text                                 C   999        ³³
-0240   IDE Identity                                  C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0130             Segment group 4                     C   99           
+0140   VLI Value list identification                 M   1            
+0150   DTM Date/time/period                          C   9999         
+0160   FTX Free text                                 C   9999         
+0170   IDE Identity                                  C   9            
+                                                                      
+0180             Segment group 5                     C   5            
+0190   GIR Related identification numbers            M   1            
+0200   DTM Date/time/period                          C   2            
+                                                                      
+0210             Segment group 6                     C   9999         
+0220   CDV Code value definition                     M   1            
+0230   FTX Free text                                 C   999          
+0240   IDE Identity                                  C   5            
 
-0250       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0260   STC Statistical concept                       M   1           ³
-0270   FTX Free text                                 C   5           ³
-0280   IDE Identity                                  C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0250             Segment group 7                     C   999          
+0260   STC Statistical concept                       M   1            
+0270   FTX Free text                                 C   5            
+0280   IDE Identity                                  C   5            
 
-0290       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0300   ASI Array structure identification            M   1           ³
-0310   GIS General indicator                         C   5           ³
-0320   FTX Free text                                 C   9           ³
-0330   IDE Identity                                  C   5           ³
-                                                                     ³
-0340       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄ¿³
-0350   SCD Structure component definition            M   1          ³³
-0360   ATT Attribute                                 C   99         ³³
-                                                                    ³³
-0370       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄ¿³³
-0380   IDE Identity                                  M   1         ³³³
-0390   ATT Attribute                                 C   99        ³³³
-0400   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÁÁÙ
+0290             Segment group 8                     C   9999         
+0300   ASI Array structure identification            M   1            
+0310   GIS General indicator                         C   5            
+0320   FTX Free text                                 C   9            
+0330   IDE Identity                                  C   5            
+                                                                      
+0340             Segment group 9                     C   999          
+0350   SCD Structure component definition            M   1            
+0360   ATT Attribute                                 C   99           
+                                                                      
+0370             Segment group 10                    C   9999         
+0380   IDE Identity                                  M   1            
+0390   ATT Attribute                                 C   99           
+0400   DTM Date/time/period                          C   2            
 
-0410       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0420   DSI Data set identification                   M   1           ³
-0430   STS Status                                    C   9           ³
-0440   DTM Date/time/period                          C   5           ³
-0450   FTX Free text                                 C   5           ³
-0460   GIR Related identification numbers            C   2           ³
-0470   ARR Array information                         C   9999        ³
-                                                                     ³
-0480       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0490   IDE Identity                                  M   1          ³³
-0500   GIS General indicator                         C   5          ³³
-0510   DTM Date/time/period                          C   5          ³³
-                                                                    ³³
-0520       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0530   CDV Code value definition                     M   1         ³³³
-0540   FTX Free text                                 C   99ÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0550       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0560   SCD Structure component definition            M   1         ³³³
-0570   ATT Attribute                                 C   9         ³³³
-0580   DTM Date/time/period                          C   9999      ³³³
-                                                                   ³³³
-0590       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄ¿³³³
-0600   CDV Code value definition                     M   1        ³³³³
-0610   FTX Free text                                 C   99ÄÄÄÄÄÄÄÁÁÙ³
-                                                                     ³
-0620       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0630   NAD Name and address                          M   1          ³³
-0640   IDE Identity                                  C   1          ³³
-                                                                    ³³
-0650       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0660   CTA Contact information                       M   1         ³³³
-0670   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0680       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0690   FNS Footnote set                              M   1          ³³
-                                                                    ³³
-0700       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄ¿³³
-0710   REL Relationship                              M   1         ³³³
-0720   ARR Array information                         C   1         ³³³
-0730   IDE Identity                                  C   99ÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0740       ÄÄÄÄÄ Segment group 20 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0750   FNT Footnote                                  M   1          ³³
-0760   FTX Free text                                 C   9999ÄÄÄÄÄÄÄÁÙ
+0410             Segment group 11                    C   999          
+0420   DSI Data set identification                   M   1            
+0430   STS Status                                    C   9            
+0440   DTM Date/time/period                          C   5            
+0450   FTX Free text                                 C   5            
+0460   GIR Related identification numbers            C   2            
+0470   ARR Array information                         C   9999         
+                                                                      
+0480             Segment group 12                    C   99           
+0490   IDE Identity                                  M   1            
+0500   GIS General indicator                         C   5            
+0510   DTM Date/time/period                          C   5            
+                                                                      
+0520             Segment group 13                    C   999          
+0530   CDV Code value definition                     M   1            
+0540   FTX Free text                                 C   99           
+                                                                      
+0550             Segment group 14                    C   999          
+0560   SCD Structure component definition            M   1            
+0570   ATT Attribute                                 C   9            
+0580   DTM Date/time/period                          C   9999         
+                                                                      
+0590             Segment group 15                    C   9999         
+0600   CDV Code value definition                     M   1            
+0610   FTX Free text                                 C   99           
+                                                                      
+0620             Segment group 16                    C   5            
+0630   NAD Name and address                          M   1            
+0640   IDE Identity                                  C   1            
+                                                                      
+0650             Segment group 17                    C   5            
+0660   CTA Contact information                       M   1            
+0670   COM Communication contact                     C   5            
+                                                                      
+0680             Segment group 18                    C   5            
+0690   FNS Footnote set                              M   1            
+                                                                      
+0700             Segment group 19                    C   9999         
+0710   REL Relationship                              M   1            
+0720   ARR Array information                         C   1            
+0730   IDE Identity                                  C   99           
+                                                                      
+0740             Segment group 20                    C   9999         
+0750   FNT Footnote                                  M   1            
+0760   FTX Free text                                 C   9999         
 0770   UNT Message trailer                           M   1     

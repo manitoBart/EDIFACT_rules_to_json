@@ -661,98 +661,98 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   2     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0050   PNA Party name                                M   1           ³
-0060   ADR Address                                   C   1           ³
-0070   LOC Place/location identification             C   5           ³
-0080   DTM Date/time/period                          C   5           ³
-                                                                     ³
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0100   CTA Contact information                       M   1          ³³
-0110   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0040             Segment group 1                     C   99           
+0050   PNA Party name                                M   1            
+0060   ADR Address                                   C   1            
+0070   LOC Place/location identification             C   5            
+0080   DTM Date/time/period                          C   5            
+                                                                      
+0090             Segment group 2                     C   5            
+0100   CTA Contact information                       M   1            
+0110   COM Communication contact                     C   5            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0130   RFF Reference                                 M   1           ³
-0140   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 3                     C   5            
+0130   RFF Reference                                 M   1            
+0140   DTM Date/time/period                          C   5            
 
-0150       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0160   GIS General indicator                         M   1           ³
-0170   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0150             Segment group 4                     C   5            
+0160   GIS General indicator                         M   1            
+0170   FTX Free text                                 C   1            
 
            DETAIL SECTION
 
 0180   UNS Section control                           M   1     
 
-0190       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0200   RFF Reference                                 M   1           ³
-0210   DTM Date/time/period                          M   5           ³
-0220   QTY Quantity                                  C   1           ³
-                                                                     ³
-0230       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0240   PNA Party name                                M   1          ³³
-0250   DTM Date/time/period                          C   2          ³³
-0260   LOC Place/location identification             C   1          ³³
-0270   NAT Nationality                               C   9          ³³
-0280   PDI Person demographic information            C   1          ³³
-0290   DOC Document/message details                  C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0300       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0310   GIS General indicator                         M   1          ³³
-0320   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0330       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0340   RFF Reference                                 M   1          ³³
-0350   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0360       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0370   RCS Requirements and conditions               M   1          ³³
-0380   RFF Reference                                 C   5          ³³
-0390   DTM Date/time/period                          C   5          ³³
-0400   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0410       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0420   EMP Employment details                        M   1          ³³
-0430   LOC Place/location identification             C   1          ³³
-                                                                    ³³
-0440       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄ¿³³
-0450   ATT Attribute                                 M   1         ³³³
-0460   FTX Free text                                 C   1         ³³³
-0470   PTY Priority                                  C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0480       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0490   LAN Language                                  M   1         ³³³
-0500   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0510       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0520   SAL Remuneration type identification          M   1          ³³
-0530   FTX Free text                                 C   1          ³³
-0540   DTM Date/time/period                          C   2          ³³
-                                                                    ³³
-0550       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0560   ATT Attribute                                 M   1         ³³³
-0570   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0580       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄ¿³³
-0590   GIS General indicator                         M   1         ³³³
-0600   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0610       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0620   MOA Monetary amount                           M   1         ³³³
-0630   RNG Range details                             C   1         ³³³
-0640   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0650       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0660   PNA Party name                                M   1          ³³
-0670   ADR Address                                   C   1          ³³
-0680   GIS General indicator                         C   1          ³³
-0690   LOC Place/location identification             C   1          ³³
-0700   FTX Free text                                 C   1          ³³
-                                                                    ³³
-0710       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄ¿³³
-0720   DTM Date/time/period                          M   1         ³³³
-0730   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0740       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0750   CTA Contact information                       M   1         ³³³
-0760   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÁÁÙ
+0190             Segment group 5                     M   999          
+0200   RFF Reference                                 M   1            
+0210   DTM Date/time/period                          M   5            
+0220   QTY Quantity                                  C   1            
+                                                                      
+0230             Segment group 6                     C   1            
+0240   PNA Party name                                M   1            
+0250   DTM Date/time/period                          C   2            
+0260   LOC Place/location identification             C   1            
+0270   NAT Nationality                               C   9            
+0280   PDI Person demographic information            C   1            
+0290   DOC Document/message details                  C   9            
+                                                                      
+0300             Segment group 7                     C   5            
+0310   GIS General indicator                         M   1            
+0320   FTX Free text                                 C   1            
+                                                                      
+0330             Segment group 8                     C   5            
+0340   RFF Reference                                 M   1            
+0350   DTM Date/time/period                          C   5            
+                                                                      
+0360             Segment group 9                     C   1            
+0370   RCS Requirements and conditions               M   1            
+0380   RFF Reference                                 C   5            
+0390   DTM Date/time/period                          C   5            
+0400   FTX Free text                                 C   5            
+                                                                      
+0410             Segment group 10                    M   1            
+0420   EMP Employment details                        M   1            
+0430   LOC Place/location identification             C   1            
+                                                                      
+0440             Segment group 11                    C   20           
+0450   ATT Attribute                                 M   1            
+0460   FTX Free text                                 C   1            
+0470   PTY Priority                                  C   1            
+                                                                      
+0480             Segment group 12                    C   10           
+0490   LAN Language                                  M   1            
+0500   GIS General indicator                         C   1            
+                                                                      
+0510             Segment group 13                    C   1            
+0520   SAL Remuneration type identification          M   1            
+0530   FTX Free text                                 C   1            
+0540   DTM Date/time/period                          C   2            
+                                                                      
+0550             Segment group 14                    C   10           
+0560   ATT Attribute                                 M   1            
+0570   FTX Free text                                 C   1            
+                                                                      
+0580             Segment group 15                    C   2            
+0590   GIS General indicator                         M   1            
+0600   FTX Free text                                 C   1            
+                                                                      
+0610             Segment group 16                    C   5            
+0620   MOA Monetary amount                           M   1            
+0630   RNG Range details                             C   1            
+0640   FTX Free text                                 C   1            
+                                                                      
+0650             Segment group 17                    C   2            
+0660   PNA Party name                                M   1            
+0670   ADR Address                                   C   1            
+0680   GIS General indicator                         C   1            
+0690   LOC Place/location identification             C   1            
+0700   FTX Free text                                 C   1            
+                                                                      
+0710             Segment group 18                    C   2            
+0720   DTM Date/time/period                          M   1            
+0730   FTX Free text                                 C   1            
+                                                                      
+0740             Segment group 19                    C   5            
+0750   CTA Contact information                       M   1            
+0760   COM Communication contact                     C   5            
 0770   UNT Message trailer                           M   1     

@@ -295,20 +295,20 @@ Pos    Tag Name                                      S   R
 0040   FTX Free text                                 C   9     
 0050   CNT Control total                             C   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   RFF Reference                                 M   1           ³
-0080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     C   9            
+0070   RFF Reference                                 M   1            
+0080   DTM Date/time/period                          C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   CTA Contact information                       C   9           ³
-0120   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 2                     C   9            
+0100   NAD Name and address                          M   1            
+0110   CTA Contact information                       C   9            
+0120   COM Communication contact                     C   9            
 
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0140   ERC Application error information             M   1           ³
-0150   FTX Free text                                 C   1           ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0170   RFF Reference                                 M   1          ³³
-0180   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0130             Segment group 3                     C   999          
+0140   ERC Application error information             M   1            
+0150   FTX Free text                                 C   1            
+                                                                      
+0160             Segment group 4                     C   1            
+0170   RFF Reference                                 M   1            
+0180   FTX Free text                                 C   9            
 0190   UNT Message trailer                           M   1     

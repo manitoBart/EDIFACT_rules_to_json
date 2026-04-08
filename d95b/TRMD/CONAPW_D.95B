@@ -307,12 +307,12 @@ Pos    Tag Name                                      S   R
 0030   RFF Reference                                 M   9     
 0040   DTM Date/time/period                          M   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   3ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   NAD Name and address                          M   1           ³
-                                                                     ³
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0080   CTA Contact information                       M   1          ³³
-0090   COM Communication contact                     C   3ÄÄÄÄÄÄÄÄÄÄÁÙ
+0050             Segment group 1                     M   3            
+0060   NAD Name and address                          M   1            
+                                                                      
+0070             Segment group 2                     C   2            
+0080   CTA Contact information                       M   1            
+0090   COM Communication contact                     C   3            
 0100   LOC Place/location identification             M   99    
 0110   FTX Free text                                 M   99    
 0120   DOC Document/message details                  C   9     

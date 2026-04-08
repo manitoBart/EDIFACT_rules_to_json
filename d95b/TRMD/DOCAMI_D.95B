@@ -366,34 +366,34 @@ Pos    Tag Name                                      S   R
 0070   TSR Transport service requirements            C   1     
 0080   FTX Free text                                 C   3     
 
-0090       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   FII Financial institution information         M   1           ³
-0110   RFF Reference                                 C   2           ³
-0120   CTA Contact information                       C   1           ³
-0130   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 1                     M   5            
+0100   FII Financial institution information         M   1            
+0110   RFF Reference                                 C   2            
+0120   CTA Contact information                       C   1            
+0130   COM Communication contact                     C   5            
 
-0140       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0150   NAD Name and address                          M   1           ³
-0160   RFF Reference                                 C   1           ³
-0170   CTA Contact information                       C   1           ³
-0180   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0140             Segment group 2                     C   9            
+0150   NAD Name and address                          M   1            
+0160   RFF Reference                                 C   1            
+0170   CTA Contact information                       C   1            
+0180   COM Communication contact                     C   5            
 
-0190       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0200   FCA Financial charges allocation              M   1           ³
-0210   MOA Monetary amount                           C   2           ³
-                                                                     ³
-0220       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-0230   ALC Allowance or charge                       M   1          ³³
-0240   PCD Percentage details                        C   3          ³³
-0250   MOA Monetary amount                           C   3          ³³
-0260   DTM Date/time/period                          C   1          ³³
-                                                                    ³³
-0270       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0280   TAX Duty/tax/fee details                      M   1         ³³³
-0290   MOA Monetary amount                           C   2         ³³³
-0300   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0190             Segment group 3                     C   5            
+0200   FCA Financial charges allocation              M   1            
+0210   MOA Monetary amount                           C   2            
+                                                                      
+0220             Segment group 4                     C   20           
+0230   ALC Allowance or charge                       M   1            
+0240   PCD Percentage details                        C   3            
+0250   MOA Monetary amount                           C   3            
+0260   DTM Date/time/period                          C   1            
+                                                                      
+0270             Segment group 5                     C   5            
+0280   TAX Duty/tax/fee details                      M   1            
+0290   MOA Monetary amount                           C   2            
+0300   DTM Date/time/period                          C   1            
 
-0310       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0320   AUT Authentication result                     M   1           ³
-0330   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0310             Segment group 6                     C   1            
+0320   AUT Authentication result                     M   1            
+0330   DTM Date/time/period                          C   1            
 0340   UNT Message trailer                           M   1     

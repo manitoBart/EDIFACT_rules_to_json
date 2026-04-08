@@ -311,31 +311,31 @@ Pos    Tag Name                                      S   R
 0030   DTM Date/time/period                          C   1     
 0040   GIS General indicator                         M   1     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   1            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   1            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   IND Index details                             M   1           ³
-0100   FTX Free text                                 C   1           ³
-                                                                     ³
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0120   PNA Party name                                M   1          ³³
-0130   ADR Address                                   C   5          ³³
-0140   GIR Related identification numbers            C   1          ³³
-0150   NAT Nationality                               C   1          ³³
-0160   DOC Document/message details                  C   1          ³³
-0170   ATT Attribute                                 C   5          ³³
-                                                                    ³³
-0180       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄ¿³³
-0190   DTM Date/time/period                          M   1         ³³³
-0200   ADR Address                                   C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0220   PDI Person demographic information            M   1         ³³³
-0230   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÁÁÙ
+0080             Segment group 2                     M   2            
+0090   IND Index details                             M   1            
+0100   FTX Free text                                 C   1            
+                                                                      
+0110             Segment group 3                     C   99           
+0120   PNA Party name                                M   1            
+0130   ADR Address                                   C   5            
+0140   GIR Related identification numbers            C   1            
+0150   NAT Nationality                               C   1            
+0160   DOC Document/message details                  C   1            
+0170   ATT Attribute                                 C   5            
+                                                                      
+0180             Segment group 4                     C   2            
+0190   DTM Date/time/period                          M   1            
+0200   ADR Address                                   C   1            
+                                                                      
+0210             Segment group 5                     C   1            
+0220   PDI Person demographic information            M   1            
+0230   DTM Date/time/period                          C   2            
 
-0240       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0250   AUT Authentication result                     M   1           ³
-0260   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0240             Segment group 6                     C   1            
+0250   AUT Authentication result                     M   1            
+0260   DTM Date/time/period                          C   1            
 0270   UNT Message trailer                           M   1     

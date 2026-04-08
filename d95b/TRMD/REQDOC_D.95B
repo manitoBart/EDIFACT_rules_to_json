@@ -339,35 +339,35 @@ Pos    Tag Name                                      S   R
 0030   DOC Document/message details                  M   1     
 0040   DTM Date/time/period                          M   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   9            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   5            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   NAD Name and address                          M   1           ³
-0100   LOC Place/location identification             C   9           ³
-                                                                     ³
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0120   CTA Contact information                       M   1          ³³
-0130   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0080             Segment group 2                     M   9            
+0090   NAD Name and address                          M   1            
+0100   LOC Place/location identification             C   9            
+                                                                      
+0110             Segment group 3                     C   9            
+0120   CTA Contact information                       M   1            
+0130   COM Communication contact                     C   9            
 
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0150   LIN Line item                                 M   1           ³
-0160   GIS General indicator                         C   9           ³
-0170   DTM Date/time/period                          C   9           ³
-0180   PIA Additional product id                     C   9           ³
-0190   IMD Item description                          C   9           ³
-0200   MEA Measurements                              C   9           ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0220   RFF Reference                                 M   1          ³³
-0230   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0240       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0250   NAD Name and address                          M   1          ³³
-0260   LOC Place/location identification             C   9          ³³
-                                                                    ³³
-0270       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0280   CTA Contact information                       M   1         ³³³
-0290   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÁÁÙ
+0140             Segment group 4                     M   999          
+0150   LIN Line item                                 M   1            
+0160   GIS General indicator                         C   9            
+0170   DTM Date/time/period                          C   9            
+0180   PIA Additional product id                     C   9            
+0190   IMD Item description                          C   9            
+0200   MEA Measurements                              C   9            
+                                                                      
+0210             Segment group 5                     C   9            
+0220   RFF Reference                                 M   1            
+0230   DTM Date/time/period                          C   9            
+                                                                      
+0240             Segment group 6                     C   9            
+0250   NAD Name and address                          M   1            
+0260   LOC Place/location identification             C   9            
+                                                                      
+0270             Segment group 7                     C   9            
+0280   CTA Contact information                       M   1            
+0290   COM Communication contact                     C   9            
 0300   UNT Message trailer                           M   1     

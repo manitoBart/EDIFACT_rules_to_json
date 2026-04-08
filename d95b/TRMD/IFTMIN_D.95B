@@ -1104,220 +1104,220 @@ Pos    Tag Name                                      S   R
 0100   CNT Control total                             C   9     
 0110   DOC Document/message details                  C   9     
 
-0120       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0130   LOC Place/location identification             M   1           ³
-0140   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 1                     C   99           
+0130   LOC Place/location identification             M   1            
+0140   DTM Date/time/period                          C   9            
 
-0150       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0160   TOD Terms of delivery or transport            M   1           ³
-0170   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0150             Segment group 2                     C   2            
+0160   TOD Terms of delivery or transport            M   1            
+0170   LOC Place/location identification             C   9            
 
-0180       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0190   RFF Reference                                 M   1           ³
-0200   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0180             Segment group 3                     C   99           
+0190   RFF Reference                                 M   1            
+0200   DTM Date/time/period                          C   9            
 
-0210       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0220   GOR Governmental requirements                 M   1           ³
-0230   DTM Date/time/period                          C   9           ³
-0240   LOC Place/location identification             C   9           ³
-0250   SEL Seal number                               C   9           ³
-0260   FTX Free text                                 C   9           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0280   DOC Document/message details                  M   1          ³³
-0290   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0210             Segment group 4                     C   9            
+0220   GOR Governmental requirements                 M   1            
+0230   DTM Date/time/period                          C   9            
+0240   LOC Place/location identification             C   9            
+0250   SEL Seal number                               C   9            
+0260   FTX Free text                                 C   9            
+                                                                      
+0270             Segment group 5                     C   9            
+0280   DOC Document/message details                  M   1            
+0290   DTM Date/time/period                          C   1            
 
-0300       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0310   CPI Charge payment instructions               M   1           ³
-0320   CUX Currencies                                C   1           ³
-0330   LOC Place/location identification             C   9           ³
-0340   MOA Monetary amount                           C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0300             Segment group 6                     C   9            
+0310   CPI Charge payment instructions               M   1            
+0320   CUX Currencies                                C   1            
+0330   LOC Place/location identification             C   9            
+0340   MOA Monetary amount                           C   9            
 
-0350       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0360   TCC Transport charge/rate calculations        M   1           ³
-0370   LOC Place/location identification             C   1           ³
-0380   FTX Free text                                 C   1           ³
-0390   CUX Currencies                                C   1           ³
-0400   PRI Price details                             C   1           ³
-0410   EQN Number of units                           C   1           ³
-0420   PCD Percentage details                        C   1           ³
-0430   MOA Monetary amount                           C   9           ³
-0440   QTY Quantity                                  C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0350             Segment group 7                     C   99           
+0360   TCC Transport charge/rate calculations        M   1            
+0370   LOC Place/location identification             C   1            
+0380   FTX Free text                                 C   1            
+0390   CUX Currencies                                C   1            
+0400   PRI Price details                             C   1            
+0410   EQN Number of units                           C   1            
+0420   PCD Percentage details                        C   1            
+0430   MOA Monetary amount                           C   9            
+0440   QTY Quantity                                  C   9            
 
-0450 *     ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0460   TDT Details of transport                      M   1           ³
-0470   DTM Date/time/period                          C   9           ³
-0480   TSR Transport service requirements            C   9           ³
-                                                                     ³
-0490       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0500   LOC Place/location identification             M   1          ³³
-0510   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0520       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0530   RFF Reference                                 M   1          ³³
-0540   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0450 *           Segment group 8                     C   99           
+0460   TDT Details of transport                      M   1            
+0470   DTM Date/time/period                          C   9            
+0480   TSR Transport service requirements            C   9            
+                                                                      
+0490             Segment group 9                     C   99           
+0500   LOC Place/location identification             M   1            
+0510   DTM Date/time/period                          C   1            
+                                                                      
+0520             Segment group 10                    C   9            
+0530   RFF Reference                                 M   1            
+0540   DTM Date/time/period                          C   1            
 
-0550       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄÄ¿
-0560   NAD Name and address                          M   1           ³
-0570   LOC Place/location identification             C   9           ³
-0580   MOA Monetary amount                           C   9           ³
-                                                                     ³
-0590       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0600   CTA Contact information                       M   1          ³³
-0610   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0620       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0630   DOC Document/message details                  M   1          ³³
-0640   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0650       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0660   TCC Transport charge/rate calculations        M   1          ³³
-0670   PRI Price details                             C   1          ³³
-0680   EQN Number of units                           C   1          ³³
-0690   PCD Percentage details                        C   1          ³³
-0700   MOA Monetary amount                           C   9          ³³
-0710   QTY Quantity                                  C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0720       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0730   RFF Reference                                 M   1          ³³
-0740   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0750       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0760   CPI Charge payment instructions               M   1          ³³
-0770   CUX Currencies                                C   1          ³³
-0780   LOC Place/location identification             C   9          ³³
-0790   MOA Monetary amount                           C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0800       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0810   TSR Transport service requirements            M   1          ³³
-0820   RFF Reference                                 C   1          ³³
-0830   LOC Place/location identification             C   1          ³³
-0840   TPL Transport placement                       C   1          ³³
-0850   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0550             Segment group 11                    M   99           
+0560   NAD Name and address                          M   1            
+0570   LOC Place/location identification             C   9            
+0580   MOA Monetary amount                           C   9            
+                                                                      
+0590             Segment group 12                    C   9            
+0600   CTA Contact information                       M   1            
+0610   COM Communication contact                     C   9            
+                                                                      
+0620             Segment group 13                    C   9            
+0630   DOC Document/message details                  M   1            
+0640   DTM Date/time/period                          C   1            
+                                                                      
+0650             Segment group 14                    C   99           
+0660   TCC Transport charge/rate calculations        M   1            
+0670   PRI Price details                             C   1            
+0680   EQN Number of units                           C   1            
+0690   PCD Percentage details                        C   1            
+0700   MOA Monetary amount                           C   9            
+0710   QTY Quantity                                  C   9            
+                                                                      
+0720             Segment group 15                    C   9            
+0730   RFF Reference                                 M   1            
+0740   DTM Date/time/period                          C   9            
+                                                                      
+0750             Segment group 16                    C   9            
+0760   CPI Charge payment instructions               M   1            
+0770   CUX Currencies                                C   1            
+0780   LOC Place/location identification             C   9            
+0790   MOA Monetary amount                           C   9            
+                                                                      
+0800             Segment group 17                    C   99           
+0810   TSR Transport service requirements            M   1            
+0820   RFF Reference                                 C   1            
+0830   LOC Place/location identification             C   1            
+0840   TPL Transport placement                       C   1            
+0850   FTX Free text                                 C   9            
 
-0860       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0870   GID Goods item details                        M   1           ³
-0880   HAN Handling instructions                     C   1           ³
-0890   TMP Temperature                               C   1           ³
-0900   RNG Range details                             C   1           ³
-0910   TMD Transport movement details                C   1           ³
-0920   LOC Place/location identification             C   9           ³
-0930   MOA Monetary amount                           C   9           ³
-0940   PIA Additional product id                     C   9           ³
-0950   FTX Free text                                 C   9           ³
-                                                                     ³
-0960       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0970   NAD Name and address                          M   1          ³³
-0980   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-0990   GDS Nature of cargo                           C   9           ³
-                                                                     ³
-1000       ÄÄÄÄÄ Segment group 20 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-1010   MEA Measurements                              M   1          ³³
-1020   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1030       ÄÄÄÄÄ Segment group 21 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-1040   DIM Dimensions                                M   1          ³³
-1050   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1060       ÄÄÄÄÄ Segment group 22 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1070   RFF Reference                                 M   1          ³³
-1080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1090 *     ÄÄÄÄÄ Segment group 23 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1100   PCI Package identification                    M   1          ³³
-1110   RFF Reference                                 C   1          ³³
-1120   DTM Date/time/period                          C   1          ³³
-1130 + GIN Goods identity number                     C   10ÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1140       ÄÄÄÄÄ Segment group 24 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1150   DOC Document/message details                  M   1          ³³
-1160   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1170       ÄÄÄÄÄ Segment group 25 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1180   GOR Governmental requirements                 M   1          ³³
-1190   DTM Date/time/period                          C   9          ³³
-1200   LOC Place/location identification             C   9          ³³
-1210   SEL Seal number                               C   9          ³³
-1220   FTX Free text                                 C   9          ³³
-                                                                    ³³
-1230       ÄÄÄÄÄ Segment group 26 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1240   DOC Document/message details                  M   1         ³³³
-1250   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1260       ÄÄÄÄÄ Segment group 27 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1270   TPL Transport placement                       M   1          ³³
-                                                                    ³³
-1280       ÄÄÄÄÄ Segment group 28 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1290   MEA Measurements                              M   1         ³³³
-1300   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1310       ÄÄÄÄÄ Segment group 29 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄ¿³
-1320   SGP Split goods placement                     M   1          ³³
-                                                                    ³³
-1330       ÄÄÄÄÄ Segment group 30 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1340   MEA Measurements                              M   1         ³³³
-1350   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1360       ÄÄÄÄÄ Segment group 31 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-1370   TCC Transport charge/rate calculations        M   1          ³³
-1380   CUX Currencies                                C   1          ³³
-1390   PRI Price details                             C   1          ³³
-1400   EQN Number of units                           C   1          ³³
-1410   PCD Percentage details                        C   1          ³³
-1420   MOA Monetary amount                           C   9          ³³
-1430   QTY Quantity                                  C   9          ³³
-1440   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1450       ÄÄÄÄÄ Segment group 32 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1460   DGS Dangerous goods                           M   1          ³³
-1470   FTX Free text                                 C   99         ³³
-                                                                    ³³
-1480       ÄÄÄÄÄ Segment group 33 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1490   CTA Contact information                       M   1         ³³³
-1500   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1510       ÄÄÄÄÄ Segment group 34 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1520   MEA Measurements                              M   1         ³³³
-1530   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1540       ÄÄÄÄÄ Segment group 35 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-1550   SGP Split goods placement                     M   1         ³³³
-                                                                   ³³³
-1560       ÄÄÄÄÄ Segment group 36 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄ¿³³³
-1570   MEA Measurements                              M   1        ³³³³
-1580   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÁÁÁÙ
+0860             Segment group 18                    C   999          
+0870   GID Goods item details                        M   1            
+0880   HAN Handling instructions                     C   1            
+0890   TMP Temperature                               C   1            
+0900   RNG Range details                             C   1            
+0910   TMD Transport movement details                C   1            
+0920   LOC Place/location identification             C   9            
+0930   MOA Monetary amount                           C   9            
+0940   PIA Additional product id                     C   9            
+0950   FTX Free text                                 C   9            
+                                                                      
+0960             Segment group 19                    C   9            
+0970   NAD Name and address                          M   1            
+0980   DTM Date/time/period                          C   1            
+0990   GDS Nature of cargo                           C   9            
+                                                                      
+1000             Segment group 20                    C   99           
+1010   MEA Measurements                              M   1            
+1020   EQN Number of units                           C   1            
+                                                                      
+1030             Segment group 21                    C   99           
+1040   DIM Dimensions                                M   1            
+1050   EQN Number of units                           C   1            
+                                                                      
+1060             Segment group 22                    C   9            
+1070   RFF Reference                                 M   1            
+1080   DTM Date/time/period                          C   9            
+                                                                      
+1090 *           Segment group 23                    C   9            
+1100   PCI Package identification                    M   1            
+1110   RFF Reference                                 C   1            
+1120   DTM Date/time/period                          C   1            
+1130 + GIN Goods identity number                     C   10           
+                                                                      
+1140             Segment group 24                    C   9            
+1150   DOC Document/message details                  M   1            
+1160   DTM Date/time/period                          C   9            
+                                                                      
+1170             Segment group 25                    C   9            
+1180   GOR Governmental requirements                 M   1            
+1190   DTM Date/time/period                          C   9            
+1200   LOC Place/location identification             C   9            
+1210   SEL Seal number                               C   9            
+1220   FTX Free text                                 C   9            
+                                                                      
+1230             Segment group 26                    C   9            
+1240   DOC Document/message details                  M   1            
+1250   DTM Date/time/period                          C   1            
+                                                                      
+1260             Segment group 27                    C   9            
+1270   TPL Transport placement                       M   1            
+                                                                      
+1280             Segment group 28                    C   9            
+1290   MEA Measurements                              M   1            
+1300   EQN Number of units                           C   1            
+                                                                      
+1310             Segment group 29                    C   999          
+1320   SGP Split goods placement                     M   1            
+                                                                      
+1330             Segment group 30                    C   9            
+1340   MEA Measurements                              M   1            
+1350   EQN Number of units                           C   1            
+                                                                      
+1360             Segment group 31                    C   99           
+1370   TCC Transport charge/rate calculations        M   1            
+1380   CUX Currencies                                C   1            
+1390   PRI Price details                             C   1            
+1400   EQN Number of units                           C   1            
+1410   PCD Percentage details                        C   1            
+1420   MOA Monetary amount                           C   9            
+1430   QTY Quantity                                  C   9            
+1440   LOC Place/location identification             C   9            
+                                                                      
+1450             Segment group 32                    C   9            
+1460   DGS Dangerous goods                           M   1            
+1470   FTX Free text                                 C   99           
+                                                                      
+1480             Segment group 33                    C   9            
+1490   CTA Contact information                       M   1            
+1500   COM Communication contact                     C   9            
+                                                                      
+1510             Segment group 34                    C   9            
+1520   MEA Measurements                              M   1            
+1530   EQN Number of units                           C   1            
+                                                                      
+1540             Segment group 35                    C   999          
+1550   SGP Split goods placement                     M   1            
+                                                                      
+1560             Segment group 36                    C   9            
+1570   MEA Measurements                              M   1            
+1580   EQN Number of units                           C   1            
 
-1590       ÄÄÄÄÄ Segment group 37 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-1600   EQD Equipment details                         M   1           ³
-1610   EQN Number of units                           C   1           ³
-1620   TMD Transport movement details                C   1           ³
-1630   MEA Measurements                              C   9           ³
-1640   DIM Dimensions                                C   9           ³
-1650   SEL Seal number                               C   99          ³
-1660   TPL Transport placement                       C   9           ³
-1670   HAN Handling instructions                     C   1           ³
-1680   TMP Temperature                               C   1           ³
-1690   FTX Free text                                 C   9           ³
-                                                                     ³
-1700       ÄÄÄÄÄ Segment group 38 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-1710   TCC Transport charge/rate calculations        M   1          ³³
-1720   PRI Price details                             C   1          ³³
-1730   EQN Number of units                           C   1          ³³
-1740   PCD Percentage details                        C   1          ³³
-1750   MOA Monetary amount                           C   9          ³³
-1760   QTY Quantity                                  C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1770       ÄÄÄÄÄ Segment group 39 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-1780   NAD Name and address                          M   1          ³³
-1790   DTM Date/time/period                          C   1          ³³
-                                                                    ³³
-1800       ÄÄÄÄÄ Segment group 40 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-1810   CTA Contact information                       M   1         ³³³
-1820   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1830       ÄÄÄÄÄ Segment group 41 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-1840   EQA Attached equipment                        M   1          ³³
-1850   EQN Number of units                           C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+1590             Segment group 37                    C   999          
+1600   EQD Equipment details                         M   1            
+1610   EQN Number of units                           C   1            
+1620   TMD Transport movement details                C   1            
+1630   MEA Measurements                              C   9            
+1640   DIM Dimensions                                C   9            
+1650   SEL Seal number                               C   99           
+1660   TPL Transport placement                       C   9            
+1670   HAN Handling instructions                     C   1            
+1680   TMP Temperature                               C   1            
+1690   FTX Free text                                 C   9            
+                                                                      
+1700             Segment group 38                    C   99           
+1710   TCC Transport charge/rate calculations        M   1            
+1720   PRI Price details                             C   1            
+1730   EQN Number of units                           C   1            
+1740   PCD Percentage details                        C   1            
+1750   MOA Monetary amount                           C   9            
+1760   QTY Quantity                                  C   9            
+                                                                      
+1770             Segment group 39                    C   9            
+1780   NAD Name and address                          M   1            
+1790   DTM Date/time/period                          C   1            
+                                                                      
+1800             Segment group 40                    C   9            
+1810   CTA Contact information                       M   1            
+1820   COM Communication contact                     C   9            
+                                                                      
+1830             Segment group 41                    C   99           
+1840   EQA Attached equipment                        M   1            
+1850   EQN Number of units                           C   1            
 1860   UNT Message trailer                           M   1     
 
 

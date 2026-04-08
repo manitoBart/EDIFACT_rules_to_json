@@ -278,18 +278,18 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   RFF Reference                                 C   9     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0050   NAD Name and address                          M   1           ³
-0060   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     M   9            
+0050   NAD Name and address                          M   1            
+0060   CTA Contact information                       C   9            
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   TDT Details of transport                      M   1           ³
-0090   RFF Reference                                 C   9           ³
-0100   LOC Place/location identification             M   9           ³
-0110   DTM Date/time/period                          M   9           ³
-0120   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0070             Segment group 2                     M   1            
+0080   TDT Details of transport                      M   1            
+0090   RFF Reference                                 C   9            
+0100   LOC Place/location identification             M   9            
+0110   DTM Date/time/period                          M   9            
+0120   FTX Free text                                 C   9            
 
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0140   QTY Quantity                                  M   1           ³
-0150   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0130             Segment group 3                     C   9            
+0140   QTY Quantity                                  M   1            
+0150   FTX Free text                                 C   1            
 0160   UNT Message trailer                           M   1     

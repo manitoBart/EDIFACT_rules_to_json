@@ -339,22 +339,22 @@ Pos    Tag Name                                      S   R
 0040   FTX Free text                                 C   9     
 0050   RFF Reference                                 C   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-0080   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     M   9            
+0070   NAD Name and address                          M   1            
+0080   CTA Contact information                       C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0100   EQD Equipment details                         M   1           ³
-0110   RFF Reference                                 C   9           ³
-0120   DTM Date/time/period                          C   9           ³
-0130   LOC Place/location identification             C   9           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0150   DAM Damage                                    M   1          ³³
-0160   COD Component details                         C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0170       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0180   TDT Details of transport                      M   1          ³³
-0190   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     M   9999         
+0100   EQD Equipment details                         M   1            
+0110   RFF Reference                                 C   9            
+0120   DTM Date/time/period                          C   9            
+0130   LOC Place/location identification             C   9            
+                                                                      
+0140             Segment group 3                     C   9            
+0150   DAM Damage                                    M   1            
+0160   COD Component details                         C   1            
+                                                                      
+0170             Segment group 4                     C   1            
+0180   TDT Details of transport                      M   1            
+0190   LOC Place/location identification             C   9            
 0200   CNT Control total                             M   1     
 0210   UNT Message trailer                           M   1     

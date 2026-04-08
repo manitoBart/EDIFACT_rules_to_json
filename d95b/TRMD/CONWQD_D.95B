@@ -397,44 +397,44 @@ Pos    Tag Name                                      S   R
 0040   AUT Authentication result                     C   2     
 0050   FTX Free text                                 C   5     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0070   RFF Reference                                 M   1           ³
-0080   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     C   10           
+0070   RFF Reference                                 M   1            
+0080   DTM Date/time/period                          C   5            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   LOC Place/location identification             C   99          ³
-0120   FII Financial institution information         C   5           ³
-                                                                     ³
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0140   RFF Reference                                 M   1          ³³
-0150   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0170   DOC Document/message details                  M   1          ³³
-0180   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0190       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0200   CTA Contact information                       M   1          ³³
-0210   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     C   10           
+0100   NAD Name and address                          M   1            
+0110   LOC Place/location identification             C   99           
+0120   FII Financial institution information         C   5            
+                                                                      
+0130             Segment group 3                     C   10           
+0140   RFF Reference                                 M   1            
+0150   DTM Date/time/period                          C   5            
+                                                                      
+0160             Segment group 4                     C   5            
+0170   DOC Document/message details                  M   1            
+0180   DTM Date/time/period                          C   5            
+                                                                      
+0190             Segment group 5                     C   5            
+0200   CTA Contact information                       M   1            
+0210   COM Communication contact                     C   5            
 
-0220       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0230   BII Structure identification                  M   1           ³
-0240   QTY Quantity                                  C   3           ³
-                                                                     ³
-0250       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0260   RFF Reference                                 M   1          ³³
-0270   FTX Free text                                 C   1          ³³
-0280   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0290       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄ¿³
-0300   LIN Line item                                 M   1          ³³
-0310   GIS General indicator                         M   1          ³³
-0320   FTX Free text                                 C   1          ³³
-                                                                    ³³
-0330       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0340   QTY Quantity                                  M   1         ³³³
-0350   GIS General indicator                         C   1         ³³³
-0360   RFF Reference                                 C   1         ³³³
-0370   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0220             Segment group 6                     M   9999         
+0230   BII Structure identification                  M   1            
+0240   QTY Quantity                                  C   3            
+                                                                      
+0250             Segment group 7                     C   99           
+0260   RFF Reference                                 M   1            
+0270   FTX Free text                                 C   1            
+0280   DTM Date/time/period                          C   1            
+                                                                      
+0290             Segment group 8                     C   999          
+0300   LIN Line item                                 M   1            
+0310   GIS General indicator                         M   1            
+0320   FTX Free text                                 C   1            
+                                                                      
+0330             Segment group 9                     C   10           
+0340   QTY Quantity                                  M   1            
+0350   GIS General indicator                         C   1            
+0360   RFF Reference                                 C   1            
+0370   FTX Free text                                 C   1            
 0380   UNT Message trailer                           M   1     

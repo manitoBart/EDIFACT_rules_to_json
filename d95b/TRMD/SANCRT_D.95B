@@ -629,93 +629,93 @@ Pos    Tag Name                                      S   R
 0050   RFF Reference                                 C   9     
 0060   FTX Free text                                 C   9     
 
-0070       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   DOC Document/message details                  M   1           ³
-0090   DTM Date/time/period                          C   9           ³
-0100   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0070             Segment group 1                     C   9            
+0080   DOC Document/message details                  M   1            
+0090   DTM Date/time/period                          C   9            
+0100   LOC Place/location identification             C   9            
 
-0110       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0120   NAD Name and address                          M   1           ³
-                                                                     ³
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0140   CTA Contact information                       M   1          ³³
-0150   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 2                     C   99           
+0120   NAD Name and address                          M   1            
+                                                                      
+0130             Segment group 3                     C   9            
+0140   CTA Contact information                       M   1            
+0150   COM Communication contact                     C   9            
 
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0170   TDT Details of transport                      M   1           ³
-0180   DTM Date/time/period                          C   9           ³
-0190   LOC Place/location identification             C   9           ³
-0200   RFF Reference                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0160             Segment group 4                     C   99           
+0170   TDT Details of transport                      M   1            
+0180   DTM Date/time/period                          C   9            
+0190   LOC Place/location identification             C   9            
+0200   RFF Reference                                 C   9            
 
-0210 *     ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0220 * PAC Package                                   M   1           ³
-0230   PCI Package identification                    C   9           ³
-0240   MEA Measurements                              C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0210 *           Segment group 5                     C   99           
+0220 * PAC Package                                   M   1            
+0230   PCI Package identification                    C   9            
+0240   MEA Measurements                              C   9            
 
-0250 *     ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0260   EQD Equipment details                         M   1           ³
-                                                                     ³
-0270 *     ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0280   SEL Seal number                               M   1          ³³
-0290   DTM Date/time/period                          C   9          ³³
-0300   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0250 *           Segment group 6                     C   99           
+0260   EQD Equipment details                         M   1            
+                                                                      
+0270 *           Segment group 7                     C   99           
+0280   SEL Seal number                               M   1            
+0290   DTM Date/time/period                          C   9            
+0300   LOC Place/location identification             C   9            
 
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0320   PRC Process identification                    M   1           ³
-0330   IMD Item description                          C   9           ³
-0340   NAD Name and address                          C   9           ³
-0350   MEA Measurements                              C   9           ³
-0360   DTM Date/time/period                          C   9           ³
-0370   LOC Place/location identification             C   9           ³
-0380   DOC Document/message details                  C   9           ³
-0390   RFF Reference                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0310             Segment group 8                     C   99           
+0320   PRC Process identification                    M   1            
+0330   IMD Item description                          C   9            
+0340   NAD Name and address                          C   9            
+0350   MEA Measurements                              C   9            
+0360   DTM Date/time/period                          C   9            
+0370   LOC Place/location identification             C   9            
+0380   DOC Document/message details                  C   9            
+0390   RFF Reference                                 C   9            
 
            DETAIL SECTION
 
-0400       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0410   LIN Line item                                 M   1           ³
-0420   MEA Measurements                              C   9           ³
-0430   PIA Additional product id                     C   9           ³
-0440   IMD Item description                          C   9           ³
-0450   GIN Goods identity number                     C   9999        ³
-0460   ATT Attribute                                 C   9           ³
-0470   DTM Date/time/period                          C   9           ³
-0480   LOC Place/location identification             C   9           ³
-0490   FTX Free text                                 C   9           ³
-                                                                     ³
-0500       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0510   DOC Document/message details                  M   1          ³³
-0520   DTM Date/time/period                          C   9          ³³
-0530   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0540       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0550   PAC Package                                   M   1          ³³
-0560   PCI Package identification                    C   9          ³³
-0570   MEA Measurements                              C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0580 *     ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0590   EQD Equipment details                         M   1          ³³
-                                                                    ³³
-0600 *     ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄ¿³³
-0610   SEL Seal number                               M   1         ³³³
-0620   DTM Date/time/period                          C   9         ³³³
-0630   LOC Place/location identification             C   9ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0640       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0650   PRC Process identification                    M   1          ³³
-0660   IMD Item description                          C   9          ³³
-0670   NAD Name and address                          C   9          ³³
-0680   MEA Measurements                              C   9          ³³
-0690   DTM Date/time/period                          C   9          ³³
-0700   LOC Place/location identification             C   9          ³³
-0710   DOC Document/message details                  C   9          ³³
-0720   RFF Reference                                 C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0400             Segment group 9                     C   9999         
+0410   LIN Line item                                 M   1            
+0420   MEA Measurements                              C   9            
+0430   PIA Additional product id                     C   9            
+0440   IMD Item description                          C   9            
+0450   GIN Goods identity number                     C   9999         
+0460   ATT Attribute                                 C   9            
+0470   DTM Date/time/period                          C   9            
+0480   LOC Place/location identification             C   9            
+0490   FTX Free text                                 C   9            
+                                                                      
+0500             Segment group 10                    C   9            
+0510   DOC Document/message details                  M   1            
+0520   DTM Date/time/period                          C   9            
+0530   LOC Place/location identification             C   9            
+                                                                      
+0540             Segment group 11                    C   99           
+0550   PAC Package                                   M   1            
+0560   PCI Package identification                    C   9            
+0570   MEA Measurements                              C   9            
+                                                                      
+0580 *           Segment group 12                    C   99           
+0590   EQD Equipment details                         M   1            
+                                                                      
+0600 *           Segment group 13                    C   99           
+0610   SEL Seal number                               M   1            
+0620   DTM Date/time/period                          C   9            
+0630   LOC Place/location identification             C   9            
+                                                                      
+0640             Segment group 14                    C   99           
+0650   PRC Process identification                    M   1            
+0660   IMD Item description                          C   9            
+0670   NAD Name and address                          C   9            
+0680   MEA Measurements                              C   9            
+0690   DTM Date/time/period                          C   9            
+0700   LOC Place/location identification             C   9            
+0710   DOC Document/message details                  C   9            
+0720   RFF Reference                                 C   9            
 
            SUMMARY SECTION
 
 0730   CNT Control total                             C   9     
 
-0740       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0750   AUT Authentication result                     M   1           ³
-0760   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0740             Segment group 15                    C   9            
+0750   AUT Authentication result                     M   1            
+0760   DTM Date/time/period                          C   9            
 0770   UNT Message trailer                           M   1     

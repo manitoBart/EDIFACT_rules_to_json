@@ -430,47 +430,47 @@ Pos    Tag Name                                      S   R
 0040   AUT Authentication result                     C   2     
 0050   FTX Free text                                 C   5     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   RFF Reference                                 M   1           ³
-0080   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     C   9            
+0070   RFF Reference                                 M   1            
+0080   DTM Date/time/period                          C   5            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   LOC Place/location identification             C   25          ³
-0120   FII Financial institution information         C   5           ³
-                                                                     ³
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0140   RFF Reference                                 M   1          ³³
-0150   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0170   DOC Document/message details                  M   1          ³³
-0180   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0190       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0200   CTA Contact information                       M   1          ³³
-0210   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     M   9            
+0100   NAD Name and address                          M   1            
+0110   LOC Place/location identification             C   25           
+0120   FII Financial institution information         C   5            
+                                                                      
+0130             Segment group 3                     C   10           
+0140   RFF Reference                                 M   1            
+0150   DTM Date/time/period                          C   5            
+                                                                      
+0160             Segment group 4                     C   5            
+0170   DOC Document/message details                  M   1            
+0180   DTM Date/time/period                          C   5            
+                                                                      
+0190             Segment group 5                     C   5            
+0200   CTA Contact information                       M   1            
+0210   COM Communication contact                     C   5            
 
            DETAIL SECTION
 
-0220       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   100000ÄÄÄÄÄÄ¿
-0230   BII Structure identification                  M   1           ³
-0240   RCS Requirements and conditions               C   1           ³
-0250   QTY Quantity                                  M   6           ³
-0260   PRI Price details                             C   1           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   100ÄÄÄÄÄÄÄÄ¿³
-0280   LIN Line item                                 M   1          ³³
-                                                                    ³³
-0290       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1000ÄÄÄÄÄÄ¿³³
-0300   IMD Item description                          M   1         ³³³
-0310   RFF Reference                                 C   5         ³³³
-0320   GIS General indicator                         C   5ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0330       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0340   TAX Duty/tax/fee details                      M   1          ³³
-0350   MOA Monetary amount                           C   1          ³³
-0360   LOC Place/location identification             C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0220             Segment group 6                     C   100000       
+0230   BII Structure identification                  M   1            
+0240   RCS Requirements and conditions               C   1            
+0250   QTY Quantity                                  M   6            
+0260   PRI Price details                             C   1            
+                                                                      
+0270             Segment group 7                     M   100          
+0280   LIN Line item                                 M   1            
+                                                                      
+0290             Segment group 8                     C   1000         
+0300   IMD Item description                          M   1            
+0310   RFF Reference                                 C   5            
+0320   GIS General indicator                         C   5            
+                                                                      
+0330             Segment group 9                     C   5            
+0340   TAX Duty/tax/fee details                      M   1            
+0350   MOA Monetary amount                           C   1            
+0360   LOC Place/location identification             C   5            
 
            SUMMARY SECTION
 

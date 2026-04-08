@@ -457,38 +457,38 @@ Pos    Tag Name                                      S   R
 0030   FTX Free text                                 C   9     
 0040   RFF Reference                                 M   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   TDT Details of transport                      M   1           ³
-0070   RFF Reference                                 C   9           ³
-0080   LOC Place/location identification             C   9           ³
-0090   DTM Date/time/period                          C   9           ³
-0100   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     M   1            
+0060   TDT Details of transport                      M   1            
+0070   RFF Reference                                 C   9            
+0080   LOC Place/location identification             C   9            
+0090   DTM Date/time/period                          C   9            
+0100   FTX Free text                                 C   9            
 
-0110       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0120   NAD Name and address                          M   1           ³
-0130   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0110             Segment group 2                     M   9            
+0120   NAD Name and address                          M   1            
+0130   CTA Contact information                       C   9            
 
-0140       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0150   EQD Equipment details                         M   1           ³
-0160   RFF Reference                                 C   9           ³
-0170   EQN Number of units                           C   1           ³
-0180   TMD Transport movement details                C   9           ³
-0190   DTM Date/time/period                          C   9           ³
-0200   LOC Place/location identification             C   9           ³
-0210   MEA Measurements                              C   9           ³
-0220   DIM Dimensions                                C   9           ³
-0230   TMP Temperature                               C   9           ³
-0240   RNG Range details                             C   9           ³
-0250   SEL Seal number                               C   9           ³
-0260   FTX Free text                                 C   9           ³
-0270   DGS Dangerous goods                           C   9           ³
-0280   EQA Attached equipment                        C   9           ³
-                                                                     ³
-0290       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0300   TDT Details of transport                      M   1          ³³
-0310   RFF Reference                                 C   9          ³³
-0320   LOC Place/location identification             C   9          ³³
-0330   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-0340   NAD Name and address                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0140             Segment group 3                     M   9999         
+0150   EQD Equipment details                         M   1            
+0160   RFF Reference                                 C   9            
+0170   EQN Number of units                           C   1            
+0180   TMD Transport movement details                C   9            
+0190   DTM Date/time/period                          C   9            
+0200   LOC Place/location identification             C   9            
+0210   MEA Measurements                              C   9            
+0220   DIM Dimensions                                C   9            
+0230   TMP Temperature                               C   9            
+0240   RNG Range details                             C   9            
+0250   SEL Seal number                               C   9            
+0260   FTX Free text                                 C   9            
+0270   DGS Dangerous goods                           C   9            
+0280   EQA Attached equipment                        C   9            
+                                                                      
+0290             Segment group 4                     C   1            
+0300   TDT Details of transport                      M   1            
+0310   RFF Reference                                 C   9            
+0320   LOC Place/location identification             C   9            
+0330   DTM Date/time/period                          C   9            
+0340   NAD Name and address                          C   1            
 0350   CNT Control total                             M   1     
 0360   UNT Message trailer                           M   1     

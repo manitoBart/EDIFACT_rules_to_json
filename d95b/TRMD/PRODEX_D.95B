@@ -331,24 +331,24 @@ Pos    Tag Name                                      S   R
 0040   MEA Measurements                              M   1     
 0050   NAD Name and address                          M   2     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   RFF Reference                                 M   1           ³
-0080   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     M   5            
+0070   RFF Reference                                 M   1            
+0080   DTM Date/time/period                          C   1            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄÄ¿
-0100   IMD Item description                          M   1           ³
-0110   QTY Quantity                                  C   10          ³
-                                                                     ³
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0130   LIN Line item                                 M   1          ³³
-0140   GIS General indicator                         C   2          ³³
-0150   LOC Place/location identification             C   2          ³³
-0160   DTM Date/time/period                          C   1          ³³
-0170   MEA Measurements                              C   5          ³³
-0180   QTY Quantity                                  C   5          ³³
-0190   TDT Details of transport                      C   5          ³³
-                                                                    ³³
-0200       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0210   RFF Reference                                 M   1         ³³³
-0220   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0090             Segment group 2                     M   99           
+0100   IMD Item description                          M   1            
+0110   QTY Quantity                                  C   10           
+                                                                      
+0120             Segment group 3                     C   9999         
+0130   LIN Line item                                 M   1            
+0140   GIS General indicator                         C   2            
+0150   LOC Place/location identification             C   2            
+0160   DTM Date/time/period                          C   1            
+0170   MEA Measurements                              C   5            
+0180   QTY Quantity                                  C   5            
+0190   TDT Details of transport                      C   5            
+                                                                      
+0200             Segment group 4                     C   5            
+0210   RFF Reference                                 M   1            
+0220   DTM Date/time/period                          C   1            
 0230   UNT Message trailer                           M   1     

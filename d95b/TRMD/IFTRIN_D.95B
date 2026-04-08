@@ -290,23 +290,23 @@ Pos    Tag Name                                      S   R
 0040   FTX Free text                                 C   99    
 0050   RFF Reference                                 C   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   LOC Place/location identification             M   1           ³
-0080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     C   9            
+0070   LOC Place/location identification             M   1            
+0080   DTM Date/time/period                          C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0100   TDT Details of transport                      M   1           ³
-0110   DTM Date/time/period                          C   9           ³
-0120   LOC Place/location identification             C   9           ³
-0130   RFF Reference                                 C   9           ³
-0140   CUX Currencies                                C   9           ³
-0150   MEA Measurements                              C   9           ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0170   TCC Transport charge/rate calculations        M   1          ³³
-0180   EQN Number of units                           C   9          ³³
-0190   PCD Percentage details                        C   9          ³³
-0200   QTY Quantity                                  C   9          ³³
-0210   PRI Price details                             C   9          ³³
-0220   MOA Monetary amount                           C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     C   999          
+0100   TDT Details of transport                      M   1            
+0110   DTM Date/time/period                          C   9            
+0120   LOC Place/location identification             C   9            
+0130   RFF Reference                                 C   9            
+0140   CUX Currencies                                C   9            
+0150   MEA Measurements                              C   9            
+                                                                      
+0160             Segment group 3                     C   99           
+0170   TCC Transport charge/rate calculations        M   1            
+0180   EQN Number of units                           C   9            
+0190   PCD Percentage details                        C   9            
+0200   QTY Quantity                                  C   9            
+0210   PRI Price details                             C   9            
+0220   MOA Monetary amount                           C   9            
 0230   UNT Message trailer                           M   1     

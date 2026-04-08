@@ -314,25 +314,25 @@ Pos    Tag Name                                      S   R
 0060   TDT Details of transport                      C   99    
 0070   EQD Equipment details                         C   999   
 
-0080       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   NAD Name and address                          M   1           ³
-                                                                     ³
-0100       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0110   CTA Contact information                       M   1          ³³
-0120   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0080             Segment group 1                     C   9            
+0090   NAD Name and address                          M   1            
+                                                                      
+0100             Segment group 2                     C   9            
+0110   CTA Contact information                       M   1            
+0120   COM Communication contact                     C   9            
 
-0130       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0140   CNI Consignment information                   M   1           ³
-0150   DTM Date/time/period                          C   9           ³
-0160   LOC Place/location identification             C   99          ³
-0170   RFF Reference                                 C   99          ³
-0180   TDT Details of transport                      C   99          ³
-0190   EQD Equipment details                         C   99          ³
-                                                                     ³
-0200       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0210   NAD Name and address                          M   1          ³³
-                                                                    ³³
-0220       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0230   CTA Contact information                       M   1         ³³³
-0240   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÁÁÙ
+0130             Segment group 3                     C   999          
+0140   CNI Consignment information                   M   1            
+0150   DTM Date/time/period                          C   9            
+0160   LOC Place/location identification             C   99           
+0170   RFF Reference                                 C   99           
+0180   TDT Details of transport                      C   99           
+0190   EQD Equipment details                         C   99           
+                                                                      
+0200             Segment group 4                     C   9            
+0210   NAD Name and address                          M   1            
+                                                                      
+0220             Segment group 5                     C   9            
+0230   CTA Contact information                       M   1            
+0240   COM Communication contact                     C   9            
 0250   UNT Message trailer                           M   1     

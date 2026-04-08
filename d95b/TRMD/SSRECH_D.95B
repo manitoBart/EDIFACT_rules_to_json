@@ -375,50 +375,50 @@ Pos    Tag Name                                      S   R
 0030   DTM Date/time/period                          C   1     
 0040   GIS General indicator                         M   1     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   1            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   1            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   PNA Party name                                M   1           ³
-0100   ADR Address                                   C   1           ³
-0110   GIR Related identification numbers            C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 2                     M   2            
+0090   PNA Party name                                M   1            
+0100   ADR Address                                   C   1            
+0110   GIR Related identification numbers            C   1            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄÄ¿
-0130   IND Index details                             M   1           ³
-0140   DTM Date/time/period                          M   6           ³
-0150   COT Contribution details                      M   3           ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0170   EMP Employment details                        M   1          ³³
-0180   PNA Party name                                C   1          ³³
-0190   ADR Address                                   C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0120             Segment group 3                     M   99           
+0130   IND Index details                             M   1            
+0140   DTM Date/time/period                          M   6            
+0150   COT Contribution details                      M   3            
+                                                                      
+0160             Segment group 4                     C   1            
+0170   EMP Employment details                        M   1            
+0180   PNA Party name                                C   1            
+0190   ADR Address                                   C   1            
 
            DETAIL SECTION
 
 0200   UNS Section control                           M   1     
 
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   6ÄÄÄÄÄÄÄÄÄÄÄ¿
-0220   PNA Party name                                M   1           ³
-0230   NAT Nationality                               C   1           ³
-0240   DOC Document/message details                  C   1           ³
-0250   ADR Address                                   C   2           ³
-0260   ATT Attribute                                 C   5           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0280   DTM Date/time/period                          M   1          ³³
-0290   ADR Address                                   C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0300       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0310   PDI Person demographic information            M   1          ³³
-0320   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÄÁÙ
+0210             Segment group 5                     M   6            
+0220   PNA Party name                                M   1            
+0230   NAT Nationality                               C   1            
+0240   DOC Document/message details                  C   1            
+0250   ADR Address                                   C   2            
+0260   ATT Attribute                                 C   5            
+                                                                      
+0270             Segment group 6                     C   2            
+0280   DTM Date/time/period                          M   1            
+0290   ADR Address                                   C   1            
+                                                                      
+0300             Segment group 7                     C   2            
+0310   PDI Person demographic information            M   1            
+0320   DTM Date/time/period                          C   2            
 
-0330       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0340   COT Contribution details                      M   1           ³
-0350   CNT Control total                             M   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0330             Segment group 8                     C   9            
+0340   COT Contribution details                      M   1            
+0350   CNT Control total                             M   5            
 0360   FTX Free text                                 C   2     
 
-0370       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0380   AUT Authentication result                     M   1           ³
-0390   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0370             Segment group 9                     C   1            
+0380   AUT Authentication result                     M   1            
+0390   DTM Date/time/period                          C   1            
 0400   UNT Message trailer                           M   1     

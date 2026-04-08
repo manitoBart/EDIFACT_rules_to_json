@@ -591,80 +591,80 @@ Pos    Tag Name                                      S   R
 0040   DTM Date/time/period                          C   10    
 0050   FTX Free text                                 C   99    
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-0080   RFF Reference                                 C   10          ³
-                                                                     ³
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0100   CTA Contact information                       M   1          ³³
-0110   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0060             Segment group 1                     C   10           
+0070   NAD Name and address                          M   1            
+0080   RFF Reference                                 C   10           
+                                                                      
+0090             Segment group 2                     C   10           
+0100   CTA Contact information                       M   1            
+0110   COM Communication contact                     C   5            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1000ÄÄÄÄÄÄÄÄ¿
-0130   DOC Document/message details                  M   1           ³
-0140   IMD Item description                          C   10          ³
-0150   PIA Additional product id                     C   10          ³
-0160   MEA Measurements                              C   10          ³
-0170   RCS Requirements and conditions               C   10          ³
-0180   RFF Reference                                 C   10          ³
-0190   DTM Date/time/period                          C   10          ³
-0200   FTX Free text                                 C   99          ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0220   NAD Name and address                          M   1          ³³
-0230   RFF Reference                                 C   10         ³³
-                                                                    ³³
-0240       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0250   CTA Contact information                       M   1         ³³³
-0260   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-0280   SFI Safety information                        M   1          ³³
-0290   PIA Additional product id                     C   10         ³³
-0300   EQD Equipment details                         C   99         ³³
-0310   FTX Free text                                 C   99         ³³
-                                                                    ³³
-0320       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0330   NAD Name and address                          M   1         ³³³
-0340   RFF Reference                                 C   10        ³³³
-                                                                   ³³³
-0350       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0360   CTA Contact information                       M   1        ³³³³
-0370   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-0380       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0390   HAN Handling instructions                     M   1         ³³³
-0400   FTX Free text                                 C   99ÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0410       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0420   IMD Item description                          M   1         ³³³
-0430   MEA Measurements                              C   10        ³³³
-0440   PCD Percentage details                        C   10        ³³³
-0450   RFF Reference                                 C   10        ³³³
-0460   FTX Free text                                 C   99ÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0470       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-0480   DGS Dangerous goods                           M   1         ³³³
-0490   RFF Reference                                 C   10        ³³³
-0500   FTX Free text                                 C   99        ³³³
-                                                                   ³³³
-0510       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0520   PAC Package                                   M   1        ³³³³
-0530   PCI Package identification                    C   10ÄÄÄÄÄÄÄÁÙ³³
-                                                                    ³³
-0540       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0550   CCI Characteristic/class id                   M   1         ³³³
-0560   IMD Item description                          C   10        ³³³
-0570   FTX Free text                                 C   99        ³³³
-0580   CAV Characteristic value                      C   10        ³³³
-                                                                   ³³³
-0590       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0600   RFF Reference                                 M   1        ³³³³
-0610   DTM Date/time/period                          C   10ÄÄÄÄÄÄÄÙ³³³
-                                                                   ³³³
-0620       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄ¿³³³
-0630   MEA Measurements                              M   1        ³³³³
-0640   TEM Test method                               C   10       ³³³³
-0650   DTM Date/time/period                          C   10       ³³³³
-0660   RFF Reference                                 C   10       ³³³³
-0670   FTX Free text                                 C   99ÄÄÄÄÄÄÄÁÁÁÙ
+0120             Segment group 3                     M   1000         
+0130   DOC Document/message details                  M   1            
+0140   IMD Item description                          C   10           
+0150   PIA Additional product id                     C   10           
+0160   MEA Measurements                              C   10           
+0170   RCS Requirements and conditions               C   10           
+0180   RFF Reference                                 C   10           
+0190   DTM Date/time/period                          C   10           
+0200   FTX Free text                                 C   99           
+                                                                      
+0210             Segment group 4                     C   10           
+0220   NAD Name and address                          M   1            
+0230   RFF Reference                                 C   10           
+                                                                      
+0240             Segment group 5                     C   10           
+0250   CTA Contact information                       M   1            
+0260   COM Communication contact                     C   5            
+                                                                      
+0270             Segment group 6                     C   20           
+0280   SFI Safety information                        M   1            
+0290   PIA Additional product id                     C   10           
+0300   EQD Equipment details                         C   99           
+0310   FTX Free text                                 C   99           
+                                                                      
+0320             Segment group 7                     C   10           
+0330   NAD Name and address                          M   1            
+0340   RFF Reference                                 C   10           
+                                                                      
+0350             Segment group 8                     C   10           
+0360   CTA Contact information                       M   1            
+0370   COM Communication contact                     C   5            
+                                                                      
+0380             Segment group 9                     C   10           
+0390   HAN Handling instructions                     M   1            
+0400   FTX Free text                                 C   99           
+                                                                      
+0410             Segment group 10                    C   10           
+0420   IMD Item description                          M   1            
+0430   MEA Measurements                              C   10           
+0440   PCD Percentage details                        C   10           
+0450   RFF Reference                                 C   10           
+0460   FTX Free text                                 C   99           
+                                                                      
+0470             Segment group 11                    C   10           
+0480   DGS Dangerous goods                           M   1            
+0490   RFF Reference                                 C   10           
+0500   FTX Free text                                 C   99           
+                                                                      
+0510             Segment group 12                    C   10           
+0520   PAC Package                                   M   1            
+0530   PCI Package identification                    C   10           
+                                                                      
+0540             Segment group 13                    C   999          
+0550   CCI Characteristic/class id                   M   1            
+0560   IMD Item description                          C   10           
+0570   FTX Free text                                 C   99           
+0580   CAV Characteristic value                      C   10           
+                                                                      
+0590             Segment group 14                    C   10           
+0600   RFF Reference                                 M   1            
+0610   DTM Date/time/period                          C   10           
+                                                                      
+0620             Segment group 15                    C   10           
+0630   MEA Measurements                              M   1            
+0640   TEM Test method                               C   10           
+0650   DTM Date/time/period                          C   10           
+0660   RFF Reference                                 C   10           
+0670   FTX Free text                                 C   99           
 0680   UNT Message trailer                           M   1     

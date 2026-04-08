@@ -432,44 +432,44 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   5     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0050   NAD Name and address                          M   1           ³
-                                                                     ³
-0060       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0070   CTA Contact information                       M   1          ³³
-0080   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0040             Segment group 1                     M   5            
+0050   NAD Name and address                          M   1            
+                                                                      
+0060             Segment group 2                     C   5            
+0070   CTA Contact information                       M   1            
+0080   COM Communication contact                     C   5            
 
-0090       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   RFF Reference                                 M   1           ³
-0110   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 3                     C   5            
+0100   RFF Reference                                 M   1            
+0110   DTM Date/time/period                          C   5            
 
-0120       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0130   CUX Currencies                                M   1           ³
-0140   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0120             Segment group 4                     C   5            
+0130   CUX Currencies                                M   1            
+0140   DTM Date/time/period                          C   5            
 
            DETAIL SECTION
 
-0150       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   200000ÄÄÄÄÄÄ¿
-0160   LOC Place/location identification             M   1           ³
-0170   DTM Date/time/period                          C   5           ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0190   RFF Reference                                 M   1          ³³
-0200   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   200000ÄÄÄÄÄ¿³
-0220   LIN Line item                                 M   1          ³³
-0230   PIA Additional product id                     C   5          ³³
-0240   IMD Item description                          C   5          ³³
-0250   PAC Package                                   C   5          ³³
-0260   RFF Reference                                 C   5          ³³
-0270   DOC Document/message details                  C   5          ³³
-0280   ALI Additional information                    C   5          ³³
-0290   MOA Monetary amount                           C   5          ³³
-0300   PRI Price details                             C   5          ³³
-                                                                    ³³
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0320   QTY Quantity                                  M   1         ³³³
-0330   MKS Market/sales channel information          C   1         ³³³
-0340   NAD Name and address                          C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0150             Segment group 5                     M   200000       
+0160   LOC Place/location identification             M   1            
+0170   DTM Date/time/period                          C   5            
+                                                                      
+0180             Segment group 6                     C   99           
+0190   RFF Reference                                 M   1            
+0200   DTM Date/time/period                          C   5            
+                                                                      
+0210             Segment group 7                     C   200000       
+0220   LIN Line item                                 M   1            
+0230   PIA Additional product id                     C   5            
+0240   IMD Item description                          C   5            
+0250   PAC Package                                   C   5            
+0260   RFF Reference                                 C   5            
+0270   DOC Document/message details                  C   5            
+0280   ALI Additional information                    C   5            
+0290   MOA Monetary amount                           C   5            
+0300   PRI Price details                             C   5            
+                                                                      
+0310             Segment group 8                     C   999          
+0320   QTY Quantity                                  M   1            
+0330   MKS Market/sales channel information          C   1            
+0340   NAD Name and address                          C   1            
 0350   UNT Message trailer                           M   1     

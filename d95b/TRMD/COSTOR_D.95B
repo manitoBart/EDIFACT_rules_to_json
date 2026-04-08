@@ -517,59 +517,59 @@ Pos    Tag Name                                      S   R
 0030   FTX Free text                                 C   9     
 0040   RFF Reference                                 C   9     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   TDT Details of transport                      M   1           ³
-0070   LOC Place/location identification             C   9           ³
-0080   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     M   1            
+0060   TDT Details of transport                      M   1            
+0070   LOC Place/location identification             C   9            
+0080   DTM Date/time/period                          C   9            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-0110   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 2                     M   9            
+0100   NAD Name and address                          M   1            
+0110   CTA Contact information                       C   9            
 
-0120       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0130   EQD Equipment details                         M   1           ³
-0140   RFF Reference                                 C   9           ³
-0150   EQN Number of units                           C   1           ³
-0160   DTM Date/time/period                          C   9           ³
-0170   TSR Transport service requirements            C   9           ³
-0180   LOC Place/location identification             C   9           ³
-0190   DIM Dimensions                                C   9           ³
-                                                                     ³
-0200       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0210   NAD Name and address                          M   1          ³³
-0220   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0120             Segment group 3                     M   999          
+0130   EQD Equipment details                         M   1            
+0140   RFF Reference                                 C   9            
+0150   EQN Number of units                           C   1            
+0160   DTM Date/time/period                          C   9            
+0170   TSR Transport service requirements            C   9            
+0180   LOC Place/location identification             C   9            
+0190   DIM Dimensions                                C   9            
+                                                                      
+0200             Segment group 4                     C   9            
+0210   NAD Name and address                          M   1            
+0220   DTM Date/time/period                          C   9            
 
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0240   CNI Consignment information                   M   1           ³
-0250   RFF Reference                                 C   9           ³
-0260   NAD Name and address                          C   9           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄ¿³
-0280   GID Goods item details                        M   1          ³³
-0290   HAN Handling instructions                     C   9          ³³
-0300   TMP Temperature                               C   9          ³³
-0310   RNG Range details                             C   9          ³³
-0320   FTX Free text                                 C   9          ³³
-0330   DTM Date/time/period                          C   9          ³³
-                                                                    ³³
-0340       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0350   NAD Name and address                          M   1         ³³³
-0360   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÙ³³
-0370   MEA Measurements                              C   9          ³³
-0380   PCI Package identification                    C   9          ³³
-0390   DOC Document/message details                  C   9          ³³
-                                                                    ³³
-0400       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄ¿³³
-0410   SGP Split goods placement                     M   1         ³³³
-0420   MEA Measurements                              C   9ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-0430       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄ¿³³
-0440   DGS Dangerous goods                           M   1         ³³³
-0450   FTX Free text                                 C   9         ³³³
-0460   MEA Measurements                              C   9         ³³³
-                                                                   ³³³
-0470       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄ¿³³³
-0480   SGP Split goods placement                     M   1        ³³³³
-0490   MEA Measurements                              C   9ÄÄÄÄÄÄÄÄÁÁÁÙ
+0230             Segment group 5                     M   999          
+0240   CNI Consignment information                   M   1            
+0250   RFF Reference                                 C   9            
+0260   NAD Name and address                          C   9            
+                                                                      
+0270             Segment group 6                     C   999          
+0280   GID Goods item details                        M   1            
+0290   HAN Handling instructions                     C   9            
+0300   TMP Temperature                               C   9            
+0310   RNG Range details                             C   9            
+0320   FTX Free text                                 C   9            
+0330   DTM Date/time/period                          C   9            
+                                                                      
+0340             Segment group 7                     C   9            
+0350   NAD Name and address                          M   1            
+0360   DTM Date/time/period                          C   9            
+0370   MEA Measurements                              C   9            
+0380   PCI Package identification                    C   9            
+0390   DOC Document/message details                  C   9            
+                                                                      
+0400             Segment group 8                     C   999          
+0410   SGP Split goods placement                     M   1            
+0420   MEA Measurements                              C   9            
+                                                                      
+0430             Segment group 9                     C   9            
+0440   DGS Dangerous goods                           M   1            
+0450   FTX Free text                                 C   9            
+0460   MEA Measurements                              C   9            
+                                                                      
+0470             Segment group 10                    C   999          
+0480   SGP Split goods placement                     M   1            
+0490   MEA Measurements                              C   9            
 0500   CNT Control total                             M   1     
 0510   UNT Message trailer                           M   1     

@@ -308,29 +308,29 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   3     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0050   RFF Reference                                 M   1           ³
-0060   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     C   2            
+0050   RFF Reference                                 M   1            
+0060   DTM Date/time/period                          C   1            
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-0090   CTA Contact information                       C   1           ³
-0100   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0070             Segment group 2                     M   2            
+0080   NAD Name and address                          M   1            
+0090   CTA Contact information                       C   1            
+0100   COM Communication contact                     C   5            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0120   LIN Line item                                 M   1           ³
-                                                                     ³
-0130       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0140   RFF Reference                                 M   1          ³³
-0150   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0160       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   10ÄÄÄÄÄÄÄÄÄ¿³
-0170   RCS Requirements and conditions               M   1          ³³
-0180   FTX Free text                                 C   10         ³³
-0190   MOA Monetary amount                           C   1          ³³
-0200   LOC Place/location identification             C   4ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 3                     C   999          
+0120   LIN Line item                                 M   1            
+                                                                      
+0130             Segment group 4                     C   1            
+0140   RFF Reference                                 M   1            
+0150   DTM Date/time/period                          C   1            
+                                                                      
+0160             Segment group 5                     M   10           
+0170   RCS Requirements and conditions               M   1            
+0180   FTX Free text                                 C   10           
+0190   MOA Monetary amount                           C   1            
+0200   LOC Place/location identification             C   4            
 
-0210       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0220   AUT Authentication result                     M   1           ³
-0230   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0210             Segment group 6                     C   1            
+0220   AUT Authentication result                     M   1            
+0230   DTM Date/time/period                          C   1            
 0240   UNT Message trailer                           M   1     

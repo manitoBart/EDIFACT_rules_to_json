@@ -470,66 +470,66 @@ Pos    Tag Name                                      S   R
 0030   BUS Business function                         C   1     
 0040   DTM Date/time/period                          M   4     
 
-0050       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0060   RFF Reference                                 M   1           ³
-0070   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0050             Segment group 1                     C   5            
+0060   RFF Reference                                 M   1            
+0070   DTM Date/time/period                          C   1            
 
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0090   PAI Payment instructions                      M   1           ³
-0100   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 2                     C   1            
+0090   PAI Payment instructions                      M   1            
+0100   FTX Free text                                 C   1            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   4ÄÄÄÄÄÄÄÄÄÄÄ¿
-0120   MOA Monetary amount                           M   1           ³
-0130   CUX Currencies                                C   1           ³
-0140   DTM Date/time/period                          C   2           ³
-0150   RFF Reference                                 C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0110             Segment group 3                     M   4            
+0120   MOA Monetary amount                           M   1            
+0130   CUX Currencies                                C   1            
+0140   DTM Date/time/period                          C   2            
+0150   RFF Reference                                 C   1            
 0160   FTX Free text                                 C   5     
 
-0170       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   4ÄÄÄÄÄÄÄÄÄÄÄ¿
-0180   FII Financial institution information         M   1           ³
-0190   CTA Contact information                       C   1           ³
-0200   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0170             Segment group 4                     M   4            
+0180   FII Financial institution information         M   1            
+0190   CTA Contact information                       C   1            
+0200   COM Communication contact                     C   5            
 
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   6ÄÄÄÄÄÄÄÄÄÄÄ¿
-0220   NAD Name and address                          M   1           ³
-0230   CTA Contact information                       C   1           ³
-0240   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0210             Segment group 5                     C   6            
+0220   NAD Name and address                          M   1            
+0230   CTA Contact information                       C   1            
+0240   COM Communication contact                     C   5            
 
-0250       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   4ÄÄÄÄÄÄÄÄÄÄÄ¿
-0260   INP Parties to instruction                    M   1           ³
-0270   FTX Free text                                 C   1           ³
-0280   DTM Date/time/period                          C   3ÄÄÄÄÄÄÄÄÄÄÄÙ
+0250             Segment group 6                     C   4            
+0260   INP Parties to instruction                    M   1            
+0270   FTX Free text                                 C   1            
+0280   DTM Date/time/period                          C   3            
 
-0290       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0300   GIS General indicator                         M   1           ³
-0310   MOA Monetary amount                           C   1           ³
-0320   LOC Place/location identification             C   2           ³
-0330   NAD Name and address                          C   1           ³
-0340   RCS Requirements and conditions               C   1           ³
-0350   FTX Free text                                 C   10ÄÄÄÄÄÄÄÄÄÄÙ
+0290             Segment group 7                     C   10           
+0300   GIS General indicator                         M   1            
+0310   MOA Monetary amount                           C   1            
+0320   LOC Place/location identification             C   2            
+0330   NAD Name and address                          C   1            
+0340   RCS Requirements and conditions               C   1            
+0350   FTX Free text                                 C   10           
 
-0360       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0370   FCA Financial charges allocation              M   1           ³
-0380   MOA Monetary amount                           C   2           ³
-                                                                     ³
-0390       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-0400   ALC Allowance or charge                       M   1          ³³
-0410   PCD Percentage details                        C   1          ³³
-0420   MOA Monetary amount                           C   2          ³³
-0430   CUX Currencies                                C   1          ³³
-0440   DTM Date/time/period                          C   2          ³³
-                                                                    ³³
-0450       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-0460   TAX Duty/tax/fee details                      M   1         ³³³
-0470   MOA Monetary amount                           C   2         ³³³
-0480   CUX Currencies                                C   1         ³³³
-0490   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÁÁÙ
+0360             Segment group 8                     C   5            
+0370   FCA Financial charges allocation              M   1            
+0380   MOA Monetary amount                           C   2            
+                                                                      
+0390             Segment group 9                     C   20           
+0400   ALC Allowance or charge                       M   1            
+0410   PCD Percentage details                        C   1            
+0420   MOA Monetary amount                           C   2            
+0430   CUX Currencies                                C   1            
+0440   DTM Date/time/period                          C   2            
+                                                                      
+0450             Segment group 10                    C   5            
+0460   TAX Duty/tax/fee details                      M   1            
+0470   MOA Monetary amount                           C   2            
+0480   CUX Currencies                                C   1            
+0490   DTM Date/time/period                          C   1            
 
-0500       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0510   DOC Document/message details                  M   1           ³
-0520   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0500             Segment group 11                    C   10           
+0510   DOC Document/message details                  M   1            
+0520   DTM Date/time/period                          C   1            
 
-0530       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0540   AUT Authentication result                     M   1           ³
-0550   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0530             Segment group 12                    C   5            
+0540   AUT Authentication result                     M   1            
+0550   DTM Date/time/period                          C   1            
 0560   UNT Message trailer                           M   1     

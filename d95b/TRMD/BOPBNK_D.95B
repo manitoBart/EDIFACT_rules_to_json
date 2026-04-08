@@ -334,38 +334,38 @@ Pos    Tag Name                                      S   R
 0020   BGM Beginning of message                      M   1     
 0030   DTM Date/time/period                          M   3     
 
-0040       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0050   RFF Reference                                 M   1           ³
-0060   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0040             Segment group 1                     C   2            
+0050   RFF Reference                                 M   1            
+0060   DTM Date/time/period                          C   1            
 
-0070       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0080   NAD Name and address                          M   1           ³
-0090   CTA Contact information                       C   1           ³
-0100   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0070             Segment group 2                     M   2            
+0080   NAD Name and address                          M   1            
+0090   CTA Contact information                       C   1            
+0100   COM Communication contact                     C   5            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄÄ¿
-0120   LIN Line item                                 M   1           ³
-0130   MOA Monetary amount                           C   2           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999ÄÄÄÄÄÄÄÄ¿³
-0150   RCS Requirements and conditions               M   1          ³³
-0160   FTX Free text                                 C   1          ³³
-                                                                    ³³
-0170       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄ¿³³
-0180   MOA Monetary amount                           M   1         ³³³
-                                                                   ³³³
-0190       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄ¿³³³
-0200   GIR Related identification numbers            M   1        ³³³³
-0210   QTY Quantity                                  C   1        ³³³³
-0220   PRI Price details                             C   1ÄÄÄÄÄÄÄÄÙ³³³
-                                                                   ³³³
-0230       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄ¿³³³
-0240   RFF Reference                                 M   1        ³³³³
-0250   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÙ³³³
-0260   NAD Name and address                          C   1         ³³³
-0270   LOC Place/location identification             C   4ÄÄÄÄÄÄÄÄÄÁÁÙ
+0110             Segment group 3                     M   999          
+0120   LIN Line item                                 M   1            
+0130   MOA Monetary amount                           C   2            
+                                                                      
+0140             Segment group 4                     M   999          
+0150   RCS Requirements and conditions               M   1            
+0160   FTX Free text                                 C   1            
+                                                                      
+0170             Segment group 5                     M   9999         
+0180   MOA Monetary amount                           M   1            
+                                                                      
+0190             Segment group 6                     C   1            
+0200   GIR Related identification numbers            M   1            
+0210   QTY Quantity                                  C   1            
+0220   PRI Price details                             C   1            
+                                                                      
+0230             Segment group 7                     C   1            
+0240   RFF Reference                                 M   1            
+0250   DTM Date/time/period                          C   1            
+0260   NAD Name and address                          C   1            
+0270   LOC Place/location identification             C   4            
 
-0280       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0290   AUT Authentication result                     M   1           ³
-0300   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0280             Segment group 8                     C   1            
+0290   AUT Authentication result                     M   1            
+0300   DTM Date/time/period                          C   1            
 0310   UNT Message trailer                           M   1     

@@ -427,48 +427,48 @@ Pos    Tag Name                                      S   R
 0040   FII Financial institution information         C   10    
 0050   FTX Free text                                 C   5     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   RFF Reference                                 M   1           ³
-0080   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     C   5            
+0070   RFF Reference                                 M   1            
+0080   DTM Date/time/period                          C   1            
 
-0090       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄÄ¿
-0100   NAD Name and address                          M   1           ³
-                                                                     ³
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0120   CTA Contact information                       M   1          ³³
-0130   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0090             Segment group 2                     C   2            
+0100   NAD Name and address                          M   1            
+                                                                      
+0110             Segment group 3                     C   5            
+0120   CTA Contact information                       M   1            
+0130   COM Communication contact                     C   5            
 
            DETAIL SECTION
 
 0140   UNS Section control                           M   1     
 
-0150 *     ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   200000ÄÄÄÄÄÄ¿
-0160   NAD Name and address                          M   1           ³
-0170   DTM Date/time/period                          C   5           ³
-0180   FII Financial institution information         C   10          ³
-                                                                     ³
-0190 *     ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0200   LOC Place/location identification             M   1          ³³
-0210   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0220       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   15ÄÄÄÄÄÄÄÄÄ¿³
-0230   RFF Reference                                 M   1          ³³
-0240   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0250       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0260   CTA Contact information                       M   1          ³³
-0270   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0280       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0290   SCC Scheduling conditions                     M   1          ³³
-0300   DTM Date/time/period                          C   2ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0310       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0320   TOD Terms of delivery or transport            M   1          ³³
-0330   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0340       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0350   PAI Payment instructions                      M   1          ³³
-0360   PAT Payment terms basis                       C   1          ³³
-0370   CUX Currencies                                C   2ÄÄÄÄÄÄÄÄÄÄÁÙ
+0150 *           Segment group 4                     C   200000       
+0160   NAD Name and address                          M   1            
+0170   DTM Date/time/period                          C   5            
+0180   FII Financial institution information         C   10           
+                                                                      
+0190 *           Segment group 5                     C   99           
+0200   LOC Place/location identification             M   1            
+0210   DTM Date/time/period                          C   2            
+                                                                      
+0220             Segment group 6                     C   15           
+0230   RFF Reference                                 M   1            
+0240   DTM Date/time/period                          C   1            
+                                                                      
+0250             Segment group 7                     C   5            
+0260   CTA Contact information                       M   1            
+0270   COM Communication contact                     C   5            
+                                                                      
+0280             Segment group 8                     C   10           
+0290   SCC Scheduling conditions                     M   1            
+0300   DTM Date/time/period                          C   2            
+                                                                      
+0310             Segment group 9                     C   1            
+0320   TOD Terms of delivery or transport            M   1            
+0330   LOC Place/location identification             C   1            
+                                                                      
+0340             Segment group 10                    C   1            
+0350   PAI Payment instructions                      M   1            
+0360   PAT Payment terms basis                       C   1            
+0370   CUX Currencies                                C   2            
 0380   UNT Message trailer                           M   1     

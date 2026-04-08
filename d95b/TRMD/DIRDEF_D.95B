@@ -352,44 +352,44 @@ Pos    Tag Name                                      S   R
 0040   DTM Date/time/period                          C   9     
 0050   FTX Free text                                 C   9     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   NAD Name and address                          M   1           ³
-                                                                     ³
-0080       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0090   CTA Contact information                       M   1          ³³
-0100   COM Communication contact                     C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0060             Segment group 1                     C   9            
+0070   NAD Name and address                          M   1            
+                                                                      
+0080             Segment group 2                     C   9            
+0090   CTA Contact information                       M   1            
+0100   COM Communication contact                     C   9            
 
-0110       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0120   MSG Message type identification               M   1           ³
-0130   FTX Free text                                 C   999         ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄ¿³
-0150   SGU Segment usage details                     M   1          ³³
-0160   FTX Free text                                 C   99         ³³
-                                                                    ³³
-0170       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-0180   GRU Segment group usage details               M   1         ³³³
-0190   FTX Free text                                 C   99ÄÄÄÄÄÄÄÄÁÁÙ
+0110             Segment group 3                     C   9999         
+0120   MSG Message type identification               M   1            
+0130   FTX Free text                                 C   999          
+                                                                      
+0140             Segment group 4                     C   999          
+0150   SGU Segment usage details                     M   1            
+0160   FTX Free text                                 C   99           
+                                                                      
+0170             Segment group 5                     C   1            
+0180   GRU Segment group usage details               M   1            
+0190   FTX Free text                                 C   99           
 
-0200       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0210   SEG Segment identification                    M   1           ³
-0220   FTX Free text                                 C   9           ³
-0230   ELU Data element usage details                C   99ÄÄÄÄÄÄÄÄÄÄÙ
+0200             Segment group 6                     C   9999         
+0210   SEG Segment identification                    M   1            
+0220   FTX Free text                                 C   9            
+0230   ELU Data element usage details                C   99           
 
-0240       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0250   CMP Composite data element identification     M   1           ³
-0260   FTX Free text                                 C   9           ³
-0270   ELU Data element usage details                C   99ÄÄÄÄÄÄÄÄÄÄÙ
+0240             Segment group 7                     C   9999         
+0250   CMP Composite data element identification     M   1            
+0260   FTX Free text                                 C   9            
+0270   ELU Data element usage details                C   99           
 
-0280       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0290   ELM Simple data element details               M   1           ³
-0300   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0280             Segment group 8                     C   9999         
+0290   ELM Simple data element details               M   1            
+0300   FTX Free text                                 C   9            
 
-0310       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0320   CDS Code set identification                   M   1           ³
-0330   FTX Free text                                 C   9           ³
-                                                                     ³
-0340       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0350   CDV Code value definition                     M   1          ³³
-0360   FTX Free text                                 C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0310             Segment group 9                     C   9999         
+0320   CDS Code set identification                   M   1            
+0330   FTX Free text                                 C   9            
+                                                                      
+0340             Segment group 10                    C   9999         
+0350   CDV Code value definition                     M   1            
+0360   FTX Free text                                 C   9            
 0370   UNT Message trailer                           M   1     

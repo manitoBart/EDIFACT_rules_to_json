@@ -10,7 +10,7 @@
      a minus sign (-)   for a deletion
      a X sign (X)       for marked for deletion
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + ADR    ADDRESS
 
@@ -53,7 +53,7 @@
       3055   Code list responsible agency, coded           C  an..3
       3224   Place/location                                C  an..17
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       AGR    AGREEMENT IDENTIFICATION
 
@@ -68,7 +68,7 @@
 
 020   9419  SERVICE LAYER, CODED                           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       AJT    ADJUSTMENT DETAILS
 
@@ -78,7 +78,7 @@
 
 020   1082  LINE ITEM NUMBER                               C  n..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ALC    ALLOWANCE OR CHARGE
 
@@ -100,7 +100,7 @@
       3055   Code list responsible agency, coded           C  an..3
       7160   Special service                               C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ALI    ADDITIONAL INFORMATION
 
@@ -122,7 +122,7 @@
 
 070   4183  SPECIAL CONDITIONS, CODED                      C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       APR    ADDITIONAL PRICE INFORMATION
 
@@ -142,7 +142,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4294   Change reason                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ARD    AMOUNTS RELATIONSHIP DETAILS
 
@@ -154,7 +154,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ARR    ARRAY INFORMATION
 
@@ -173,7 +173,7 @@
 020   C770  ARRAY CELL DETAILS                             C  
       9424   Array cell information                        C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ASI    ARRAY STRUCTURE IDENTIFICATION
 
@@ -192,7 +192,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ATT    ATTRIBUTE
 
@@ -211,7 +211,7 @@
       3055   Code list responsible agency, coded           C  an..3
       9018   Attribute                                     C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       AUT    AUTHENTICATION RESULT
 
@@ -222,7 +222,7 @@
 
 020   9282  VALIDATION KEY IDENTIFICATION                  C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       BGM    BEGINNING OF MESSAGE
 
@@ -241,7 +241,7 @@
 
 040   4343  RESPONSE TYPE, CODED                           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       BII    STRUCTURE IDENTIFICATION
 
@@ -261,7 +261,7 @@
 
 030   7140  ITEM NUMBER                                    C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       BUS    BUSINESS FUNCTION
 
@@ -286,7 +286,7 @@
 
 050   4463  INTRA-COMPANY PAYMENT, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + CAV    CHARACTERISTIC VALUE
 
@@ -299,7 +299,7 @@
       7110   Characteristic value                          C  an..35
       7110   Characteristic value                          C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CCD    CREDIT COVER DETAILS
 
@@ -312,7 +312,7 @@
 
 030   4509  CREDIT COVER REASON, CODED                     C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CCI    CHARACTERISTIC/CLASS ID
 
@@ -333,7 +333,7 @@
       7036   Characteristic                                C  an..35
       7036   Characteristic                                C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + CDS    CODE SET IDENTIFICATION
 
@@ -349,7 +349,7 @@
 
 030   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CDV    CODE VALUE DEFINITION
 
@@ -361,7 +361,7 @@
 
 030   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CED    COMPUTER ENVIRONMENT DETAILS
 
@@ -382,7 +382,7 @@
       1058   Release                                       C  an..9
       7402   Identity number                               C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + CMP    COMPOSITE DATA ELEMENT IDENTIFICATION
 
@@ -395,7 +395,7 @@
 
 030   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CNI    CONSIGNMENT INFORMATION
 
@@ -411,7 +411,7 @@
 
 030   1312  CONSIGNMENT LOAD SEQUENCE NUMBER               C  n..4
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CNT    CONTROL TOTAL
 
@@ -422,7 +422,7 @@
       6066   Control value                                 M  n..18
       6411   Measure unit qualifier                        C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       COD    COMPONENT DETAILS
 
@@ -442,7 +442,7 @@
       3055   Code list responsible agency, coded           C  an..3
       7506   Component material                            C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       COM    COMMUNICATION CONTACT
 
@@ -453,7 +453,7 @@
       3148   Communication number                          M  an..25
       3155   Communication channel qualifier               M  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       COT    CONTRIBUTION DETAILS
 
@@ -494,7 +494,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4294   Change reason                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CPI    CHARGE PAYMENT INSTRUCTIONS
 
@@ -512,7 +512,7 @@
 
 030   4237  PREPAID/COLLECT INDICATOR, CODED               C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CPS    CONSIGNMENT PACKING SEQUENCE
 
@@ -527,7 +527,7 @@
 
 030   7075  PACKAGING LEVEL, CODED                         C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CST    CUSTOMS STATUS OF GOODS
 
@@ -561,7 +561,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CTA    CONTACT INFORMATION
 
@@ -574,7 +574,7 @@
       3413   Department or employee identification         C  an..17
       3412   Department or employee                        C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       CUX    CURRENCIES
 
@@ -597,7 +597,7 @@
 
 040   6341  CURRENCY MARKET EXCHANGE, CODED                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DAM    DAMAGE
 
@@ -629,7 +629,7 @@
       3055   Code list responsible agency, coded           C  an..3
       1228   Action request/notification                   C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DGS    DANGEROUS GOODS
 
@@ -673,7 +673,7 @@
 
 130   8211  PERMISSION FOR TRANSPORT, CODED                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + DII    DIRECTORY IDENTIFICATION
 
@@ -693,7 +693,7 @@
 
 060   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DIM    DIMENSIONS
 
@@ -707,7 +707,7 @@
       6140   Width dimension                               C  n..15
       6008   Height dimension                              C  n..15
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DLI    DOCUMENT LINE IDENTIFICATION
 
@@ -718,7 +718,7 @@
 
 020   1082  LINE ITEM NUMBER                               M  n..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DLM    DELIVERY LIMITATIONS
 
@@ -741,7 +741,7 @@
 
 040   4457  PRODUCT/SERVICE SUBSTITUTION, CODED            C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DMS    DOCUMENT/MESSAGE SUMMARY
 
@@ -754,7 +754,7 @@
 
 030   7240  TOTAL NUMBER OF ITEMS                          C  n..15
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DOC    DOCUMENT/MESSAGE DETAILS
 
@@ -782,7 +782,7 @@
 
 050   1218  NUMBER OF ORIGINALS OF DOCUMENT REQUIRED       C  n..2
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DSI    DATA SET IDENTIFICATION
 
@@ -807,7 +807,7 @@
 
 050   1060  REVISION NUMBER                                C  an..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       DTM    DATE/TIME/PERIOD
 
@@ -818,7 +818,7 @@
       2380   Date/time/period                              C  an..35
       2379   Date/time/period format qualifier             C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       EFI    EXTERNAL FILE LINK IDENTIFICATION
 
@@ -837,7 +837,7 @@
 
 030   1050  SEQUENCE NUMBER                                C  an..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + ELM    SIMPLE DATA ELEMENT DETAILS
 
@@ -861,7 +861,7 @@
 
 080   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + ELU    DATA ELEMENT USAGE DETAILS
 
@@ -875,7 +875,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     * EMP    EMPLOYMENT DETAILS
 
@@ -907,7 +907,7 @@
 
 060 + 9035  QUALIFICATION AREA, CODED                      C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       EQA    ATTACHED EQUIPMENT
 
@@ -921,7 +921,7 @@
       3055   Code list responsible agency, coded           C  an..3
       3207   Country, coded                                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       EQD    EQUIPMENT DETAILS
 
@@ -947,7 +947,7 @@
 
 060   8169  FULL/EMPTY INDICATOR, CODED                    C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       EQN    NUMBER OF UNITS
 
@@ -957,7 +957,7 @@
       6350   Number of units                               C  n..15
       6353   Number of units qualifier                     C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ERC    APPLICATION ERROR INFORMATION
 
@@ -969,7 +969,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ERP    ERROR POINT DETAILS
 
@@ -981,7 +981,7 @@
       1052   Message item number                           C  an..35
       1054   Message sub-item number                       C  n..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       FCA    FINANCIAL CHARGES ALLOCATION
 
@@ -996,7 +996,7 @@
       3194   Account holder number                         C  an..35
       6345   Currency, coded                               C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       FII    FINANCIAL INSTITUTION INFORMATION
 
@@ -1023,7 +1023,7 @@
 
 040   3207  COUNTRY, CODED                                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       FNS    FOOTNOTE SET
 
@@ -1042,7 +1042,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       FNT    FOOTNOTE
 
@@ -1061,7 +1061,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       FTX    FREE TEXT
 
@@ -1085,7 +1085,7 @@
 
 050   3453  LANGUAGE, CODED                                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GDS    NATURE OF CARGO
 
@@ -1097,7 +1097,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GID    GOODS ITEM DETAILS
 
@@ -1126,7 +1126,7 @@
       3055   Code list responsible agency, coded           C  an..3
       7064   Type of packages                              C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GIN    GOODS IDENTITY NUMBER
 
@@ -1155,7 +1155,7 @@
       7402   Identity number                               M  an..35
       7402   Identity number                               C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GIR    RELATED IDENTIFICATION NUMBERS
 
@@ -1188,7 +1188,7 @@
       7405   Identity number qualifier                     C  an..3
       4405   Status, coded                                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GIS    GENERAL INDICATOR
 
@@ -1200,7 +1200,7 @@
       3055   Code list responsible agency, coded           C  an..3
       7187   Process type identification                   C  an..17
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       GOR    GOVERNMENTAL REQUIREMENTS
 
@@ -1234,7 +1234,7 @@
       9417   Government action, coded                      C  an..3
       9353   Government procedure, coded                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + GRU    SEGMENT GROUP USAGE DETAILS
 
@@ -1251,7 +1251,7 @@
 
 050   1050  SEQUENCE NUMBER                                C  an..6
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       HAN    HANDLING INSTRUCTIONS
 
@@ -1269,7 +1269,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       ICD    INSURANCE COVER DESCRIPTION
 
@@ -1287,7 +1287,7 @@
       4494   Insurance cover                               C  an..35
       4494   Insurance cover                               C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       IDE    IDENTITY
 
@@ -1320,7 +1320,7 @@
       7036   Characteristic                                C  an..35
       7036   Characteristic                                C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + IHC    PERSON CHARACTERISTIC
 
@@ -1336,7 +1336,7 @@
       3055   Code list responsible agency, coded           C  an..3
       3310   Person inherited characteristic               C  an..70
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       IMD    ITEM DESCRIPTION
 
@@ -1356,7 +1356,7 @@
 
 040   7383  SURFACE/LAYER INDICATOR, CODED                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       IND    INDEX DETAILS
 
@@ -1372,7 +1372,7 @@
       5030   Index value                                   M  n..6
       5039   Index value representation, coded             C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       INP    PARTIES TO INSTRUCTION
 
@@ -1396,7 +1396,7 @@
 
 040   1229  ACTION REQUEST/NOTIFICATION, CODED             C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       INV    INVENTORY MANAGEMENT RELATED DETAILS
 
@@ -1420,7 +1420,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4400   Instruction                                   C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       IRQ    INFORMATION REQUIRED
 
@@ -1433,7 +1433,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4510   Requested information                         C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + LAN    LANGUAGE
 
@@ -1445,7 +1445,7 @@
       3453   Language, coded                               C  an..3
       3452   Language                                      C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       LIN    LINE ITEM
 
@@ -1469,7 +1469,7 @@
 
 060   7083  CONFIGURATION, CODED                           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       LOC    PLACE/LOCATION IDENTIFICATION
 
@@ -1498,7 +1498,7 @@
 
 050   5479  RELATION, CODED                                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       MEA    MEASUREMENTS
 
@@ -1522,7 +1522,7 @@
 
 040   7383  SURFACE/LAYER INDICATOR, CODED                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       MEM    MEMBERSHIP DETAILS
 
@@ -1569,7 +1569,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4294   Change reason                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       MKS    MARKET/SALES CHANNEL INFORMATION
 
@@ -1587,7 +1587,7 @@
 
 030   1229  ACTION REQUEST/NOTIFICATION, CODED             C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       MOA    MONETARY AMOUNT
 
@@ -1600,7 +1600,7 @@
       6343   Currency qualifier                            C  an..3
       4405   Status, coded                                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + MSG    MESSAGE TYPE IDENTIFICATION
 
@@ -1619,7 +1619,7 @@
 
 030   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     | NAD    NAME AND ADDRESS
 
@@ -1677,7 +1677,7 @@
 
 090   3207  COUNTRY, CODED                                 C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + NAT    NATIONALITY
 
@@ -1691,7 +1691,7 @@
       3055   Code list responsible agency, coded           C  an..3
       3292   Nationality                                   C  a..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PAC    PACKAGE
 
@@ -1723,7 +1723,7 @@
              responsibility, coded
       8393   Returnable package load contents, coded       C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PAI    PAYMENT INSTRUCTIONS
 
@@ -1737,7 +1737,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4435   Payment channel, coded                        C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PAT    PAYMENT TERMS BASIS
 
@@ -1758,7 +1758,7 @@
       2151   Type of period, coded                         C  an..3
       2152   Number of periods                             C  n..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PCD    PERCENTAGE DETAILS
 
@@ -1771,7 +1771,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PCI    PACKAGE IDENTIFICATION
 
@@ -1799,7 +1799,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + PDI    PERSON DEMOGRAPHIC INFORMATION
 
@@ -1819,7 +1819,7 @@
       3055   Code list responsible agency, coded           C  an..3
       3482   Religion                                      C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PGI    PRODUCT GROUP INFORMATION
 
@@ -1833,7 +1833,7 @@
       3055   Code list responsible agency, coded           C  an..3
       5388   Product group                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PIA    ADDITIONAL PRODUCT ID
 
@@ -1872,7 +1872,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     X PIT    PRICE ITEM LINE
 
@@ -1899,7 +1899,7 @@
 
 070   7083  CONFIGURATION, CODED                           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + PNA    PARTY NAME
 
@@ -1958,7 +1958,7 @@
       3401   Name component status, coded                  C  an..3
       3295   Name component original representation, coded C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PRC    PROCESS IDENTIFICATION
 
@@ -1971,7 +1971,7 @@
       7186   Process type                                  C  an..35
       7186   Process type                                  C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PRI    PRICE DETAILS
 
@@ -1987,7 +1987,7 @@
 
 020   5213  SUB-LINE PRICE CHANGE, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       PSD    PHYSICAL SAMPLE DESCRIPTION
 
@@ -2011,7 +2011,7 @@
       3237   Sample location, coded                        C  an..3
       3236   Sample location                               C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + PTY    PRIORITY
 
@@ -2026,7 +2026,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4036   Priority                                      C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       QTY    QUANTITY
 
@@ -2037,7 +2037,7 @@
       6060   Quantity                                      M  n..15
       6411   Measure unit qualifier                        C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       QVR    QUANTITY VARIANCES
 
@@ -2059,7 +2059,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4294   Change reason                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       RCS    REQUIREMENTS AND CONDITIONS
 
@@ -2075,7 +2075,7 @@
 
 030   1229  ACTION REQUEST/NOTIFICATION, CODED             C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       REL    RELATIONSHIP
 
@@ -2092,7 +2092,7 @@
       3055   Code list responsible agency, coded           C  an..3
       9142   Relationship                                  C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       RFF    REFERENCE
 
@@ -2104,7 +2104,7 @@
       1156   Line number                                   C  an..6
       4000   Reference version number                      C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       RNG    RANGE DETAILS
 
@@ -2117,7 +2117,7 @@
       6162   Range minimum                                 C  n..18
       6152   Range maximum                                 C  n..18
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       RTE    RATE DETAILS
 
@@ -2129,7 +2129,7 @@
       5284   Unit price basis                              C  n..9
       6411   Measure unit qualifier                        C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + SAL    REMUNERATION TYPE IDENTIFICATION
 
@@ -2142,7 +2142,7 @@
       5314   Remuneration type                             C  an..35
       5314   Remuneration type                             C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SCC    SCHEDULING CONDITIONS
 
@@ -2157,7 +2157,7 @@
       2015   Despatch pattern, coded                       C  an..3
       2017   Despatch pattern timing, coded                C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SCD    STRUCTURE COMPONENT DEFINITION
 
@@ -2190,7 +2190,7 @@
       7036   Characteristic                                C  an..35
       7036   Characteristic                                C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + SEG    SEGMENT IDENTIFICATION
 
@@ -2203,7 +2203,7 @@
 
 030   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SEL    SEAL NUMBER
 
@@ -2219,7 +2219,7 @@
 
 030   4517  SEAL CONDITION, CODED                          C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SEQ    SEQUENCE DETAILS
 
@@ -2234,7 +2234,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + SFI    SAFETY INFORMATION
 
@@ -2254,7 +2254,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SGP    SPLIT GOODS PLACEMENT
 
@@ -2269,7 +2269,7 @@
 
 020   7224  NUMBER OF PACKAGES                             C  n..8
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
     + SGU    SEGMENT USAGE DETAILS
 
@@ -2290,7 +2290,7 @@
 
 070   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       SPS    SAMPLING PARAMETERS FOR SUMMARY STATISTICS
 
@@ -2324,7 +2324,7 @@
       6173   Size qualifier                                C  an..3
       6174   Size                                          C  n..15
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       STA    STATISTICS
 
@@ -2339,7 +2339,7 @@
       6313   Measurement dimension, coded                  C  an..3
       6321   Measurement significance, coded               C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       STC    STATISTICAL CONCEPT
 
@@ -2358,7 +2358,7 @@
 
 040   4513  MAINTENANCE OPERATION, CODED                   C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       STG    STAGES
 
@@ -2371,7 +2371,7 @@
 
 030   6428  ACTUAL STAGE COUNT                             C  n..2
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       STS    STATUS
 
@@ -2421,7 +2421,7 @@
       3055   Code list responsible agency, coded           C  an..3
       9012   Status reason                                 C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TAX    DUTY/TAX/FEE DETAILS
 
@@ -2455,7 +2455,7 @@
 
 070   3446  PARTY TAX IDENTIFICATION NUMBER                C  an..20
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TCC    TRANSPORT CHARGE/RATE CALCULATIONS
 
@@ -2492,7 +2492,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TDT    DETAILS OF TRANSPORT
 
@@ -2536,7 +2536,7 @@
 
 090   8281  TRANSPORT OWNERSHIP, CODED                     C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TEM    TEST METHOD
 
@@ -2562,7 +2562,7 @@
       3055   Code list responsible agency, coded           C  an..3
       4424   Test reason                                   C  an..35
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TMD    TRANSPORT MOVEMENT DETAILS
 
@@ -2577,7 +2577,7 @@
 
 030   8341  HAULAGE ARRANGEMENTS, CODED                    C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TMP    TEMPERATURE
 
@@ -2589,7 +2589,7 @@
       6246   Temperature setting                           C  n3
       6411   Measure unit qualifier                        C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TOD    TERMS OF DELIVERY OR TRANSPORT
 
@@ -2606,7 +2606,7 @@
       4052   Terms of delivery or transport                C  an..70
       4052   Terms of delivery or transport                C  an..70
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TPL    TRANSPORT PLACEMENT
 
@@ -2621,7 +2621,7 @@
       8212   Id. of the means of transport                 C  an..35
       8453   Nationality of means of transport, coded      C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       TSR    TRANSPORT SERVICE REQUIREMENTS
 
@@ -2651,7 +2651,7 @@
       1131   Code list qualifier                           C  an..3
       3055   Code list responsible agency, coded           C  an..3
 
-컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
 
       VLI    VALUE LIST IDENTIFICATION
 

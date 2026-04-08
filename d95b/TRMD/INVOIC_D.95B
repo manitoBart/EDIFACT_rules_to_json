@@ -1210,244 +1210,244 @@ Pos    Tag Name                                      S   R
 0060   IMD Item description                          C   1     
 0070   FTX Free text                                 C   10    
 
-0080       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0090   RFF Reference                                 M   1           ³
-0100   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0080             Segment group 1                     C   99           
+0090   RFF Reference                                 M   1            
+0100   DTM Date/time/period                          C   5            
 
-0110       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄÄ¿
-0120   NAD Name and address                          M   1           ³
-0130   LOC Place/location identification             C   25          ³
-0140   FII Financial institution information         C   5           ³
-                                                                     ³
-0150       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0160   RFF Reference                                 M   1          ³³
-0170   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0180       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0190   DOC Document/message details                  M   1          ³³
-0200   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0220   CTA Contact information                       M   1          ³³
-0230   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0110             Segment group 2                     C   99           
+0120   NAD Name and address                          M   1            
+0130   LOC Place/location identification             C   25           
+0140   FII Financial institution information         C   5            
+                                                                      
+0150             Segment group 3                     C   9999         
+0160   RFF Reference                                 M   1            
+0170   DTM Date/time/period                          C   5            
+                                                                      
+0180             Segment group 4                     C   5            
+0190   DOC Document/message details                  M   1            
+0200   DTM Date/time/period                          C   5            
+                                                                      
+0210             Segment group 5                     C   5            
+0220   CTA Contact information                       M   1            
+0230   COM Communication contact                     C   5            
 
-0240       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0250   TAX Duty/tax/fee details                      M   1           ³
-0260   MOA Monetary amount                           C   1           ³
-0270   LOC Place/location identification             C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0240             Segment group 6                     C   5            
+0250   TAX Duty/tax/fee details                      M   1            
+0260   MOA Monetary amount                           C   1            
+0270   LOC Place/location identification             C   5            
 
-0280       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0290   CUX Currencies                                M   1           ³
-0300   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0280             Segment group 7                     C   5            
+0290   CUX Currencies                                M   1            
+0300   DTM Date/time/period                          C   5            
 
-0310       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0320   PAT Payment terms basis                       M   1           ³
-0330   DTM Date/time/period                          C   5           ³
-0340   PCD Percentage details                        C   1           ³
-0350   MOA Monetary amount                           C   1           ³
-0360   PAI Payment instructions                      C   1           ³
-0370   FII Financial institution information         C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0310             Segment group 8                     C   10           
+0320   PAT Payment terms basis                       M   1            
+0330   DTM Date/time/period                          C   5            
+0340   PCD Percentage details                        C   1            
+0350   MOA Monetary amount                           C   1            
+0360   PAI Payment instructions                      C   1            
+0370   FII Financial institution information         C   1            
 
-0380       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-0390   TDT Details of transport                      M   1           ³
-                                                                     ³
-0400       ÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0410   LOC Place/location identification             M   1          ³³
-0420   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0430       ÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-0440   RFF Reference                                 M   1          ³³
-0450   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0380             Segment group 9                     C   10           
+0390   TDT Details of transport                      M   1            
+                                                                      
+0400             Segment group 10                    C   10           
+0410   LOC Place/location identification             M   1            
+0420   DTM Date/time/period                          C   5            
+                                                                      
+0430             Segment group 11                    C   9999         
+0440   RFF Reference                                 M   1            
+0450   DTM Date/time/period                          C   5            
 
-0460       ÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0470   TOD Terms of delivery or transport            M   1           ³
-0480   LOC Place/location identification             C   2ÄÄÄÄÄÄÄÄÄÄÄÙ
+0460             Segment group 12                    C   5            
+0470   TOD Terms of delivery or transport            M   1            
+0480   LOC Place/location identification             C   2            
 
-0490       ÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1000ÄÄÄÄÄÄÄÄ¿
-0500   PAC Package                                   M   1           ³
-0510   MEA Measurements                              C   5           ³
-                                                                     ³
-0520       ÄÄÄÄÄ Segment group 14 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0530   PCI Package identification                    M   1          ³³
-0540   RFF Reference                                 C   1          ³³
-0550   DTM Date/time/period                          C   5          ³³
-0560   GIN Goods identity number                     C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0490             Segment group 13                    C   1000         
+0500   PAC Package                                   M   1            
+0510   MEA Measurements                              C   5            
+                                                                      
+0520             Segment group 14                    C   5            
+0530   PCI Package identification                    M   1            
+0540   RFF Reference                                 C   1            
+0550   DTM Date/time/period                          C   5            
+0560   GIN Goods identity number                     C   5            
 
-0570       ÄÄÄÄÄ Segment group 15 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄÄ¿
-0580   ALC Allowance or charge                       M   1           ³
-0590   ALI Additional information                    C   5           ³
-                                                                     ³
-0600       ÄÄÄÄÄ Segment group 16 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0610   RFF Reference                                 M   1          ³³
-0620   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0630       ÄÄÄÄÄ Segment group 17 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0640   QTY Quantity                                  M   1          ³³
-0650   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0660       ÄÄÄÄÄ Segment group 18 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0670   PCD Percentage details                        M   1          ³³
-0680   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0690       ÄÄÄÄÄ Segment group 19 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄÄ¿³
-0700   MOA Monetary amount                           M   1          ³³
-0710   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0720       ÄÄÄÄÄ Segment group 20 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0730   RTE Rate details                              M   1          ³³
-0740   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0750       ÄÄÄÄÄ Segment group 21 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0760   TAX Duty/tax/fee details                      M   1          ³³
-0770   MOA Monetary amount                           C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0570             Segment group 15                    C   9999         
+0580   ALC Allowance or charge                       M   1            
+0590   ALI Additional information                    C   5            
+                                                                      
+0600             Segment group 16                    C   5            
+0610   RFF Reference                                 M   1            
+0620   DTM Date/time/period                          C   5            
+                                                                      
+0630             Segment group 17                    C   1            
+0640   QTY Quantity                                  M   1            
+0650   RNG Range details                             C   1            
+                                                                      
+0660             Segment group 18                    C   1            
+0670   PCD Percentage details                        M   1            
+0680   RNG Range details                             C   1            
+                                                                      
+0690             Segment group 19                    C   2            
+0700   MOA Monetary amount                           M   1            
+0710   RNG Range details                             C   1            
+                                                                      
+0720             Segment group 20                    C   1            
+0730   RTE Rate details                              M   1            
+0740   RNG Range details                             C   1            
+                                                                      
+0750             Segment group 21                    C   5            
+0760   TAX Duty/tax/fee details                      M   1            
+0770   MOA Monetary amount                           C   1            
 
-0780       ÄÄÄÄÄ Segment group 22 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   100ÄÄÄÄÄÄÄÄÄ¿
-0790   RCS Requirements and conditions               M   1           ³
-0800   RFF Reference                                 C   5           ³
-0810   DTM Date/time/period                          C   5           ³
-0820   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0780             Segment group 22                    C   100          
+0790   RCS Requirements and conditions               M   1            
+0800   RFF Reference                                 C   5            
+0810   DTM Date/time/period                          C   5            
+0820   FTX Free text                                 C   5            
 
-0830       ÄÄÄÄÄ Segment group 23 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0840   AJT Adjustment details                        M   1           ³
-0850   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0830             Segment group 23                    C   1            
+0840   AJT Adjustment details                        M   1            
+0850   FTX Free text                                 C   5            
 
-0860       ÄÄÄÄÄ Segment group 24 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0870   INP Parties to instruction                    M   1           ³
-0880   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÄÙ
+0860             Segment group 24                    C   1            
+0870   INP Parties to instruction                    M   1            
+0880   FTX Free text                                 C   5            
 
            DETAIL SECTION
 
-0890       ÄÄÄÄÄ Segment group 25 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999999ÄÄÄÄÄ¿
-0900   LIN Line item                                 M   1           ³
-0910   PIA Additional product id                     C   25          ³
-0920   IMD Item description                          C   10          ³
-0930   MEA Measurements                              C   5           ³
-0940   QTY Quantity                                  C   5           ³
-0950   PCD Percentage details                        C   1           ³
-0960   ALI Additional information                    C   5           ³
-0970   DTM Date/time/period                          C   35          ³
-0980   GIN Goods identity number                     C   1000        ³
-0990   GIR Related identification numbers            C   1000        ³
-1000   QVR Quantity variances                        C   1           ³
-1010   EQD Equipment details                         C   1           ³
-1020   FTX Free text                                 C   5           ³
-                                                                     ³
-1030       ÄÄÄÄÄ Segment group 26 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-1040   MOA Monetary amount                           M   1          ³³
-1050   CUX Currencies                                C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1060       ÄÄÄÄÄ Segment group 27 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-1070   PAT Payment terms basis                       M   1          ³³
-1080   DTM Date/time/period                          C   5          ³³
-1090   PCD Percentage details                        C   1          ³³
-1100   MOA Monetary amount                           C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1110       ÄÄÄÄÄ Segment group 28 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   25ÄÄÄÄÄÄÄÄÄ¿³
-1120   PRI Price details                             M   1          ³³
-1130   APR Additional price information              C   1          ³³
-1140   RNG Range details                             C   1          ³³
-1150   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1160       ÄÄÄÄÄ Segment group 29 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-1170   RFF Reference                                 M   1          ³³
-1180   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1190       ÄÄÄÄÄ Segment group 30 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-1200   PAC Package                                   M   1          ³³
-1210   MEA Measurements                              C   10         ³³
-                                                                    ³³
-1220       ÄÄÄÄÄ Segment group 31 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-1230   PCI Package identification                    M   1         ³³³
-1240   RFF Reference                                 C   1         ³³³
-1250   DTM Date/time/period                          C   5         ³³³
-1260   GIN Goods identity number                     C   10ÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1270       ÄÄÄÄÄ Segment group 32 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999ÄÄÄÄÄÄÄ¿³
-1280   LOC Place/location identification             M   1          ³³
-1290   QTY Quantity                                  C   100        ³³
-1300   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1310       ÄÄÄÄÄ Segment group 33 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-1320   TAX Duty/tax/fee details                      M   1          ³³
-1330   MOA Monetary amount                           C   1          ³³
-1340   LOC Place/location identification             C   5ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1350       ÄÄÄÄÄ Segment group 34 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-1360   NAD Name and address                          M   1          ³³
-1370   LOC Place/location identification             C   5          ³³
-                                                                    ³³
-1380       ÄÄÄÄÄ Segment group 35 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-1390   RFF Reference                                 M   1         ³³³
-1400   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1410       ÄÄÄÄÄ Segment group 36 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-1420   DOC Document/message details                  M   1         ³³³
-1430   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1440       ÄÄÄÄÄ Segment group 37 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-1450   CTA Contact information                       M   1         ³³³
-1460   COM Communication contact                     C   5ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1470       ÄÄÄÄÄ Segment group 38 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   15ÄÄÄÄÄÄÄÄÄ¿³
-1480   ALC Allowance or charge                       M   1          ³³
-1490   ALI Additional information                    C   5          ³³
-1500   DTM Date/time/period                          C   5          ³³
-                                                                    ³³
-1510       ÄÄÄÄÄ Segment group 39 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-1520   QTY Quantity                                  M   1         ³³³
-1530   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1540       ÄÄÄÄÄ Segment group 40 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-1550   PCD Percentage details                        M   1         ³³³
-1560   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1570       ÄÄÄÄÄ Segment group 41 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2ÄÄÄÄÄÄÄÄÄ¿³³
-1580   MOA Monetary amount                           M   1         ³³³
-1590   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1600       ÄÄÄÄÄ Segment group 42 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄ¿³³
-1610   RTE Rate details                              M   1         ³³³
-1620   RNG Range details                             C   1ÄÄÄÄÄÄÄÄÄÙ³³
-                                                                    ³³
-1630       ÄÄÄÄÄ Segment group 43 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄ¿³³
-1640   TAX Duty/tax/fee details                      M   1         ³³³
-1650   MOA Monetary amount                           C   1ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1660       ÄÄÄÄÄ Segment group 44 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-1670   TDT Details of transport                      M   1          ³³
-                                                                    ³³
-1680       ÄÄÄÄÄ Segment group 45 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄ¿³³
-1690   LOC Place/location identification             M   1         ³³³
-1700   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÁÙ³
-                                                                     ³
-1710       ÄÄÄÄÄ Segment group 46 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-1720   TOD Terms of delivery or transport            M   1          ³³
-1730   LOC Place/location identification             C   2ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-1740       ÄÄÄÄÄ Segment group 47 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   100ÄÄÄÄÄÄÄÄ¿³
-1750   RCS Requirements and conditions               M   1          ³³
-1760   RFF Reference                                 C   5          ³³
-1770   DTM Date/time/period                          C   5          ³³
-1780   FTX Free text                                 C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+0890             Segment group 25                    C   9999999      
+0900   LIN Line item                                 M   1            
+0910   PIA Additional product id                     C   25           
+0920   IMD Item description                          C   10           
+0930   MEA Measurements                              C   5            
+0940   QTY Quantity                                  C   5            
+0950   PCD Percentage details                        C   1            
+0960   ALI Additional information                    C   5            
+0970   DTM Date/time/period                          C   35           
+0980   GIN Goods identity number                     C   1000         
+0990   GIR Related identification numbers            C   1000         
+1000   QVR Quantity variances                        C   1            
+1010   EQD Equipment details                         C   1            
+1020   FTX Free text                                 C   5            
+                                                                      
+1030             Segment group 26                    C   5            
+1040   MOA Monetary amount                           M   1            
+1050   CUX Currencies                                C   1            
+                                                                      
+1060             Segment group 27                    C   10           
+1070   PAT Payment terms basis                       M   1            
+1080   DTM Date/time/period                          C   5            
+1090   PCD Percentage details                        C   1            
+1100   MOA Monetary amount                           C   1            
+                                                                      
+1110             Segment group 28                    C   25           
+1120   PRI Price details                             M   1            
+1130   APR Additional price information              C   1            
+1140   RNG Range details                             C   1            
+1150   DTM Date/time/period                          C   5            
+                                                                      
+1160             Segment group 29                    C   10           
+1170   RFF Reference                                 M   1            
+1180   DTM Date/time/period                          C   5            
+                                                                      
+1190             Segment group 30                    C   10           
+1200   PAC Package                                   M   1            
+1210   MEA Measurements                              C   10           
+                                                                      
+1220             Segment group 31                    C   10           
+1230   PCI Package identification                    M   1            
+1240   RFF Reference                                 C   1            
+1250   DTM Date/time/period                          C   5            
+1260   GIN Goods identity number                     C   10           
+                                                                      
+1270             Segment group 32                    C   9999         
+1280   LOC Place/location identification             M   1            
+1290   QTY Quantity                                  C   100          
+1300   DTM Date/time/period                          C   5            
+                                                                      
+1310             Segment group 33                    C   20           
+1320   TAX Duty/tax/fee details                      M   1            
+1330   MOA Monetary amount                           C   1            
+1340   LOC Place/location identification             C   5            
+                                                                      
+1350             Segment group 34                    C   20           
+1360   NAD Name and address                          M   1            
+1370   LOC Place/location identification             C   5            
+                                                                      
+1380             Segment group 35                    C   5            
+1390   RFF Reference                                 M   1            
+1400   DTM Date/time/period                          C   5            
+                                                                      
+1410             Segment group 36                    C   5            
+1420   DOC Document/message details                  M   1            
+1430   DTM Date/time/period                          C   5            
+                                                                      
+1440             Segment group 37                    C   5            
+1450   CTA Contact information                       M   1            
+1460   COM Communication contact                     C   5            
+                                                                      
+1470             Segment group 38                    C   15           
+1480   ALC Allowance or charge                       M   1            
+1490   ALI Additional information                    C   5            
+1500   DTM Date/time/period                          C   5            
+                                                                      
+1510             Segment group 39                    C   1            
+1520   QTY Quantity                                  M   1            
+1530   RNG Range details                             C   1            
+                                                                      
+1540             Segment group 40                    C   1            
+1550   PCD Percentage details                        M   1            
+1560   RNG Range details                             C   1            
+                                                                      
+1570             Segment group 41                    C   2            
+1580   MOA Monetary amount                           M   1            
+1590   RNG Range details                             C   1            
+                                                                      
+1600             Segment group 42                    C   1            
+1610   RTE Rate details                              M   1            
+1620   RNG Range details                             C   1            
+                                                                      
+1630             Segment group 43                    C   5            
+1640   TAX Duty/tax/fee details                      M   1            
+1650   MOA Monetary amount                           C   1            
+                                                                      
+1660             Segment group 44                    C   10           
+1670   TDT Details of transport                      M   1            
+                                                                      
+1680             Segment group 45                    C   10           
+1690   LOC Place/location identification             M   1            
+1700   DTM Date/time/period                          C   5            
+                                                                      
+1710             Segment group 46                    C   5            
+1720   TOD Terms of delivery or transport            M   1            
+1730   LOC Place/location identification             C   2            
+                                                                      
+1740             Segment group 47                    C   100          
+1750   RCS Requirements and conditions               M   1            
+1760   RFF Reference                                 C   5            
+1770   DTM Date/time/period                          C   5            
+1780   FTX Free text                                 C   5            
 
            SUMMARY SECTION
 
 1790   UNS Section control                           M   1     
 1800   CNT Control total                             C   10    
 
-1810       ÄÄÄÄÄ Segment group 48 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   100ÄÄÄÄÄÄÄÄÄ¿
-1820   MOA Monetary amount                           M   1           ³
-                                                                     ³
-1830       ÄÄÄÄÄ Segment group 49 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-1840   RFF Reference                                 M   1          ³³
-1850   DTM Date/time/period                          C   5ÄÄÄÄÄÄÄÄÄÄÁÙ
+1810             Segment group 48                    M   100          
+1820   MOA Monetary amount                           M   1            
+                                                                      
+1830             Segment group 49                    C   1            
+1840   RFF Reference                                 M   1            
+1850   DTM Date/time/period                          C   5            
 
-1860       ÄÄÄÄÄ Segment group 50 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄÄ¿
-1870   TAX Duty/tax/fee details                      M   1           ³
-1880   MOA Monetary amount                           C   2ÄÄÄÄÄÄÄÄÄÄÄÙ
+1860             Segment group 50                    C   10           
+1870   TAX Duty/tax/fee details                      M   1            
+1880   MOA Monetary amount                           C   2            
 
-1890       ÄÄÄÄÄ Segment group 51 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   15ÄÄÄÄÄÄÄÄÄÄ¿
-1900   ALC Allowance or charge                       M   1           ³
-1910   ALI Additional information                    C   1           ³
-1920   MOA Monetary amount                           C   2ÄÄÄÄÄÄÄÄÄÄÄÙ
+1890             Segment group 51                    C   15           
+1900   ALC Allowance or charge                       M   1            
+1910   ALI Additional information                    C   1            
+1920   MOA Monetary amount                           C   2            
 1930   UNT Message trailer                           M   1     

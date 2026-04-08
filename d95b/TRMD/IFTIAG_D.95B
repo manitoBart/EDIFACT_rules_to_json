@@ -443,39 +443,39 @@ Pos    Tag Name                                      S   R
 0040   FTX Free text                                 C   5     
 0050   RFF Reference                                 C   1     
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0070   TDT Details of transport                      M   1           ³
-0080   DTM Date/time/period                          C   1           ³
-0090   CTA Contact information                       C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     M   1            
+0070   TDT Details of transport                      M   1            
+0080   DTM Date/time/period                          C   1            
+0090   CTA Contact information                       C   1            
 
-0100       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   3ÄÄÄÄÄÄÄÄÄÄÄ¿
-0110   LOC Place/location identification             M   1           ³
-0120   NAD Name and address                          C   1           ³
-0130   RFF Reference                                 C   1           ³
-0140   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0100             Segment group 2                     M   3            
+0110   LOC Place/location identification             M   1            
+0120   NAD Name and address                          C   1            
+0130   RFF Reference                                 C   1            
+0140   DTM Date/time/period                          C   1            
 
-0150       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0160   EQD Equipment details                         M   1           ³
-0170   SEL Seal number                               C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0150             Segment group 3                     M   9999         
+0160   EQD Equipment details                         M   1            
+0170   SEL Seal number                               C   1            
 
-0180       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0190   CNI Consignment information                   M   1           ³
-0200   LOC Place/location identification             C   2           ³
-0210   RFF Reference                                 C   2           ³
-0220   NAD Name and address                          C   2           ³
-                                                                     ³
-0230       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄ¿³
-0240   GID Goods item details                        M   1          ³³
-0250   FTX Free text                                 M   5          ³³
-0260   PCI Package identification                    C   1          ³³
-                                                                    ³³
-0270       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1ÄÄÄÄÄÄÄÄÄ¿³³
-0280   DGS Dangerous goods                           M   1         ³³³
-0290   FTX Free text                                 C   5         ³³³
-0300   MEA Measurements                              C   2         ³³³
-                                                                   ³³³
-0310       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄ¿³³³
-0320   SGP Split goods placement                     M   1        ³³³³
-0330   LOC Place/location identification             C   1        ³³³³
-0340   MEA Measurements                              C   2ÄÄÄÄÄÄÄÄÁÁÁÙ
+0180             Segment group 4                     M   9999         
+0190   CNI Consignment information                   M   1            
+0200   LOC Place/location identification             C   2            
+0210   RFF Reference                                 C   2            
+0220   NAD Name and address                          C   2            
+                                                                      
+0230             Segment group 5                     M   9999         
+0240   GID Goods item details                        M   1            
+0250   FTX Free text                                 M   5            
+0260   PCI Package identification                    C   1            
+                                                                      
+0270             Segment group 6                     M   1            
+0280   DGS Dangerous goods                           M   1            
+0290   FTX Free text                                 C   5            
+0300   MEA Measurements                              C   2            
+                                                                      
+0310             Segment group 7                     M   9999         
+0320   SGP Split goods placement                     M   1            
+0330   LOC Place/location identification             C   1            
+0340   MEA Measurements                              C   2            
 0350   UNT Message trailer                           M   1     

@@ -404,49 +404,49 @@ Pos    Tag Name                                      S   R
 0040   RFF Reference                                 C   9     
 0050   FTX Free text                                 C   99    
 
-0060       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄÄÄ¿
-0070   PNA Party name                                M   1           ³
-0080   ADR Address                                   C   9           ³
-0090   CTA Contact information                       C   9           ³
-0100   COM Communication contact                     C   9           ³
-0110   RFF Reference                                 C   99          ³
-0120   LAN Language                                  C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0060             Segment group 1                     M   99           
+0070   PNA Party name                                M   1            
+0080   ADR Address                                   C   9            
+0090   CTA Contact information                       C   9            
+0100   COM Communication contact                     C   9            
+0110   RFF Reference                                 C   99           
+0120   LAN Language                                  C   9            
 
-0130       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0140   GIS General indicator                         M   1           ³
-0150   PNA Party name                                C   1           ³
-0160   ADR Address                                   C   9           ³
-0170   RFF Reference                                 C   99          ³
-0180   DTM Date/time/period                          C   9           ³
-0190   IHC Person characteristic                     C   9           ³
-0200   NAT Nationality                               C   9           ³
-0210   FTX Free text                                 C   9           ³
-0220   LAN Language                                  C   9           ³
-0230   HAN Handling instructions                     C   9           ³
-0240   LOC Place/location identification             C   9           ³
-0250   FII Financial institution information         C   9           ³
-0260   CTA Contact information                       C   9           ³
-                                                                     ³
-0270       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0280   PDI Person demographic information            M   1          ³³
-0290   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0300       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0310   COM Communication contact                     M   1          ³³
-0320   CTA Contact information                       C   9ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0330       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   99ÄÄÄÄÄÄÄÄÄ¿³
-0340   REL Relationship                              M   1          ³³
-0350   PNA Party name                                C   1          ³³
-0360   ADR Address                                   C   9          ³³
-0370   RFF Reference                                 C   9          ³³
-0380   DTM Date/time/period                          C   9          ³³
-0390   PDI Person demographic information            C   1          ³³
-0400   IHC Person characteristic                     C   9          ³³
-0410   NAT Nationality                               C   9          ³³
-0420   LAN Language                                  C   9ÄÄÄÄÄÄÄÄÄÄÁÙ
+0130             Segment group 2                     M   9999         
+0140   GIS General indicator                         M   1            
+0150   PNA Party name                                C   1            
+0160   ADR Address                                   C   9            
+0170   RFF Reference                                 C   99           
+0180   DTM Date/time/period                          C   9            
+0190   IHC Person characteristic                     C   9            
+0200   NAT Nationality                               C   9            
+0210   FTX Free text                                 C   9            
+0220   LAN Language                                  C   9            
+0230   HAN Handling instructions                     C   9            
+0240   LOC Place/location identification             C   9            
+0250   FII Financial institution information         C   9            
+0260   CTA Contact information                       C   9            
+                                                                      
+0270             Segment group 3                     C   9            
+0280   PDI Person demographic information            M   1            
+0290   DTM Date/time/period                          C   9            
+                                                                      
+0300             Segment group 4                     C   9            
+0310   COM Communication contact                     M   1            
+0320   CTA Contact information                       C   9            
+                                                                      
+0330             Segment group 5                     C   99           
+0340   REL Relationship                              M   1            
+0350   PNA Party name                                C   1            
+0360   ADR Address                                   C   9            
+0370   RFF Reference                                 C   9            
+0380   DTM Date/time/period                          C   9            
+0390   PDI Person demographic information            C   1            
+0400   IHC Person characteristic                     C   9            
+0410   NAT Nationality                               C   9            
+0420   LAN Language                                  C   9            
 
-0430       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9ÄÄÄÄÄÄÄÄÄÄÄ¿
-0440   AUT Authentication result                     M   1           ³
-0450   DTM Date/time/period                          C   9ÄÄÄÄÄÄÄÄÄÄÄÙ
+0430             Segment group 6                     C   9            
+0440   AUT Authentication result                     M   1            
+0450   DTM Date/time/period                          C   9            
 0460   UNT Message trailer                           M   1     

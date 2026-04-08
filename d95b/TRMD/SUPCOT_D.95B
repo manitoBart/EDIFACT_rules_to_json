@@ -420,38 +420,38 @@ Pos    Tag Name                                      S   R
 0080   PAT Payment terms basis                       C   1     
 0090   FTX Free text                                 C   5     
 
-0100       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   6ÄÄÄÄÄÄÄÄÄÄÄ¿
-0110   NAD Name and address                          M   1           ³
-                                                                     ³
-0120       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄ¿³
-0130   CTA Contact information                       M   1          ³³
-0140   COM Communication contact                     C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0100             Segment group 1                     C   6            
+0110   NAD Name and address                          M   1            
+                                                                      
+0120             Segment group 2                     C   5            
+0130   CTA Contact information                       M   1            
+0140   COM Communication contact                     C   1            
 
            DETAIL SECTION
 
 0150   UNS Section control                           M   1     
 
-0160       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   999999ÄÄÄÄÄÄ¿
-0170   NAD Name and address                          M   1           ³
-0180   ATT Attribute                                 C   1           ³
-0190   RFF Reference                                 C   1           ³
-0200   DTM Date/time/period                          C   1           ³
-0210   EMP Employment details                        C   1           ³
-0220   LOC Place/location identification             C   1           ³
-0230   FTX Free text                                 C   3           ³
-                                                                     ³
-0240       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9ÄÄÄÄÄÄÄÄÄÄ¿³
-0250   PAT Payment terms basis                       M   1          ³³
-0260   MOA Monetary amount                           C   1          ³³
-0270   CUX Currencies                                C   1          ³³
-0280   DTM Date/time/period                          C   3          ³³
-0290   FTX Free text                                 C   3          ³³
-                                                                    ³³
-0300       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   99ÄÄÄÄÄÄÄÄ¿³³
-0310   COT Contribution details                      M   1         ³³³
-0320   MOA Monetary amount                           M   1         ³³³
-0330   DTM Date/time/period                          C   3         ³³³
-0340   FTX Free text                                 C   3ÄÄÄÄÄÄÄÄÄÁÁÙ
+0160             Segment group 3                     M   999999       
+0170   NAD Name and address                          M   1            
+0180   ATT Attribute                                 C   1            
+0190   RFF Reference                                 C   1            
+0200   DTM Date/time/period                          C   1            
+0210   EMP Employment details                        C   1            
+0220   LOC Place/location identification             C   1            
+0230   FTX Free text                                 C   3            
+                                                                      
+0240             Segment group 4                     M   9            
+0250   PAT Payment terms basis                       M   1            
+0260   MOA Monetary amount                           C   1            
+0270   CUX Currencies                                C   1            
+0280   DTM Date/time/period                          C   3            
+0290   FTX Free text                                 C   3            
+                                                                      
+0300             Segment group 5                     M   99           
+0310   COT Contribution details                      M   1            
+0320   MOA Monetary amount                           M   1            
+0330   DTM Date/time/period                          C   3            
+0340   FTX Free text                                 C   3            
 
            SUMMARY SECTION
 

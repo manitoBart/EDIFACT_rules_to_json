@@ -371,43 +371,43 @@ Pos    Tag Name                                      S   R
 0070   FTX Free text                                 C   5     
 0080   EQD Equipment details                         C   999   
 
-0090       ÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   50ÄÄÄÄÄÄÄÄÄÄ¿
-0100   ERP Error point details                       M   1           ³
-0110   ERC Application error information             C   50ÄÄÄÄÄÄÄÄÄÄÙ
+0090             Segment group 1                     C   50           
+0100   ERP Error point details                       M   1            
+0110   ERC Application error information             C   50           
 
-0120       ÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   999ÄÄÄÄÄÄÄÄÄ¿
-0130   PAC Package                                   M   1           ³
-                                                                     ³
-0140       ÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄ¿³
-0150   PCI Package identification                    M   1          ³³
-0160   FTX Free text                                 C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0120             Segment group 2                     C   999          
+0130   PAC Package                                   M   1            
+                                                                      
+0140             Segment group 3                     C   1            
+0150   PCI Package identification                    M   1            
+0160   FTX Free text                                 C   1            
 
-0170       ÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   50ÄÄÄÄÄÄÄÄÄÄ¿
-0180   TAX Duty/tax/fee details                      M   1           ³
-0190   MOA Monetary amount                           C   2           ³
-0200   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0170             Segment group 4                     C   50           
+0180   TAX Duty/tax/fee details                      M   1            
+0190   MOA Monetary amount                           C   2            
+0200   GIS General indicator                         C   1            
 
-0210       ÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   9999ÄÄÄÄÄÄÄÄ¿
-0220   RFF Reference                                 M   1           ³
-0230   DTM Date/time/period                          C   1           ³
-0240   MEA Measurements                              C   20          ³
-0250   EQD Equipment details                         C   99          ³
-                                                                     ³
-0260       ÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10ÄÄÄÄÄÄÄÄÄ¿³
-0270   MOA Monetary amount                           M   1          ³³
-0280   CUX Currencies                                C   1ÄÄÄÄÄÄÄÄÄÄÙ³
-                                                                     ³
-0290       ÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   20ÄÄÄÄÄÄÄÄÄ¿³
-0300   TAX Duty/tax/fee details                      M   1          ³³
-0310   MOA Monetary amount                           C   2          ³³
-0320   GIS General indicator                         C   1ÄÄÄÄÄÄÄÄÄÄÁÙ
+0210             Segment group 5                     M   9999         
+0220   RFF Reference                                 M   1            
+0230   DTM Date/time/period                          C   1            
+0240   MEA Measurements                              C   20           
+0250   EQD Equipment details                         C   99           
+                                                                      
+0260             Segment group 6                     C   10           
+0270   MOA Monetary amount                           M   1            
+0280   CUX Currencies                                C   1            
+                                                                      
+0290             Segment group 7                     C   20           
+0300   TAX Duty/tax/fee details                      M   1            
+0310   MOA Monetary amount                           C   2            
+0320   GIS General indicator                         C   1            
 
-0330       ÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5ÄÄÄÄÄÄÄÄÄÄÄ¿
-0340   DOC Document/message details                  M   1           ³
-0350   DTM Date/time/period                          C   2           ³
-0360   LOC Place/location identification             C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0330             Segment group 8                     C   5            
+0340   DOC Document/message details                  M   1            
+0350   DTM Date/time/period                          C   2            
+0360   LOC Place/location identification             C   1            
 
-0370       ÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1ÄÄÄÄÄÄÄÄÄÄÄ¿
-0380   AUT Authentication result                     M   1           ³
-0390   DTM Date/time/period                          C   1ÄÄÄÄÄÄÄÄÄÄÄÙ
+0370             Segment group 9                     C   1            
+0380   AUT Authentication result                     M   1            
+0390   DTM Date/time/period                          C   1            
 0400   UNT Message trailer                           M   1     
