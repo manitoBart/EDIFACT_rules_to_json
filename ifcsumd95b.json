@@ -1,0 +1,1648 @@
+[
+  {
+    "pos": "0010",
+    "tag": "UNH",
+    "description": "Message header",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0020",
+    "tag": "BGM",
+    "description": "Beginning of message",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0030",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0040",
+    "tag": "MOA",
+    "description": "Monetary amount",
+    "mandatory": false,
+    "max_occurrence": 99,
+    "type": "segment"
+  },
+  {
+    "pos": "0050",
+    "tag": "FTX",
+    "description": "Free text",
+    "mandatory": false,
+    "max_occurrence": 99,
+    "type": "segment"
+  },
+  {
+    "pos": "0060",
+    "tag": "CNT",
+    "description": "Control total",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0080",
+    "tag": "RFF",
+    "description": "Reference",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0090",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0110",
+    "tag": "GOR",
+    "description": "Governmental requirements",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0120",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0130",
+    "tag": "LOC",
+    "description": "Place/location identification",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0140",
+    "tag": "SEL",
+    "description": "Seal number",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0150",
+    "tag": "FTX",
+    "description": "Free text",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0170",
+    "tag": "DOC",
+    "description": "Document/message details",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0180",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0200",
+    "tag": "TCC",
+    "description": "Transport charge/rate calculations",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0210",
+    "tag": "PRI",
+    "description": "Price details",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0220",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0230",
+    "tag": "PCD",
+    "description": "Percentage details",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0240",
+    "tag": "MOA",
+    "description": "Monetary amount",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0250",
+    "tag": "QTY",
+    "description": "Quantity",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0260",
+    "tag": "LOC",
+    "description": "Place/location identification",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0280",
+    "tag": "TDT",
+    "description": "Details of transport",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0290",
+    "tag": "TSR",
+    "description": "Transport service requirements",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0300",
+    "tag": "LOC",
+    "description": "Place/location identification",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0310",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0320",
+    "tag": "SEL",
+    "description": "Seal number",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0330",
+    "tag": "FTX",
+    "description": "Free text",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0350",
+    "tag": "MEA",
+    "description": "Measurements",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0360",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0380",
+    "tag": "DIM",
+    "description": "Dimensions",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0390",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0410",
+    "tag": "CTA",
+    "description": "Contact information",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0420",
+    "tag": "COM",
+    "description": "Communication contact",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0440",
+    "tag": "NAD",
+    "description": "Name and address",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0450",
+    "tag": "LOC",
+    "description": "Place/location identification",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0470",
+    "tag": "CTA",
+    "description": "Contact information",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0480",
+    "tag": "COM",
+    "description": "Communication contact",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0500",
+    "tag": "DOC",
+    "description": "Document/message details",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0510",
+    "tag": "DTM",
+    "description": "Date/time/period",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0530",
+    "tag": "TCC",
+    "description": "Transport charge/rate calculations",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0540",
+    "tag": "PRI",
+    "description": "Price details",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0550",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0560",
+    "tag": "PCD",
+    "description": "Percentage details",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0570",
+    "tag": "MOA",
+    "description": "Monetary amount",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0580",
+    "tag": "QTY",
+    "description": "Quantity",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0600",
+    "tag": "EQD",
+    "description": "Equipment details",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0610",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0620",
+    "tag": "TPL",
+    "description": "Transport placement",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0630",
+    "tag": "TMD",
+    "description": "Transport movement details",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0640",
+    "tag": "MEA",
+    "description": "Measurements",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0650",
+    "tag": "DIM",
+    "description": "Dimensions",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0660",
+    "tag": "SEL",
+    "description": "Seal number",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0670",
+    "tag": "NAD",
+    "description": "Name and address",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0680",
+    "tag": "LOC",
+    "description": "Place/location identification",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0690",
+    "tag": "HAN",
+    "description": "Handling instructions",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0700",
+    "tag": "TMP",
+    "description": "Temperature",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0710",
+    "tag": "FTX",
+    "description": "Free text",
+    "mandatory": false,
+    "max_occurrence": 9,
+    "type": "segment"
+  },
+  {
+    "pos": "0730",
+    "tag": "EQA",
+    "description": "Attached equipment",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0740",
+    "tag": "EQN",
+    "description": "Number of units",
+    "mandatory": false,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0760",
+    "tag": "CNI",
+    "description": "Consignment information",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "segment"
+  },
+  {
+    "pos": "0780",
+    "tag": "SGP",
+    "description": "Split goods placement",
+    "mandatory": true,
+    "max_occurrence": 1,
+    "type": "group",
+    "children": [
+      {
+        "pos": "0800",
+        "tag": "MEA",
+        "description": "Measurements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0810",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0830",
+        "tag": "TPL",
+        "description": "Transport placement",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0850",
+        "tag": "MEA",
+        "description": "Measurements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0860",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0870",
+        "tag": "CTA",
+        "description": "Contact information",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0880",
+        "tag": "COM",
+        "description": "Communication contact",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0890",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0900",
+        "tag": "CNT",
+        "description": "Control total",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0910",
+        "tag": "TSR",
+        "description": "Transport service requirements",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0920",
+        "tag": "CUX",
+        "description": "Currencies",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0930",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 99,
+        "type": "segment"
+      },
+      {
+        "pos": "0940",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 99,
+        "type": "segment"
+      },
+      {
+        "pos": "0960",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "0970",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "0990",
+        "tag": "TOD",
+        "description": "Terms of delivery or transport",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1000",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1020",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1030",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1050",
+        "tag": "GOR",
+        "description": "Governmental requirements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1060",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1070",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1080",
+        "tag": "SEL",
+        "description": "Seal number",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1090",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1110",
+        "tag": "DOC",
+        "description": "Document/message details",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1120",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1140",
+        "tag": "CPI",
+        "description": "Charge payment instructions",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1150",
+        "tag": "CUX",
+        "description": "Currencies",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1160",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1170",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1190",
+        "tag": "TCC",
+        "description": "Transport charge/rate calculations",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1200",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1210",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1220",
+        "tag": "CUX",
+        "description": "Currencies",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1230",
+        "tag": "PRI",
+        "description": "Price details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1240",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1250",
+        "tag": "PCD",
+        "description": "Percentage details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1260",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1270",
+        "tag": "QTY",
+        "description": "Quantity",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1290",
+        "tag": "TDT",
+        "description": "Details of transport",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1300",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1310",
+        "tag": "TSR",
+        "description": "Transport service requirements",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1330",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1340",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1360",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1370",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1390",
+        "tag": "NAD",
+        "description": "Name and address",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1400",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1410",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1430",
+        "tag": "CTA",
+        "description": "Contact information",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1440",
+        "tag": "COM",
+        "description": "Communication contact",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1460",
+        "tag": "DOC",
+        "description": "Document/message details",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1470",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1490",
+        "tag": "TCC",
+        "description": "Transport charge/rate calculations",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1500",
+        "tag": "PRI",
+        "description": "Price details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1510",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1520",
+        "tag": "PCD",
+        "description": "Percentage details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1530",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1540",
+        "tag": "QTY",
+        "description": "Quantity",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1560",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1570",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1590",
+        "tag": "CPI",
+        "description": "Charge payment instructions",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1600",
+        "tag": "CUX",
+        "description": "Currencies",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1610",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1620",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1640",
+        "tag": "TSR",
+        "description": "Transport service requirements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1650",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1660",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1670",
+        "tag": "TPL",
+        "description": "Transport placement",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1680",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1700",
+        "tag": "GID",
+        "description": "Goods item details",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1710",
+        "tag": "HAN",
+        "description": "Handling instructions",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1720",
+        "tag": "TMP",
+        "description": "Temperature",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1730",
+        "tag": "RNG",
+        "description": "Range details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1740",
+        "tag": "TMD",
+        "description": "Transport movement details",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1750",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1760",
+        "tag": "MOA",
+        "description": "Monetary amount",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1770",
+        "tag": "PIA",
+        "description": "Additional product id",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1780",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1800",
+        "tag": "NAD",
+        "description": "Name and address",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1810",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1820",
+        "tag": "GDS",
+        "description": "Nature of cargo",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1840",
+        "tag": "MEA",
+        "description": "Measurements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1850",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1870",
+        "tag": "DIM",
+        "description": "Dimensions",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1880",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1900",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1910",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "1930",
+        "tag": "PCI",
+        "description": "Package identification",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1940",
+        "tag": "RFF",
+        "description": "Reference",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1950",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1970",
+        "tag": "DOC",
+        "description": "Document/message details",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "1980",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "2000",
+        "tag": "GOR",
+        "description": "Governmental requirements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2010",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "2020",
+        "tag": "LOC",
+        "description": "Place/location identification",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "2030",
+        "tag": "SEL",
+        "description": "Seal number",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "2040",
+        "tag": "FTX",
+        "description": "Free text",
+        "mandatory": false,
+        "max_occurrence": 9,
+        "type": "segment"
+      },
+      {
+        "pos": "2060",
+        "tag": "DOC",
+        "description": "Document/message details",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2070",
+        "tag": "DTM",
+        "description": "Date/time/period",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2090",
+        "tag": "TPL",
+        "description": "Transport placement",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2110",
+        "tag": "MEA",
+        "description": "Measurements",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2120",
+        "tag": "EQN",
+        "description": "Number of units",
+        "mandatory": false,
+        "max_occurrence": 1,
+        "type": "segment"
+      },
+      {
+        "pos": "2140",
+        "tag": "SGP",
+        "description": "Split goods placement",
+        "mandatory": true,
+        "max_occurrence": 1,
+        "type": "group",
+        "children": [
+          {
+            "pos": "2160",
+            "tag": "MEA",
+            "description": "Measurements",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2170",
+            "tag": "EQN",
+            "description": "Number of units",
+            "mandatory": false,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2190",
+            "tag": "TCC",
+            "description": "Transport charge/rate calculations",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2200",
+            "tag": "PRI",
+            "description": "Price details",
+            "mandatory": false,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2210",
+            "tag": "EQN",
+            "description": "Number of units",
+            "mandatory": false,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2220",
+            "tag": "PCD",
+            "description": "Percentage details",
+            "mandatory": false,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2230",
+            "tag": "MOA",
+            "description": "Monetary amount",
+            "mandatory": false,
+            "max_occurrence": 9,
+            "type": "segment"
+          },
+          {
+            "pos": "2240",
+            "tag": "QTY",
+            "description": "Quantity",
+            "mandatory": false,
+            "max_occurrence": 9,
+            "type": "segment"
+          },
+          {
+            "pos": "2250",
+            "tag": "LOC",
+            "description": "Place/location identification",
+            "mandatory": false,
+            "max_occurrence": 9,
+            "type": "segment"
+          },
+          {
+            "pos": "2270",
+            "tag": "DGS",
+            "description": "Dangerous goods",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2280",
+            "tag": "FTX",
+            "description": "Free text",
+            "mandatory": false,
+            "max_occurrence": 99,
+            "type": "segment"
+          },
+          {
+            "pos": "2300",
+            "tag": "CTA",
+            "description": "Contact information",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2310",
+            "tag": "COM",
+            "description": "Communication contact",
+            "mandatory": false,
+            "max_occurrence": 9,
+            "type": "segment"
+          },
+          {
+            "pos": "2330",
+            "tag": "MEA",
+            "description": "Measurements",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2340",
+            "tag": "EQN",
+            "description": "Number of units",
+            "mandatory": false,
+            "max_occurrence": 1,
+            "type": "segment"
+          },
+          {
+            "pos": "2360",
+            "tag": "SGP",
+            "description": "Split goods placement",
+            "mandatory": true,
+            "max_occurrence": 1,
+            "type": "group",
+            "children": [
+              {
+                "pos": "2380",
+                "tag": "MEA",
+                "description": "Measurements",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2390",
+                "tag": "EQN",
+                "description": "Number of units",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2410",
+                "tag": "EQD",
+                "description": "Equipment details",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2420",
+                "tag": "EQN",
+                "description": "Number of units",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2430",
+                "tag": "TMD",
+                "description": "Transport movement details",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2440",
+                "tag": "MEA",
+                "description": "Measurements",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2450",
+                "tag": "DIM",
+                "description": "Dimensions",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2460",
+                "tag": "SEL",
+                "description": "Seal number",
+                "mandatory": false,
+                "max_occurrence": 99,
+                "type": "segment"
+              },
+              {
+                "pos": "2470",
+                "tag": "TPL",
+                "description": "Transport placement",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2480",
+                "tag": "HAN",
+                "description": "Handling instructions",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2490",
+                "tag": "TMP",
+                "description": "Temperature",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2500",
+                "tag": "FTX",
+                "description": "Free text",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2520",
+                "tag": "TCC",
+                "description": "Transport charge/rate calculations",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2530",
+                "tag": "PRI",
+                "description": "Price details",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2540",
+                "tag": "EQN",
+                "description": "Number of units",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2550",
+                "tag": "PCD",
+                "description": "Percentage details",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2560",
+                "tag": "MOA",
+                "description": "Monetary amount",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2570",
+                "tag": "QTY",
+                "description": "Quantity",
+                "mandatory": false,
+                "max_occurrence": 9,
+                "type": "segment"
+              },
+              {
+                "pos": "2590",
+                "tag": "NAD",
+                "description": "Name and address",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2600",
+                "tag": "DTM",
+                "description": "Date/time/period",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2620",
+                "tag": "EQA",
+                "description": "Attached equipment",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2630",
+                "tag": "EQN",
+                "description": "Number of units",
+                "mandatory": false,
+                "max_occurrence": 1,
+                "type": "segment"
+              },
+              {
+                "pos": "2640",
+                "tag": "UNT",
+                "description": "Message trailer",
+                "mandatory": true,
+                "max_occurrence": 1,
+                "type": "segment"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

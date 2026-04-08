@@ -1,0 +1,130 @@
+1.2  Index of message types by name
+
+     Change indicators
+
+     a plus sign (+)    for an addition
+     an asterisk (*)    for an amendment to structure
+     a vertical bar (|) for changes to names and functions
+     a minus sign (-)   for a deletion
+     a X sign (X)       for marked for deletion
+
+   Code   Name                                           Status   Rev
+
+   CONAPW Advice on pending works message                1        1
+*  IFTMAN Arrival notice message                         2        2
+   AUTHOR Authorization message                          1        1
++  BOPCUS Balance of payment customer transaction        1        1
+          report message
++  BOPINF Balance of payment information from customer   1        1
+          message
++  BOPBNK Bank transactions and portfolio transactions   1        1
+          report message
+   BANSTA Banking status message                         1        1
+*  BAPLIE Bayplan/stowage plan occupied and empty        2        2
+          locations message
+*  BAPLTE Bayplan/stowage plan total numbers message     2        2
+*  IFTMBC Booking confirmation message                   2        2
+   HANMOV Cargo/goods handling and movement message      1        1
+   COMDIS Commercial dispute message                     1        1
+   CREADV Credit advice message                          2        1
++  RECECO Credit risk cover message                      1        1
+*  CUSCAR Customs cargo report message                   2        2
+   CUSREP Customs conveyance report message              2        1
+   CUSDEC Customs declaration message                    2        1
+   CUSEXP Customs express consignment declaration        1        1
+          message
+*  CUSRES Customs response message                       2        2
+   IFTDGN Dangerous goods notification message           1        1
+   DEBADV Debit advice message                           2        1
+*  DELJIT Delivery just in time message                  2        2
+   DELFOR Delivery schedule message                      2        1
+*  DESADV Despatch advice message                        2        2
++  BOPDIR Direct balance of payment declaration message  1        1
+   DIRDEB Direct debit message                           1        1
+   CONDPV Direct payment valuation message               2        1
+   DOCADV Documentary credit advice message              1        1
+   DOCAPP Documentary credit application message         1        1
+   DOCINF Documentary credit issuance information        1        1
+          message
+   CONEST Establishment of contract message              2        1
+   CREEXT Extended credit advice message                 2        1
+   PAYEXT Extended payment order message                 2        1
+*  IFTMBF Firm booking message                           2        2
+*  IFCSUM Forwarding and consolidation summary message   2        2
+   IFTRIN Forwarding and transport rate information      1        1
+          message
+   IFTSAI Forwarding and transport schedule and          1        1
+          availability information message
+   IFTCCA Forwarding and transport shipment charge       1        1
+          calculation message
+*  IFTMCS Instruction contract status message            2        2
+*  IFTMIN Instruction message                            2        2
+   INSPRE Insurance premium message                      1        1
+   PRPAID Insurance premium payment message              1        1
+
+*  IFTSTA International multimodal status report         2        2
+          message
+   IFTSTQ International multimodal status request        1        1
+          message
+*  INVRPT Inventory report message                       2        2
+   CONITT Invitation to tender message                   2        1
+*  INVOIC Invoice message                                2        2
+   PAYMUL Multiple payment order message                 1        1
+*  PARTIN Party information message                      2        2
+   PAXLST Passenger list message                         2        1
+   PAYORD Payment order message                          2        1
+   CONPVA Payment valuation message                      2        1
+   PAYDUC Payroll deductions advice message              2        1
+   PRICAT Price/sales catalogue message                  2        1
+   PRODEX Product exchange reconciliation message        1        1
+*  IFTMBP Provisional booking message                    2        2
+*  ORDCHG Purchase order change request message          2        2
+*  ORDERS Purchase order message                         2        2
+*  ORDRSP Purchase order response message                2        2
+*  QALITY Quality data message                           2        2
+   CONQVA Quantity valuation message                     2        1
+*  QUOTES Quote message                                  2        2
+*  REMADV Remittance advice message                      2        2
++  REQDOC Request for document message                   1        1
+*  REQOTE Request for quote message                      2        2
+   CONRPW Response of pending works message              1        1
+   SLSRPT Sales data report message                      1        1
++  SLSFCT Sales forecast message                         1        1
+   SANCRT Sanitary/phytosanitary certificate message     1        1
+   STATAC Statement of account message                   2        1
+   MOVINS Stowage instruction message                    1        1
+   SUPCOT Superannuation contributions advice message    2        1
+   SUPMAN Superannuation maintenance message             2        1
+   CONTEN Tender message                                 2        1
+   CONWQD Work item quantity determination message       1        1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
