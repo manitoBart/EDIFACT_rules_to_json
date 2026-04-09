@@ -1,235 +1,140 @@
 {
-  "count": 2,
+  "count": 5,
   "first_elements": [
     {
-      "id": "3035",
-      "name": "PARTY FUNCTION CODE QUALIFIER",
+      "id": "3039",
+      "name": "Party id. identification",
       "mandatory": true,
-      "format": "an..3",
-      "position": "010",
+      "format": "an..35",
+      "position": null,
       "type": "simple"
     },
     {
-      "id": "C082",
-      "name": "PARTY IDENTIFICATION DETAILS",
-      "type": "composite",
+      "id": "1131",
+      "name": "Code list qualifier",
       "mandatory": false,
-      "position": "020",
-      "sub_elements": [
-        {
-          "id": "3039",
-          "name": "Party identifier",
-          "mandatory": true,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "1131",
-          "name": "Code list identification code",
-          "mandatory": false,
-          "format": "an..17",
-          "position": null
-        },
-        {
-          "id": "3055",
-          "name": "Code list responsible agency code",
-          "mandatory": false,
-          "format": "an..3",
-          "position": null
-        }
-      ]
+      "format": "an..3",
+      "position": null,
+      "type": "simple"
     },
     {
-      "id": "C058",
-      "name": "NAME AND ADDRESS",
-      "type": "composite",
+      "id": "3055",
+      "name": "Code list responsible agency, coded",
       "mandatory": false,
-      "position": "030",
-      "sub_elements": [
-        {
-          "id": "3124",
-          "name": "Name and address description",
-          "mandatory": true,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3124",
-          "name": "Name and address description",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3124",
-          "name": "Name and address description",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3124",
-          "name": "Name and address description",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3124",
-          "name": "Name and address description",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        }
-      ]
+      "format": "an..3",
+      "position": null,
+      "type": "simple"
     },
     {
-      "id": "C080",
-      "name": "PARTY NAME",
-      "type": "composite",
-      "mandatory": false,
-      "position": "040",
-      "sub_elements": [
-        {
-          "id": "3036",
-          "name": "Party name",
-          "mandatory": true,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3036",
-          "name": "Party name",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3036",
-          "name": "Party name",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3036",
-          "name": "Party name",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3036",
-          "name": "Party name",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3045",
-          "name": "Party name format code",
-          "mandatory": false,
-          "format": "an..3",
-          "position": null
-        }
-      ]
+      "id": "3124",
+      "name": "Name and address line",
+      "mandatory": true,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
     },
     {
-      "id": "C059",
-      "name": "STREET",
-      "type": "composite",
-      "mandatory": false,
-      "position": "050",
-      "sub_elements": [
-        {
-          "id": "3042",
-          "name": "Street and number or post office box identifier",
-          "mandatory": true,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3042",
-          "name": "Street and number or post office box identifier",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3042",
-          "name": "Street and number or post office box identifier",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        },
-        {
-          "id": "3042",
-          "name": "Street and number or post office box identifier",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        }
-      ]
-    },
-    {
-      "id": "3164",
-      "name": "CITY NAME",
+      "id": "3124",
+      "name": "Name and address line",
       "mandatory": false,
       "format": "an..35",
-      "position": "060",
+      "position": null,
       "type": "simple"
     },
     {
-      "id": "C819",
-      "name": "COUNTRY SUB-ENTITY DETAILS",
-      "type": "composite",
+      "id": "3124",
+      "name": "Name and address line",
       "mandatory": false,
-      "position": "070",
-      "sub_elements": [
-        {
-          "id": "3229",
-          "name": "Country sub-entity name code",
-          "mandatory": false,
-          "format": "an..9",
-          "position": null
-        },
-        {
-          "id": "1131",
-          "name": "Code list identification code",
-          "mandatory": false,
-          "format": "an..17",
-          "position": null
-        },
-        {
-          "id": "3055",
-          "name": "Code list responsible agency code",
-          "mandatory": false,
-          "format": "an..3",
-          "position": null
-        },
-        {
-          "id": "3228",
-          "name": "Country sub-entity name",
-          "mandatory": false,
-          "format": "an..35",
-          "position": null
-        }
-      ]
-    },
-    {
-      "id": "3251",
-      "name": "POSTAL IDENTIFICATION CODE",
-      "mandatory": false,
-      "format": "an..17",
-      "position": "080",
+      "format": "an..35",
+      "position": null,
       "type": "simple"
     },
     {
-      "id": "3207",
-      "name": "COUNTRY NAME CODE",
+      "id": "3124",
+      "name": "Name and address line",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3124",
+      "name": "Name and address line",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3036",
+      "name": "Party name",
+      "mandatory": true,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3036",
+      "name": "Party name",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3036",
+      "name": "Party name",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3036",
+      "name": "Party name",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3036",
+      "name": "Party name",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3045",
+      "name": "Party name format, coded",
       "mandatory": false,
       "format": "an..3",
-      "position": "090",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3042",
+      "name": "Street and number/p.o. box",
+      "mandatory": true,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3042",
+      "name": "Street and number/p.o. box",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
+      "type": "simple"
+    },
+    {
+      "id": "3042",
+      "name": "Street and number/p.o. box",
+      "mandatory": false,
+      "format": "an..35",
+      "position": null,
       "type": "simple"
     }
   ]

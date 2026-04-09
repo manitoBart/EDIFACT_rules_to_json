@@ -1,0 +1,2 @@
+<re.Match object; span=(0, 62), match='010   C002  DOCUMENT/MESSAGE NAME                >
+('010', 'C002', 'DOCUMENT/MESSAGE NAME', 'C')

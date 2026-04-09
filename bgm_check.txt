@@ -1,0 +1,10 @@
+BGM count: 1
+elements count: 4
+  pos=010 id=C002 name=DOCUMENT/MESSAGE NAME type=composite
+    sub: id=1001 name=Document/message name, coded
+    sub: id=1131 name=Code list qualifier
+    sub: id=3055 name=Code list responsible agency, coded
+    sub: id=1000 name=Document/message name
+  pos=020 id=1004 name=DOCUMENT/MESSAGE NUMBER type=simple
+  pos=030 id=1225 name=MESSAGE FUNCTION, type=simple
+  pos=040 id=4343 name=RESPONSE TYPE, type=simple

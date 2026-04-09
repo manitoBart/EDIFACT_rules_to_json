@@ -1,33 +1,28 @@
-NAD count: 2
+NAD count: 5
 elements count: 9
-  pos=010 id=3035 name=PARTY FUNCTION CODE QUALIFIER type=simple
+  pos=010 id=3035 name=PARTY QUALIFIER type=simple
   pos=020 id=C082 name=PARTY IDENTIFICATION DETAILS type=composite
-    sub: id=3039 name=Party identifier
-    sub: id=1131 name=Code list identification code
-    sub: id=3055 name=Code list responsible agency code
+    sub: id=3039 name=Party id. identification
+    sub: id=1131 name=Code list qualifier
+    sub: id=3055 name=Code list responsible agency, coded
   pos=030 id=C058 name=NAME AND ADDRESS type=composite
-    sub: id=3124 name=Name and address description
-    sub: id=3124 name=Name and address description
-    sub: id=3124 name=Name and address description
-    sub: id=3124 name=Name and address description
-    sub: id=3124 name=Name and address description
+    sub: id=3124 name=Name and address line
+    sub: id=3124 name=Name and address line
+    sub: id=3124 name=Name and address line
+    sub: id=3124 name=Name and address line
+    sub: id=3124 name=Name and address line
   pos=040 id=C080 name=PARTY NAME type=composite
     sub: id=3036 name=Party name
     sub: id=3036 name=Party name
     sub: id=3036 name=Party name
     sub: id=3036 name=Party name
     sub: id=3036 name=Party name
-    sub: id=3045 name=Party name format code
+    sub: id=3045 name=Party name format, coded
   pos=050 id=C059 name=STREET type=composite
-    sub: id=3042 name=Street and number or post office box identifier
-    sub: id=3042 name=Street and number or post office box identifier
-    sub: id=3042 name=Street and number or post office box identifier
-    sub: id=3042 name=Street and number or post office box identifier
+    sub: id=3042 name=Street and number/p.o. box
+    sub: id=3042 name=Street and number/p.o. box
+    sub: id=3042 name=Street and number/p.o. box
   pos=060 id=3164 name=CITY NAME type=simple
-  pos=070 id=C819 name=COUNTRY SUB-ENTITY DETAILS type=composite
-    sub: id=3229 name=Country sub-entity name code
-    sub: id=1131 name=Code list identification code
-    sub: id=3055 name=Code list responsible agency code
-    sub: id=3228 name=Country sub-entity name
-  pos=080 id=3251 name=POSTAL IDENTIFICATION CODE type=simple
-  pos=090 id=3207 name=COUNTRY NAME CODE type=simple
+  pos=070 id=3229 name=COUNTRY SUB-ENTITY IDENTIFICATION type=simple
+  pos=080 id=3251 name=POSTCODE IDENTIFICATION type=simple
+  pos=090 id=3207 name=COUNTRY, type=simple

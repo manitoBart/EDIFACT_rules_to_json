@@ -32,8 +32,8 @@ def parse_segments_ultimate(segment_content, element_repo):
         if not current_seg:
             continue
 
-        # 2. COMPOSITE (ex: "020    C082 PARTY IDENTIFICATION DETAILS   C    1")
-        comp_m = re.match(r"^\s*(\d{3})\s+([CS][0-9]{3})\s+(.*?)\s+([MC])\s+\d+\s*$", line)
+        # 2. COMPOSITE (ex: "020    C082 NAME   C    1" ou "020   C082  NAME   C  ")
+        comp_m = re.match(r"^\s*(\d{3})\s+([CS][0-9]{3})\s+(.*?)\s+([MC])(?:\s+\d+)?\s*$", line)
         if comp_m:
             c_pos, c_id, c_name, c_status = comp_m.groups()
             current_composite = {
@@ -47,8 +47,8 @@ def parse_segments_ultimate(segment_content, element_repo):
             segments_db[current_seg].append(current_composite)
             continue
 
-        # 3. ELEMENT SIMPLE avec position (ex: "010    3035 PARTY QUALIFIER   M    1 an..3")
-        item_m = re.match(r"^(\d{3})\s+([0-9]{4})\s+(.*?)\s+([MC])\s+\d+(?:\s+([a-z][a-z0-9\.]+))?", line.strip())
+        # 3. ELEMENT SIMPLE avec position (ex: "010    3035 NAME   M    1 an..3" ou "010   3035  NAME   M  an..3")
+        item_m = re.match(r"^(\d{3})\s+([0-9]{4})\s+(.*?)\s+([MC])(?:\s+\d+)?(?:\s+([a-z][a-z0-9\.]+))?", line.strip())
         if item_m:
             i_pos, i_id, i_name, i_status, i_fmt = item_m.groups()
             current_composite = None  # element avec position = niveau segment
