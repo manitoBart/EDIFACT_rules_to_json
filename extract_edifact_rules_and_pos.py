@@ -7,7 +7,16 @@ def parse_segments_ultimate(segment_content, element_repo):
     current_seg = None
     current_composite = None
 
+    # Fusionner les lignes de continuation avec la ligne precedente
+    merged_lines = []
     for line in segment_content.splitlines():
+        # Ligne de continuation : tres indentee, pas de chiffres en debut
+        if re.match(r'^\s{12,}[a-zA-Z]', line) and merged_lines:
+            merged_lines[-1] = merged_lines[-1].rstrip() + ' ' + line.strip()
+        else:
+            merged_lines.append(line)
+
+    for line in merged_lines:
         line = line.rstrip()
         if not line.strip() or "Function:" in line or "Note:" in line:
             continue
@@ -23,8 +32,8 @@ def parse_segments_ultimate(segment_content, element_repo):
         if not current_seg:
             continue
 
-        # 2. COMPOSITE (ex: "010   C817  ADDRESS USAGE   C")
-        comp_m = re.match(r"^\s*(\d{3})\s+([CS][0-9]{3})\s+(.*?)\s+([MC])\s*$", line)
+        # 2. COMPOSITE (ex: "020    C082 PARTY IDENTIFICATION DETAILS   C    1")
+        comp_m = re.match(r"^\s*(\d{3})\s+([CS][0-9]{3})\s+(.*?)\s+([MC])\s+\d+\s*$", line)
         if comp_m:
             c_pos, c_id, c_name, c_status = comp_m.groups()
             current_composite = {
@@ -38,17 +47,20 @@ def parse_segments_ultimate(segment_content, element_repo):
             segments_db[current_seg].append(current_composite)
             continue
 
-        # 3. ELEMENT SIMPLE avec position (ex: "010   3035  PARTY QUALIFIER   M  an..3")
-        item_m = re.match(r"^(\d{3})\s+([0-9]{4})\s+(.*?)\s+([MC])(?:\s+([a-z0-9\.]+))?", line.strip())
+        # 3. ELEMENT SIMPLE avec position (ex: "010    3035 PARTY QUALIFIER   M    1 an..3")
+        item_m = re.match(r"^(\d{3})\s+([0-9]{4})\s+(.*?)\s+([MC])\s+\d+(?:\s+([a-z][a-z0-9\.]+))?", line.strip())
         if item_m:
             i_pos, i_id, i_name, i_status, i_fmt = item_m.groups()
             current_composite = None  # element avec position = niveau segment
         else:
-            # 4. SOUS-ELEMENT sans position, indenté (ex: "      3039   Party id.   M  an..35")
-            item_m2 = re.match(r"^\s{2,}([0-9]{4})\s+(.*?)\s+([MC])(?:\s+([a-z0-9\.]+))?", line)
+            # 4. SOUS-ELEMENT sans position, indenté (ex: "       3039  Party id.   M      an..35")
+            item_m2 = re.match(r"^\s{2,}([0-9]{4})\s+(.*?)\s+([MC])\s+(?:[a-z][a-z0-9\.]+)?", line)
             if item_m2:
                 i_pos = None
-                i_id, i_name, i_status, i_fmt = item_m2.groups()
+                i_id, i_name, i_status = item_m2.group(1), item_m2.group(2), item_m2.group(3)
+                # format est après le statut et les espaces
+                fmt_m = re.search(r'[MC]\s+([a-z][a-z0-9\.]+)', line)
+                i_fmt = fmt_m.group(1) if fmt_m else None
             else:
                 continue
 
