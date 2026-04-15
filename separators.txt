@@ -1,0 +1,354 @@
+SG1 at pos 0070
+  prev-1: '\n'
+  prev-2: '0060   CNT Control total                             C   9     \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG2 at pos 0100
+  prev-1: '\n'
+  prev-2: '0090   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG3 at pos 0160
+  prev-1: '                                                                      \n'
+  prev-2: '0150   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG4 at pos 0190
+  prev-1: '\n'
+  prev-2: '0180   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG5 at pos 0270
+  prev-1: '\n'
+  prev-2: '0260   LOC Place/location identification             C   9            \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG6 at pos 0340
+  prev-1: '                                                                      \n'
+  prev-2: '0330   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG7 at pos 0370
+  prev-1: '                                                                      \n'
+  prev-2: '0360   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG8 at pos 0400
+  prev-1: '                                                                      \n'
+  prev-2: '0390   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG9 at pos 0430
+  prev-1: '                                                                      \n'
+  prev-2: '0420   COM Communication contact                     C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG10 at pos 0460
+  prev-1: '                                                                      \n'
+  prev-2: '0450   LOC Place/location identification             C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG11 at pos 0490
+  prev-1: '                                                                      \n'
+  prev-2: '0480   COM Communication contact                     C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG12 at pos 0520
+  prev-1: '                                                                      \n'
+  prev-2: '0510   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG13 at pos 0590
+  prev-1: '\n'
+  prev-2: '0580   QTY Quantity                                  C   9            \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG14 at pos 0720
+  prev-1: '                                                                      \n'
+  prev-2: '0710   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG15 at pos 0750
+  prev-1: '\n'
+  prev-2: '0740   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: False
+
+SG16 at pos 0770
+  prev-1: '                                                                      \n'
+  prev-2: '0760   CNI Consignment information                   M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG17 at pos 0790
+  prev-1: '                                                                      \n'
+  prev-2: '0780   SGP Split goods placement                     M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG18 at pos 0820
+  prev-1: '                                                                      \n'
+  prev-2: '0810   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG19 at pos 0840
+  prev-1: '                                                                      \n'
+  prev-2: '0830   TPL Transport placement                       M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG20 at pos 0950
+  prev-1: '                                                                      \n'
+  prev-2: '0940   FTX Free text                                 C   99           \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG21 at pos 0980
+  prev-1: '                                                                      \n'
+  prev-2: '0970   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG22 at pos 1010
+  prev-1: '                                                                      \n'
+  prev-2: '1000   LOC Place/location identification             C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG23 at pos 1040
+  prev-1: '                                                                      \n'
+  prev-2: '1030   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG24 at pos 1100
+  prev-1: '                                                                      \n'
+  prev-2: '1090   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG25 at pos 1130
+  prev-1: '                                                                      \n'
+  prev-2: '1120   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG26 at pos 1180
+  prev-1: '                                                                      \n'
+  prev-2: '1170   MOA Monetary amount                           C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG27 at pos 1280
+  prev-1: '                                                                      \n'
+  prev-2: '1270   QTY Quantity                                  C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG28 at pos 1320
+  prev-1: '                                                                      \n'
+  prev-2: '1310   TSR Transport service requirements            C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG29 at pos 1350
+  prev-1: '                                                                      \n'
+  prev-2: '1340   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG30 at pos 1380
+  prev-1: '                                                                      \n'
+  prev-2: '1370   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG31 at pos 1420
+  prev-1: '                                                                      \n'
+  prev-2: '1410   MOA Monetary amount                           C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG32 at pos 1450
+  prev-1: '                                                                      \n'
+  prev-2: '1440   COM Communication contact                     C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG33 at pos 1480
+  prev-1: '                                                                      \n'
+  prev-2: '1470   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG34 at pos 1550
+  prev-1: '                                                                      \n'
+  prev-2: '1540   QTY Quantity                                  C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG35 at pos 1580
+  prev-1: '                                                                      \n'
+  prev-2: '1570   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG36 at pos 1630
+  prev-1: '                                                                      \n'
+  prev-2: '1620   MOA Monetary amount                           C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG37 at pos 1690
+  prev-1: '                                                                      \n'
+  prev-2: '1680   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG38 at pos 1790
+  prev-1: '                                                                      \n'
+  prev-2: '1780   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG39 at pos 1830
+  prev-1: '                                                                      \n'
+  prev-2: '1820   GDS Nature of cargo                           C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG40 at pos 1860
+  prev-1: '                                                                      \n'
+  prev-2: '1850   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG41 at pos 1890
+  prev-1: '                                                                      \n'
+  prev-2: '1880   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG42 at pos 1920
+  prev-1: '                                                                      \n'
+  prev-2: '1910   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG43 at pos 1960
+  prev-1: '                                                                      \n'
+  prev-2: '1950   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG44 at pos 1990
+  prev-1: '                                                                      \n'
+  prev-2: '1980   DTM Date/time/period                          C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG45 at pos 2050
+  prev-1: '                                                                      \n'
+  prev-2: '2040   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG46 at pos 2080
+  prev-1: '                                                                      \n'
+  prev-2: '2070   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG47 at pos 2100
+  prev-1: '                                                                      \n'
+  prev-2: '2090   TPL Transport placement                       M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG48 at pos 2130
+  prev-1: '                                                                      \n'
+  prev-2: '2120   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG49 at pos 2150
+  prev-1: '                                                                      \n'
+  prev-2: '2140   SGP Split goods placement                     M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG50 at pos 2180
+  prev-1: '                                                                      \n'
+  prev-2: '2170   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG51 at pos 2260
+  prev-1: '                                                                      \n'
+  prev-2: '2250   LOC Place/location identification             C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG52 at pos 2290
+  prev-1: '                                                                      \n'
+  prev-2: '2280   FTX Free text                                 C   99           \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG53 at pos 2320
+  prev-1: '                                                                      \n'
+  prev-2: '2310   COM Communication contact                     C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG54 at pos 2350
+  prev-1: '                                                                      \n'
+  prev-2: '2340   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG55 at pos 2370
+  prev-1: '                                                                      \n'
+  prev-2: '2360   SGP Split goods placement                     M   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG56 at pos 2400
+  prev-1: '                                                                      \n'
+  prev-2: '2390   EQN Number of units                           C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG57 at pos 2510
+  prev-1: '                                                                      \n'
+  prev-2: '2500   FTX Free text                                 C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG58 at pos 2580
+  prev-1: '                                                                      \n'
+  prev-2: '2570   QTY Quantity                                  C   9            \n'
+  prev is blank: True
+  prev is spaces-only: True
+
+SG59 at pos 2610
+  prev-1: '                                                                      \n'
+  prev-2: '2600   DTM Date/time/period                          C   1            \n'
+  prev is blank: True
+  prev is spaces-only: True
+

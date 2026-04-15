@@ -1,0 +1,264 @@
+indent= 0 pos=0010 label=UNH Message header
+indent= 0 pos=0020 label=BGM Beginning of message
+indent= 0 pos=0030 label=DTM Date/time/period
+indent= 0 pos=0040 label=MOA Monetary amount
+indent= 0 pos=0050 label=FTX Free text
+indent= 0 pos=0060 label=CNT Control total
+indent= 0 pos=0070 label=Segment group 1                     C
+indent= 0 pos=0080 label=RFF Reference
+indent= 0 pos=0090 label=DTM Date/time/period
+indent= 0 pos=0100 label=Segment group 2                     C
+indent= 0 pos=0110 label=GOR Governmental requirements
+indent= 0 pos=0120 label=DTM Date/time/period
+indent= 0 pos=0130 label=LOC Place/location identification
+indent= 0 pos=0140 label=SEL Seal number
+indent= 0 pos=0150 label=FTX Free text
+indent= 0 pos=0160 label=Segment group 3                     C
+indent= 0 pos=0170 label=DOC Document/message details
+indent= 0 pos=0180 label=DTM Date/time/period
+indent= 0 pos=0190 label=Segment group 4                     C
+indent= 0 pos=0200 label=TCC Transport charge/rate calculations
+indent= 0 pos=0210 label=PRI Price details
+indent= 0 pos=0220 label=EQN Number of units
+indent= 0 pos=0230 label=PCD Percentage details
+indent= 0 pos=0240 label=MOA Monetary amount
+indent= 0 pos=0250 label=QTY Quantity
+indent= 0 pos=0260 label=LOC Place/location identification
+indent= 0 pos=0270 label=Segment group 5                     C
+indent= 0 pos=0280 label=TDT Details of transport
+indent= 0 pos=0290 label=TSR Transport service requirements
+indent= 0 pos=0300 label=LOC Place/location identification
+indent= 0 pos=0310 label=DTM Date/time/period
+indent= 0 pos=0320 label=SEL Seal number
+indent= 0 pos=0330 label=FTX Free text
+indent= 0 pos=0340 label=Segment group 6                     C
+indent= 0 pos=0350 label=MEA Measurements
+indent= 0 pos=0360 label=EQN Number of units
+indent= 0 pos=0370 label=Segment group 7                     C
+indent= 0 pos=0380 label=DIM Dimensions
+indent= 0 pos=0390 label=EQN Number of units
+indent= 0 pos=0400 label=Segment group 8                     C
+indent= 0 pos=0410 label=CTA Contact information
+indent= 0 pos=0420 label=COM Communication contact
+indent= 0 pos=0430 label=Segment group 9                     C
+indent= 0 pos=0440 label=NAD Name and address
+indent= 0 pos=0450 label=LOC Place/location identification
+indent= 0 pos=0460 label=Segment group 10                    C
+indent= 0 pos=0470 label=CTA Contact information
+indent= 0 pos=0480 label=COM Communication contact
+indent= 0 pos=0490 label=Segment group 11                    C
+indent= 0 pos=0500 label=DOC Document/message details
+indent= 0 pos=0510 label=DTM Date/time/period
+indent= 0 pos=0520 label=Segment group 12                    C
+indent= 0 pos=0530 label=TCC Transport charge/rate calculations
+indent= 0 pos=0540 label=PRI Price details
+indent= 0 pos=0550 label=EQN Number of units
+indent= 0 pos=0560 label=PCD Percentage details
+indent= 0 pos=0570 label=MOA Monetary amount
+indent= 0 pos=0580 label=QTY Quantity
+indent= 0 pos=0590 label=Segment group 13                    C
+indent= 0 pos=0600 label=EQD Equipment details
+indent= 0 pos=0610 label=EQN Number of units
+indent= 0 pos=0620 label=TPL Transport placement
+indent= 0 pos=0630 label=TMD Transport movement details
+indent= 0 pos=0640 label=MEA Measurements
+indent= 0 pos=0650 label=DIM Dimensions
+indent= 0 pos=0660 label=SEL Seal number
+indent= 0 pos=0670 label=NAD Name and address
+indent= 0 pos=0680 label=LOC Place/location identification
+indent= 0 pos=0690 label=HAN Handling instructions
+indent= 0 pos=0700 label=TMP Temperature
+indent= 0 pos=0710 label=FTX Free text
+indent= 0 pos=0720 label=Segment group 14                    C
+indent= 0 pos=0730 label=EQA Attached equipment
+indent= 0 pos=0740 label=EQN Number of units
+indent= 0 pos=0750 label=Segment group 15                    C
+indent= 0 pos=0760 label=CNI Consignment information
+indent= 0 pos=0770 label=Segment group 16                    C
+indent= 0 pos=0780 label=SGP Split goods placement
+indent= 0 pos=0790 label=Segment group 17                    C
+indent= 0 pos=0800 label=MEA Measurements
+indent= 0 pos=0810 label=EQN Number of units
+indent= 0 pos=0820 label=Segment group 18                    C
+indent= 0 pos=0830 label=TPL Transport placement
+indent= 0 pos=0840 label=Segment group 19                    C
+indent= 0 pos=0850 label=MEA Measurements
+indent= 0 pos=0860 label=EQN Number of units
+indent= 0 pos=0870 label=CTA Contact information
+indent= 0 pos=0880 label=COM Communication contact
+indent= 0 pos=0890 label=DTM Date/time/period
+indent= 0 pos=0900 label=CNT Control total
+indent= 0 pos=0910 label=TSR Transport service requirements
+indent= 0 pos=0920 label=CUX Currencies
+indent= 0 pos=0930 label=MOA Monetary amount
+indent= 0 pos=0940 label=FTX Free text
+indent= 0 pos=0950 label=Segment group 20                    C
+indent= 0 pos=0960 label=LOC Place/location identification
+indent= 0 pos=0970 label=DTM Date/time/period
+indent= 0 pos=0980 label=Segment group 21                    C
+indent= 0 pos=0990 label=TOD Terms of delivery or transport
+indent= 0 pos=1000 label=LOC Place/location identification
+indent= 0 pos=1010 label=Segment group 22                    C
+indent= 0 pos=1020 label=RFF Reference
+indent= 0 pos=1030 label=DTM Date/time/period
+indent= 0 pos=1040 label=Segment group 23                    C
+indent= 0 pos=1050 label=GOR Governmental requirements
+indent= 0 pos=1060 label=DTM Date/time/period
+indent= 0 pos=1070 label=LOC Place/location identification
+indent= 0 pos=1080 label=SEL Seal number
+indent= 0 pos=1090 label=FTX Free text
+indent= 0 pos=1100 label=Segment group 24                    C
+indent= 0 pos=1110 label=DOC Document/message details
+indent= 0 pos=1120 label=DTM Date/time/period
+indent= 0 pos=1130 label=Segment group 25                    C
+indent= 0 pos=1140 label=CPI Charge payment instructions
+indent= 0 pos=1150 label=CUX Currencies
+indent= 0 pos=1160 label=LOC Place/location identification
+indent= 0 pos=1170 label=MOA Monetary amount
+indent= 0 pos=1180 label=Segment group 26                    C
+indent= 0 pos=1190 label=TCC Transport charge/rate calculations
+indent= 0 pos=1200 label=LOC Place/location identification
+indent= 0 pos=1210 label=FTX Free text
+indent= 0 pos=1220 label=CUX Currencies
+indent= 0 pos=1230 label=PRI Price details
+indent= 0 pos=1240 label=EQN Number of units
+indent= 0 pos=1250 label=PCD Percentage details
+indent= 0 pos=1260 label=MOA Monetary amount
+indent= 0 pos=1270 label=QTY Quantity
+indent= 0 pos=1280 label=Segment group 27                    C
+indent= 0 pos=1290 label=TDT Details of transport
+indent= 0 pos=1300 label=DTM Date/time/period
+indent= 0 pos=1310 label=TSR Transport service requirements
+indent= 0 pos=1320 label=Segment group 28                    C
+indent= 0 pos=1330 label=LOC Place/location identification
+indent= 0 pos=1340 label=DTM Date/time/period
+indent= 0 pos=1350 label=Segment group 29                    C
+indent= 0 pos=1360 label=RFF Reference
+indent= 0 pos=1370 label=DTM Date/time/period
+indent= 0 pos=1380 label=Segment group 30                    C
+indent= 0 pos=1390 label=NAD Name and address
+indent= 0 pos=1400 label=LOC Place/location identification
+indent= 0 pos=1410 label=MOA Monetary amount
+indent= 0 pos=1420 label=Segment group 31                    C
+indent= 0 pos=1430 label=CTA Contact information
+indent= 0 pos=1440 label=COM Communication contact
+indent= 0 pos=1450 label=Segment group 32                    C
+indent= 0 pos=1460 label=DOC Document/message details
+indent= 0 pos=1470 label=DTM Date/time/period
+indent= 0 pos=1480 label=Segment group 33                    C
+indent= 0 pos=1490 label=TCC Transport charge/rate calculations
+indent= 0 pos=1500 label=PRI Price details
+indent= 0 pos=1510 label=EQN Number of units
+indent= 0 pos=1520 label=PCD Percentage details
+indent= 0 pos=1530 label=MOA Monetary amount
+indent= 0 pos=1540 label=QTY Quantity
+indent= 0 pos=1550 label=Segment group 34                    C
+indent= 0 pos=1560 label=RFF Reference
+indent= 0 pos=1570 label=DTM Date/time/period
+indent= 0 pos=1580 label=Segment group 35                    C
+indent= 0 pos=1590 label=CPI Charge payment instructions
+indent= 0 pos=1600 label=CUX Currencies
+indent= 0 pos=1610 label=LOC Place/location identification
+indent= 0 pos=1620 label=MOA Monetary amount
+indent= 0 pos=1630 label=Segment group 36                    C
+indent= 0 pos=1640 label=TSR Transport service requirements
+indent= 0 pos=1650 label=RFF Reference
+indent= 0 pos=1660 label=LOC Place/location identification
+indent= 0 pos=1670 label=TPL Transport placement
+indent= 0 pos=1680 label=FTX Free text
+indent= 0 pos=1690 label=Segment group 37                    C
+indent= 0 pos=1700 label=GID Goods item details
+indent= 0 pos=1710 label=HAN Handling instructions
+indent= 0 pos=1720 label=TMP Temperature
+indent= 0 pos=1730 label=RNG Range details
+indent= 0 pos=1740 label=TMD Transport movement details
+indent= 0 pos=1750 label=LOC Place/location identification
+indent= 0 pos=1760 label=MOA Monetary amount
+indent= 0 pos=1770 label=PIA Additional product id
+indent= 0 pos=1780 label=FTX Free text
+indent= 0 pos=1790 label=Segment group 38                    C
+indent= 0 pos=1800 label=NAD Name and address
+indent= 0 pos=1810 label=DTM Date/time/period
+indent= 0 pos=1820 label=GDS Nature of cargo
+indent= 0 pos=1830 label=Segment group 39                    C
+indent= 0 pos=1840 label=MEA Measurements
+indent= 0 pos=1850 label=EQN Number of units
+indent= 0 pos=1860 label=Segment group 40                    C
+indent= 0 pos=1870 label=DIM Dimensions
+indent= 0 pos=1880 label=EQN Number of units
+indent= 0 pos=1890 label=Segment group 41                    C
+indent= 0 pos=1900 label=RFF Reference
+indent= 0 pos=1910 label=DTM Date/time/period
+indent= 0 pos=1920 label=Segment group 42                    C
+indent= 0 pos=1930 label=PCI Package identification
+indent= 0 pos=1940 label=RFF Reference
+indent= 0 pos=1950 label=DTM Date/time/period
+indent= 0 pos=1960 label=Segment group 43                    C
+indent= 0 pos=1970 label=DOC Document/message details
+indent= 0 pos=1980 label=DTM Date/time/period
+indent= 0 pos=1990 label=Segment group 44                    C
+indent= 0 pos=2000 label=GOR Governmental requirements
+indent= 0 pos=2010 label=DTM Date/time/period
+indent= 0 pos=2020 label=LOC Place/location identification
+indent= 0 pos=2030 label=SEL Seal number
+indent= 0 pos=2040 label=FTX Free text
+indent= 0 pos=2050 label=Segment group 45                    C
+indent= 0 pos=2060 label=DOC Document/message details
+indent= 0 pos=2070 label=DTM Date/time/period
+indent= 0 pos=2080 label=Segment group 46                    C
+indent= 0 pos=2090 label=TPL Transport placement
+indent= 0 pos=2100 label=Segment group 47                    C
+indent= 0 pos=2110 label=MEA Measurements
+indent= 0 pos=2120 label=EQN Number of units
+indent= 0 pos=2130 label=Segment group 48                    C
+indent= 0 pos=2140 label=SGP Split goods placement
+indent= 0 pos=2150 label=Segment group 49                    C
+indent= 0 pos=2160 label=MEA Measurements
+indent= 0 pos=2170 label=EQN Number of units
+indent= 0 pos=2180 label=Segment group 50                    C
+indent= 0 pos=2190 label=TCC Transport charge/rate calculations
+indent= 0 pos=2200 label=PRI Price details
+indent= 0 pos=2210 label=EQN Number of units
+indent= 0 pos=2220 label=PCD Percentage details
+indent= 0 pos=2230 label=MOA Monetary amount
+indent= 0 pos=2240 label=QTY Quantity
+indent= 0 pos=2250 label=LOC Place/location identification
+indent= 0 pos=2260 label=Segment group 51                    C
+indent= 0 pos=2270 label=DGS Dangerous goods
+indent= 0 pos=2280 label=FTX Free text
+indent= 0 pos=2290 label=Segment group 52                    C
+indent= 0 pos=2300 label=CTA Contact information
+indent= 0 pos=2310 label=COM Communication contact
+indent= 0 pos=2320 label=Segment group 53                    C
+indent= 0 pos=2330 label=MEA Measurements
+indent= 0 pos=2340 label=EQN Number of units
+indent= 0 pos=2350 label=Segment group 54                    C
+indent= 0 pos=2360 label=SGP Split goods placement
+indent= 0 pos=2370 label=Segment group 55                    C
+indent= 0 pos=2380 label=MEA Measurements
+indent= 0 pos=2390 label=EQN Number of units
+indent= 0 pos=2400 label=Segment group 56                    C
+indent= 0 pos=2410 label=EQD Equipment details
+indent= 0 pos=2420 label=EQN Number of units
+indent= 0 pos=2430 label=TMD Transport movement details
+indent= 0 pos=2440 label=MEA Measurements
+indent= 0 pos=2450 label=DIM Dimensions
+indent= 0 pos=2460 label=SEL Seal number
+indent= 0 pos=2470 label=TPL Transport placement
+indent= 0 pos=2480 label=HAN Handling instructions
+indent= 0 pos=2490 label=TMP Temperature
+indent= 0 pos=2500 label=FTX Free text
+indent= 0 pos=2510 label=Segment group 57                    C
+indent= 0 pos=2520 label=TCC Transport charge/rate calculations
+indent= 0 pos=2530 label=PRI Price details
+indent= 0 pos=2540 label=EQN Number of units
+indent= 0 pos=2550 label=PCD Percentage details
+indent= 0 pos=2560 label=MOA Monetary amount
+indent= 0 pos=2570 label=QTY Quantity
+indent= 0 pos=2580 label=Segment group 58                    C
+indent= 0 pos=2590 label=NAD Name and address
+indent= 0 pos=2600 label=DTM Date/time/period
+indent= 0 pos=2610 label=Segment group 59                    C
+indent= 0 pos=2620 label=EQA Attached equipment
+indent= 0 pos=2630 label=EQN Number of units
+indent= 0 pos=2640 label=UNT Message trailer

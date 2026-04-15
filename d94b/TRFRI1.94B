@@ -1,0 +1,51 @@
+PART 5    UNITED NATIONS DIRECTORIES FOR ELECTRONIC DATA INTERCHANGE
+          FOR ADMINISTRATION, COMMERCE AND TRANSPORT
+
+CHAPTER 3 Message frameworks (TRFR)
+
+A framework is a hierarchical representation of all information needed
+in a certain field of usage, e.g. Transport.
+
+A framework is not a message type in itself. Since the message types 
+derived from the framework are part of each new version of a 
+directory, so is the framework. 
+
+
+1.   Indexes
+
+1.1  Index of framework types by code
+
+     Change indicators
+
+     a plus sign (+)    for an addition
+     an asterisk (*)    for an amendment to structure
+     a vertical bar (|) for changes to names and functions
+     a minus sign (-)   for a deletion
+     a X sign (X)       for marked for deletion
+
+   Code   Name                                           Status   Rev
+    
+   There are currently no approved framework types.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+1.2  Index of segments by name
+
+     Change indicators
+
+     a plus sign (+)    for an addition
+     an asterisk (*)    for an amendment to structure
+     a vertical bar (|) for changes to names and/or functions
+     a minus sign (-)   for a deletion
+     a X sign (X)       for marked for deletion 
+
+   Tag Name
+
+   ALI Additional information
+ X API Additional price information
+   APR Additional price information
+   PIA Additional product id
+   AJT Adjustment details
+   AGR Agreement identification
+   ALC Allowance or charge
+   ARD Amounts relationship details
+   ERC Application error information
+   EQA Attached equipment
+   ATT Attribute
+   AUT Authentication result
+   BGM Beginning of message
+   BUS Business function
+ | CCI Characteristic/class id
+   CPI Charge payment instructions
+   COM Communication contact
+|* CNI Consignment information
+   CPS Consignment packing sequence
+   CTA Contact information
+   COT Contribution details
+   CNT Control total
+ + CCD Credit cover details
+   CUX Currencies
+   CST Customs status of goods
+   DGS Dangerous goods
+   DTM Date/time/period
+   DLM Delivery limitations
+ * TDT Details of transport
+   DIM Dimensions
+   DLI Document line identification
+   DOC Document/message details
+   DMS Document/message summary
+   TAX Duty/tax/fee details
+   EMP Employment details
+   EQD Equipment details
+   ERP Error point details
+   FCA Financial charges allocation
+   FII Financial institution information
+   FTX Free text
+   GIS General indicator
+   GIN Goods identity number
+   GID Goods item details
+   GOR Governmental requirements
+   HAN Handling instructions
+   IND Index details
+ + IRQ Information required
+   ICD Insurance cover description
+   INV Inventory management related details
+   IMD Item description
+   LIN Line item
+   MKS Market/sales channel information
+   MEA Measurements
+   MEM Membership details
+   MOA Monetary amount
+   NAD Name and address
+   GDS Nature of cargo
+   EQN Number of units
+   PAC Package
+   PCI Package identification
+   INP Parties to instruction
+   PAI Payment instructions
+   PAT Payment terms basis
+   PCD Percentage details
+   PSD Physical sample description
+   LOC Place/location identification
+   PRI Price details
+   PIT Price item line
+   PRC Process identification
+ | PGI Product group information
+   QTY Quantity
+ X QVA Quantity variances
+   QVR Quantity variances
+   RNG Range details
+   RTE Rate details
+   RFF Reference
+   GIR Related identification numbers
+   REL Relationship
+ * RCS Requirements and conditions
+   SPS Sampling parameters for summary statistics
+   SCC Scheduling conditions
+   SEL Seal number
+   SEQ Sequence details
+   SGP Split goods placement
+   STG Stages
+   STA Statistics
+   STS Status
+ | BII Structure identification
+   TMP Temperature
+ | TOD Terms of delivery or transport
+   TEM Test method
+   TCC Transport charge/rate calculations
+   TMD Transport movement details
+   TPL Transport placement
+   TSR Transport service requirements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

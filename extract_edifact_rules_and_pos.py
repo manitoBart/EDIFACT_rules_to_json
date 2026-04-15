@@ -83,46 +83,85 @@ def parse_segments_ultimate(segment_content, element_repo):
 
 
 def build_final_json(message_struct_path, segments_db):
-    line_re = re.compile(r"^(\d{4})\s+(.+?)\s+([MC])\s+(\d+)")
+    line_re = re.compile(r"^\s*(\d{4})\s+(.+?)\s+([MC])\s+([\d]+)")
+    # Extraire la hierarchie depuis les descriptions de groupes (ex: "Segment group 2:  GOR-...-SG3")
+    grp_children = {}  # grp_num -> set of child grp nums
+    # Les descriptions peuvent s'etendre sur plusieurs lignes (continuation indentee)
+    grp_desc_re = re.compile(r'(\d{4})\s+Segment group (\d+):\s+((?:[A-Z0-9-]+\n?\s*)+)', re.MULTILINE)
+
+    content = open(message_struct_path, 'r', encoding='latin-1').read()
+    # Fusionner toutes les lignes de continuation (tres indentees) avec la ligne precedente
+    content_merged = re.sub(r'\r?\n[ \t]{20,}', '-', content)
+
+    for m in re.finditer(r'(\d{4})\s+Segment group (\d+):\s+([A-Z0-9-]+)', content_merged):
+        grp_num = int(m.group(2))
+        members = m.group(3)
+        children = set(int(x) for x in re.findall(r'SG(\d+)', members))
+        grp_children[grp_num] = children
+
+    # Construire un mapping enfant -> parent
+    child_to_parent = {}
+    for parent, children in grp_children.items():
+        for child in children:
+            child_to_parent[child] = parent
+
     root = []
-    stack = [(0, root)]
+    stack = [(0, root)]  # (grp_num, liste_enfants)
+    grp_nodes = {}  # grp_num -> node
 
-    with open(message_struct_path, 'r', encoding='utf-8') as f:
-        for line in f:
-            m = line_re.match(line.strip())
-            if not m:
+    # Parser uniquement la section 4.3.1 (segment table) - chercher l'en-tete du tableau
+    table_match = re.search(r'Pos\s+Tag Name.*?\n(.*)', content, re.DOTALL)
+    table_content = table_match.group(1) if table_match else content
+    lines = table_content.splitlines(keepends=True)
+    for line in lines:
+        m = line_re.match(line)
+        if not m:
+            continue
+
+        label = m.group(2).strip()
+        status = m.group(3)
+        max_occ_str = re.sub(r'[^\d]', '', m.group(4))
+        if not max_occ_str:
+            continue
+        max_occ = int(max_occ_str)
+        pos_str = m.group(1)
+
+        node = {"pos_msg": pos_str, "mandatory": status == 'M', "max": max_occ}
+        label = re.sub(r'^[*|\-+#]+\s*', '', label).strip()
+        label = label.replace('\u013f', '').replace('\u0673', '').strip()
+
+        if "Segment group" in label:
+            grp_match = re.search(r'Segment group\s+(\d+)', label)
+            if not grp_match:
                 continue
+            grp_num = int(grp_match.group(1))
+            node.update({"type": "group", "id": str(grp_num), "children": []})
+            grp_nodes[grp_num] = node
 
-            pos_val = int(m.group(1))
-            label = m.group(2).strip()
-            status = m.group(3)
-            max_occ = int(m.group(4))
+            # Trouver le parent de ce groupe
+            parent_num = child_to_parent.get(grp_num, 0)
 
-            node = {"pos_msg": m.group(1), "mandatory": status == 'M', "max": max_occ}
-
-            # Supprimer les marqueurs EDIFACT (* | -) en debut de label
-            label = re.sub(r'^[*|\-+#]+\s*', '', label).strip()
-
-            if "Segment group" in label:
-                node.update({"type": "group", "id": label.split()[-1], "children": []})
-                is_group = True
-            else:
-                parts = label.split(maxsplit=1)
-                tag = parts[0]
-                name = parts[1] if len(parts) > 1 else tag
-                node.update({
-                    "type": "segment",
-                    "tag": tag,
-                    "name": name,
-                    "elements": segments_db.get(tag, [])
-                })
-                is_group = False
-
-            while len(stack) > 1 and pos_val <= stack[-1][0]:
+            # Remonter la pile jusqu'au parent
+            while len(stack) > 1 and stack[-1][0] != parent_num:
                 stack.pop()
+            # Si le parent n'est pas dans la pile, remonter a la racine
+            if stack[-1][0] != parent_num:
+                while len(stack) > 1:
+                    stack.pop()
+
             stack[-1][1].append(node)
-            if is_group:
-                stack.append((pos_val, node["children"]))
+            stack.append((grp_num, node["children"]))
+        else:
+            parts = label.split(maxsplit=1)
+            tag = parts[0]
+            name = parts[1] if len(parts) > 1 else tag
+            node.update({
+                "type": "segment",
+                "tag": tag,
+                "name": name,
+                "elements": segments_db.get(tag, [])
+            })
+            stack[-1][1].append(node)
 
     return root
 
@@ -146,7 +185,7 @@ try:
     print(f"Segments analysés : {len(segments_db)}")
 
     # 3. Construire la structure finale du message
-    data = build_final_json('structure_message.txt', segments_db)
+    data = build_final_json('d00b/COPARN_D.00B', segments_db)
 
     # 4. Sauvegarder
     with open('edifact_rules.json', 'w', encoding='utf-8') as jf:

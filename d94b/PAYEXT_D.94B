@@ -1,0 +1,613 @@
+                              UN/EDIFACT
+ 
+                         DRAFT RECOMMENDATION
+ 
+                    Extended payment order message
+
+
+
+
+
+----------------------------------------------------------------------
+This message is available for formal trial for at least six months
+from the date of approval by UN/ECE/TRADE/WP.4.
+ 
+Organisations are invited to trial this message. Comments on the
+results from the trial should be forwarded to their Rapporteur's Team
+Secretariat as soon as they are available. Based on the results of the
+trials, a UNSM may be issued.
+ 
+The segments, composite data elements, data elements and codes for
+use in the trial of this message are contained in the Draft directory.
+However, this information may differ from that in the Standard
+directory (UNTDID), even for material having the same identifying
+tags.
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+                                            Message Type : PAYEXT
+                                            Version      : D 
+                                            Release      : 94B
+                                            Contr. Agency: UN  
+                                            Status       : 2 
+                                            Revision     : 1
+                                            Date         : 94-08-19
+
+
+
+
+
+
+SOURCE:  Joint development by PAEB and WEEB MD4
+
+
+
+                               CONTENTS
+ 
+                    Extended payment order message
+ 
+ 
+ 
+0.   INTRODUCTION
+ 
+1.   SCOPE
+ 
+     l.l   Functional definition
+ 
+     1.2   Field of application
+ 
+     1.3   Principles
+ 
+2.   REFERENCES
+ 
+3.   TERMS AND DEFINITIONS
+ 
+4.   MESSAGE DEFINITION
+ 
+     4.1   Data segment clarification
+ 
+           4.1.1 Header section
+           4.1.2 Detail section
+           4.1.3 Summary section
+ 
+     4.2   Data segment index (alphabetical sequence)
+ 
+     4.3   Message structure
+ 
+           4.3.1 Segment table
+ 
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+For general information on UN standard message types see UN Trade Data
+Interchange Directory, UNTDID, Part 4, Section 2.6, UN/ECE UNSM
+General Introduction
+----------------------------------------------------------------------
+
+
+
+0.     INTRODUCTION
+ 
+       This specification provides the definition of the Extended
+       payment order message (PAYEXT) to be used in Electronic Data
+       Interchange (EDI) between trading partners involved in
+       administration, commerce and transport.
+        
+1.     SCOPE
+ 
+1.1    Functional Definition
+ 
+       An Extended Payment Order is sent by the Ordering Customer (or
+       Payor or Agent on behalf of the Ordering Customer) to the
+       Ordered Bank, to instruct the Ordered Bank to debit an account
+       it services for the Ordering Customer, and to arrange for the
+       payment of a specified amount to the Beneficiary (or Payee or
+       Agent in favour of Beneficiary) in settlement of the referenced
+       business transaction(s), and to provide to the Payee full
+       details of the transactions to which the Extended Payment Order
+       relates.
+       
+       Throughout this document, the term 'Ordering Customer' refers
+       to either an Ordering Customer, or a Payor or Agent acting on
+       behalf of the Ordering Customer; likewise the term
+       'Beneficiary' refers to either a Beneficiary, or a Payee or
+       Agent acting on behalf of the Beneficiary.
+        
+1.2    Field of Application
+ 
+       This message may be applied for both national and international
+       settlements. It is based on universal practice and is not
+       dependent on the type of business or industry.
+         
+1.3    Principles
+  
+       An Extended Payment Order may cover the financial settlement of
+       one or more commercial trade transactions, such as invoices,
+       credit notes, debit notes, etc. It is not intended for use in
+       securities trading.
+       
+       The Ordered Bank may need a confirmation/ authorization to be
+       able to process the Extended Payment Order Message.
+         
+2.     REFERENCES
+  
+       See UNTDID, Part 4, Chapter 2.6 UN/ECE UNSM - General
+       Introduction, Section 1.
+         
+3.     TERMS AND DEFINITIONS
+  
+       See UNTDID, Part 4, Chapter 2.6 UN/ECE UNSM - General
+       Introduction, Section 2.
+         
+4.     MESSAGE DEFINITION
+  
+4.1    Data Segment Clarification
+  
+       This section should be read in conjunction with the Branching
+       Diagram and the Segment Table which indicate mandatory,
+       conditional and repeating requirements.
+         
+4.1.1  Header section
+ 
+       Information to be provided in the Header section:
+        
+0010   UNH, Message header
+       A service segment starting and uniquely identifying a message.
+       The message type code for the Extended payment order message is
+       PAYEXT.
+        
+       Note: Extended payment order messages conforming to this
+       document must contain the following data in segment UNH,
+       composite S009:
+        
+       Data element  0065 PAYEXT
+                     0052 D
+                     0054 94B
+                     0051 UN
+
+0020   BGM, Beginning of message
+       A segment for unique identification of the Extended Payment
+       Order, the type of Extended Payment Order and its function. The
+       requirement for a response, e.g., related debit advice, may be
+       indicated.
+        
+       Note: The identification will be passed back to the Ordering
+       Customer for reconciliation purposes; it would be used in the
+       case of a cancellation or confirmation of an Extended Payment
+       Order.
+
+0030   DTM, Date/time/period
+       A segment specifying the date and, when required, the time at
+       which the message has been created as well as other dates and
+       times relevant to the financial transaction.
+
+0040   BUS, Business function
+       A segment identifying certain characteristics of the Extended
+       Payment Order, such as its business function. In so doing, it
+       provides information about the message that may be used to
+       route the message within an institution, for tariffing, or for
+       the provision of some statistical information.
+
+
+0050   Segment group 1:  RFF-DTM
+       A group of segments identifying a previously-sent message.
+
+0060      RFF, Reference
+          A segment identifying a previously-sent message.
+
+0070      DTM, Date/time/period
+          A segment identifying the date/time of the previously-sent
+          message.
+
+0080   FTX, Free text
+       A segment giving information in coded or clear form to provide
+       supplementary information relating to the Extended Payment
+       Order.
+
+0090   PAI, Payment instructions
+       A segment specifying the conditions, guarantee, method and
+       channel of payment for the Extended Payment Order.
+
+0100   FCA, Financial charges allocation
+       A segment specifying the method for allocation of charges and
+       allowances (e.g., charges borne by the Ordering Customer, the
+       Beneficiary or both), and identifying the Ordering Customer's
+       account to which such charges or allowances should be directed
+       where it is different from the principal account.
+
+
+0110   Segment group 2:  MOA-CUX-DTM-RFF
+       A group of segments identifying the monetary amount and, if
+       necessary, the currencies, exchange rate and date for that
+       payment.
+
+0120      MOA, Monetary amount
+          A segment giving the amount value of the payment.
+
+0130      CUX, Currencies
+          A segment identifying the reference currency and the target
+          currency of the transaction when they are different. The
+          rate of exchange is solely used when previously agreed
+          between the Ordering Customer and the Ordered Bank.
+
+0140      DTM, Date/time/period
+          A segment identifying the effective date and/or time the
+          rate of exchange was fixed.
+
+0150      RFF, Reference
+          A segment identifying other transactions to which funds
+          associated with the Extended Payment Order are related, such
+          as a separate foreign exchange deal.
+
+
+0160   Segment group 3:  FII-CTA-COM
+       A group of segments providing information about the financial
+       institutions and accounts related to the Extended Payment
+       Order, together with details of any parties to be contacted in
+       relation to the transaction.
+
+0170      FII, Financial institution information
+          A segment identifying the financial institution (e.g., bank)
+          and relevant account number and currency for each party
+          involved in the transaction. The Ordering Customer may
+          indicate the previously agreed choice of financial
+          institution for payment.
+
+0180      CTA, Contact information
+          A segment identifying a person or a department for the
+          financial institution specified in the FII segment and to
+          whom communication should be directed.
+
+0190      COM, Communication contact
+          A segment providing a communication number for the party
+          identified in the FII segment and optionally for the contact
+          identified in the associated CTA segment.
+
+
+0200   Segment group 4:  NAD-CTA-COM
+       A group of segments identifying the name and address of the
+       non-financial institutions involved in the transaction and
+       their contacts.
+
+0210      NAD, Name and address
+          A segment identifying the name and address of the non-
+          financial institutions associated with the Extended Payment
+          Order and their functions.
+
+0220      CTA, Contact information
+          A segment identifying a person or a department for the party
+          specified in the NAD segment and to whom communication
+          should be directed.
+
+0230      COM, Communication contact
+          A segment providing a communication number for the party
+          identified in the NAD segment and optionally for the contact
+          identified in the associated CTA segment.
+
+
+0240   Segment group 5:  INP-FTX-DTM
+       A group of segments containing instructions from the Ordering
+       Customer relating to parties identified in the NAD and FII
+       segments. It specifies action to be taken by the identified
+       parties, and the date (and optionally time) by which such
+       action needs to be taken.
+
+0250      INP, Parties to instruction
+          A segment identifying the party originating the instruction
+          and the parties to be contacted at or by the associated
+          financial institution on matters concerning the execution of
+          the payment. It specifies where appropriate the instruction
+          in coded form.
+
+0260      FTX, Free text
+          A segment providing free text instruction relating to the
+          associated INP segment.
+
+0270      DTM, Date/time/period
+          A segment specifying the earliest and the latest dates and
+          times by which the instruction specified in the INP and FTX
+          segments needs to be carried out.
+
+4.1.2  Detail section
+
+       Information to be provided in the Detail section:
+
+
+0280   Segment group 6:  DOC-MOA-DTM-RFF-NAD-SG7-SG8-SG9
+       A group of segments providing details of all documents, e.g.,
+       invoices, statements, despatch advices, etc..., to which the
+       Extended Payment Order refers. It includes information on the
+       monetary amounts for each document and on any adjustments (with
+       an indication of the reason for adjustments) and discounts. For
+       information purposes an indication of the tax element can be
+       provided.
+
+0290      DOC, Document/message details
+          A segment identifying the reference document against which
+          payment is being made.
+
+0300      MOA, Monetary amount
+          A segment giving the monetary amounts of each reference
+          document (e.g., original amount, discount amount etc...).
+          The amount due and the amount remitted are mandatory.
+
+0310      DTM, Date/time/period
+          A segment specifying the date of the referenced document and
+          indicating any other relevant dates applicable.
+
+0320      RFF, Reference
+          A segment for the inclusion of any additional references
+          related to the reference document.
+
+0330      NAD, Name and address
+          A segment identifying a party name and address, either by
+          coded identification or in a clear form.
+
+
+0340      Segment group 7:  CUX-DTM
+          A group of segments specifying the currencies and the
+          related dates/periods valid to the referenced document where
+          different to the reference currency.
+
+0350         CUX, Currencies
+             A segment identifying the currency and associated
+             exchange rate of the referenced document where different
+             to the remittance currency.
+
+0360         DTM, Date/time/period
+             A segment specifying the date/time/period related to the
+             rate of exchange.
+
+
+0370      Segment group 8:  AJT-MOA-RFF
+          A group of segments indicating adjustment amounts and their
+          referenced documents.
+
+0380         AJT, Adjustment details
+             A segment indicating any adjustments to the amounts
+             originally specified in the referenced document, and to
+             which items such adjustments apply, with the associated
+             reason for adjustment.
+
+0390         MOA, Monetary amount
+             A segment giving the monetary amounts of the adjustments
+             of each reference document (e.g. original amounts,
+             discount amount, etc.). The currency data elements should
+             not be used.
+
+0400         RFF, Reference
+             A segment for the inclusion of any additional references
+             related to the reference document.
+
+
+0410      Segment group 9:  DLI-MOA-PIA-DTM-SG10-SG11
+          A group of segments which may be used when required to
+          provide details of individual line items in the reference
+          document.
+
+0420         DLI, Document line identification
+             A segment identifying a specific line item within the
+             referenced document.
+
+0430         MOA, Monetary amount
+             A segment giving the monetary amounts for this line item.
+
+0440         PIA, Additional product id
+             A segment specifying item identification codes where
+             required.
+
+0450         DTM, Date/time/period
+             A segment specifying the date/time/period related to the
+             line item.
+
+
+0460         Segment group 10: CUX-DTM
+             A group of segments identifying the currency and the
+             related dates/periods of the line item where different to
+             the remittance and document currency.
+
+0470            CUX, Currencies
+                A segment identifying the currency and associated
+                exchange rate of the line item, where different to the
+                reference and target currency.
+
+0480            DTM, Date/time/period
+                A segment specifying the effective date and/or time
+                the rate of exchange was fixed.
+
+
+0490         Segment group 11: AJT-MOA-RFF
+             A group of segments indicating adjustment amounts and
+             their referenced documents for this line item.
+
+0500            AJT, Adjustment details
+                A segment indicating any adjustments to the amounts
+                originally specified for this line item and the reason
+                for the adjustments.
+
+0510            MOA, Monetary amount
+                A segment giving the monetary amounts of the
+                adjustment for this line item.
+
+0520            RFF, Reference
+                A segment for the inclusion of any additional
+                references related to the reference document.
+
+4.1.3  Summary section
+
+       Information to be provided in the Summary section:
+
+0530   UNS, Section control
+       A service segment placed at the start of the summary section to
+       avoid segment collision.
+
+0540   MOA, Monetary amount
+       A segment giving a summary of various amounts, for information
+       to the Beneficiary.
+
+
+0550   Segment group 12: GIS-NAD-FTX
+       A group of segments providing information for subsequent use by
+       regulatory authorities requiring statistical and other types of
+       data. It also identifies the regulatory authority for which the
+       information is intended followed by the information itself.
+
+0560      GIS, General indicator
+          A segment identifying what processing should be completed by
+          regulatory authorities.
+
+0570      NAD, Name and address
+          A segment identifying the recipient of the associated
+          informative text.
+
+0580      FTX, Free text
+          A segment giving information in coded or clear form to
+          provide information relevant to regulatory authorities'
+          requirements.
+
+
+0590   Segment group 13: AUT-DTM
+       A group of segments specifying the details of authentication.
+
+0600      AUT, Authentication result
+          A segment specifying the details of any authentication
+          (validation) procedure applied to the Extended Payment Order
+          message.
+
+0610      DTM, Date/time/period
+          A segment identifying the date and, where necessary, the
+          time of validation.
+
+0620   UNT, Message trailer
+       A service segment ending a message, giving the total number of
+       segments in the message and the control reference number of the
+       message.
+
+4.2    Data segment index (Alphabetical sequence by tag)
+
+          AJT Adjustment details
+          AUT Authentication result
+          BGM Beginning of message
+          BUS Business function
+          COM Communication contact
+          CTA Contact information
+          CUX Currencies
+          DLI Document line identification
+          DOC Document/message details
+          DTM Date/time/period
+          FCA Financial charges allocation
+          FII Financial institution information
+          FTX Free text
+          GIS General indicator
+          INP Parties to instruction
+          MOA Monetary amount
+          NAD Name and address
+          PAI Payment instructions
+          PIA Additional product id
+          RFF Reference
+          UNH Message header
+          UNS Section control
+          UNT Message trailer
+
+4.3    Message structure
+ 
+4.3.1  Segment table
+ 
+Pos    Tag Name                                      S   R
+ 
+           HEADER SECTION
+ 
+0010   UNH Message header                            M   1            
+0020   BGM Beginning of message                      M   1            
+0030   DTM Date/time/period                          M   5            
+0040   BUS Business function                         C   1            
+                                                                      
+0050       ÄÄÄÄÄÄ Segment group 1  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2     ÄÄÄÄÄÄ¿
+0060   RFF Reference                                 M   1           ³
+0070   DTM Date/time/period                          C   1     ÄÄÄÄÄÄÙ
+0080   FTX Free text                                 C   5            
+0090   PAI Payment instructions                      C   1            
+0100   FCA Financial charges allocation              C   1            
+                                                                      
+0110       ÄÄÄÄÄÄ Segment group 2  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ M   1     ÄÄÄÄÄÄ¿
+0120   MOA Monetary amount                           M   1           ³
+0130   CUX Currencies                                C   1           ³
+0140   DTM Date/time/period                          C   2           ³
+0150   RFF Reference                                 C   1     ÄÄÄÄÄÄÙ
+                                                                      
+0160       ÄÄÄÄÄÄ Segment group 3  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   4     ÄÄÄÄÄÄ¿
+0170   FII Financial institution information         M   1           ³
+0180   CTA Contact information                       C   1           ³
+0190   COM Communication contact                     C   5     ÄÄÄÄÄÄÙ
+                                                                      
+0200       ÄÄÄÄÄÄ Segment group 4  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   6     ÄÄÄÄÄÄ¿
+0210   NAD Name and address                          M   1           ³
+0220   CTA Contact information                       C   1           ³
+0230   COM Communication contact                     C   5     ÄÄÄÄÄÄÙ
+                                                                      
+0240       ÄÄÄÄÄÄ Segment group 5  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   4     ÄÄÄÄÄÄ¿
+0250   INP Parties to instruction                    M   1           ³
+0260   FTX Free text                                 C   1           ³
+0270   DTM Date/time/period                          C   2     ÄÄÄÄÄÄÙ
+ 
+           DETAIL SECTION
+ 
+0280       ÄÄÄÄÄÄ Segment group 6  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999  ÄÄÄÄÄÄ¿
+0290   DOC Document/message details                  M   1           ³
+0300   MOA Monetary amount                           M   5           ³
+0310   DTM Date/time/period                          C   5           ³
+0320   RFF Reference                                 C   5           ³
+0330   NAD Name and address                          C   2           ³
+                                                                     ³
+0340       ÄÄÄÄÄÄ Segment group 7  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5     ÄÄÄÄÄ¿³
+0350   CUX Currencies                                M   1          ³³
+0360   DTM Date/time/period                          C   1     ÄÄÄÄÄÙ³
+                                                                     ³
+0370       ÄÄÄÄÄÄ Segment group 8  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   100   ÄÄÄÄÄ¿³
+0380   AJT Adjustment details                        M   1          ³³
+0390   MOA Monetary amount                           C   1          ³³
+0400   RFF Reference                                 C   1     ÄÄÄÄÄÙ³
+                                                                     ³
+0410       ÄÄÄÄÄÄ Segment group 9  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   9999  ÄÄÄÄÄ¿³
+0420   DLI Document line identification              M   1          ³³
+0430   MOA Monetary amount                           C   5          ³³
+0440   PIA Additional product id                     C   5          ³³
+0450   DTM Date/time/period                          C   5          ³³
+                                                                    ³³
+0460       ÄÄÄÄÄÄ Segment group 10 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   5     ÄÄÄÄ¿³³
+0470   CUX Currencies                                M   1         ³³³
+0480   DTM Date/time/period                          C   1     ÄÄÄÄÙ³³
+                                                                    ³³
+0490       ÄÄÄÄÄÄ Segment group 11 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   10    ÄÄÄÄ¿³³
+0500   AJT Adjustment details                        M   1         ³³³
+0510   MOA Monetary amount                           C   1         ³³³
+0520   RFF Reference                                 C   1     ÄÄÄÄÁÁÙ
+ 
+           SUMMARY SECTION
+ 
+0530   UNS Section control                           M   1            
+0540   MOA Monetary amount                           C   5            
+                                                                      
+0550       ÄÄÄÄÄÄ Segment group 12 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   2     ÄÄÄÄÄÄ¿
+0560   GIS General indicator                         M   1           ³
+0570   NAD Name and address                          M   1           ³
+0580   FTX Free text                                 M   6     ÄÄÄÄÄÄÙ
+                                                                      
+0590       ÄÄÄÄÄÄ Segment group 13 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ C   1     ÄÄÄÄÄÄ¿
+0600   AUT Authentication result                     M   1           ³
+0610   DTM Date/time/period                          C   1     ÄÄÄÄÄÄÙ
+0620   UNT Message trailer                           M   1            
+
+

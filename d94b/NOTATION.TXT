@@ -1,0 +1,321 @@
+===============
+NOTATION.TXT
+===============
+
+The following explains, in greater detail than provided
+in the UN/EDIFACT directories, the notation used 
+in Section 5 of the UNTDID (i.e.in TRMD, TRSD, TRCD, TRED, 
+UNCL and UNSL). This explanation is followed by relevant excerpts from
+document TRADE/WP.4/R.1023/Rev.1 (UN/EDIFACT RULES FOR PRESENTATION OF
+STANDARDIZED MESSAGE AND DIRECTORIES DOCUMENTATION).
+
+CHANGE INDICATORS
+=================
+                 
+This section describes the notation used in the directory set.
+
+
+General
+=======
+
+The notation detailed below is only used at the level of the directory
+at  which the relevant approved Change Request (CR) has been applied.
+
+For example, if a CR changes the length of a Data Element (DE),the DE
+header will show a "*" to indicate "Change".  (However, no "*" is
+shown beside the same DE within any composite or segment where the
+DE is being used.)
+
+Detail
+======
+
+Index notation
+--------------
+
+The notation used in the indexes for each Section, is identical to
+the Header notation shown below.
+
+
+Header notation (Segment/Composite/Data Element Directory)
+----------------------------------------------------------
+
+The notation "*", "+" and "X" is used besides the TAG/NAME (header) 
+if a CR has been applied against that item, in that directory level.
+No notation is carried up to the higher level directories.
+
+ "+" indicates the addition of that item to the directory.
+
+ "*" indicates a change to either the name, description, or notes
+     [or structure - for Segments/Composites, or representation -
+     for Data Elements.]
+
+ "X' indicates that the item is marked for deletion.  A note will
+     describe the reason, and identify the replacement item to be
+     used.
+
+Structure notation (Segment/Composite Directory)
+------------------------------------------------
+
+The notation "*" and "+" is used beside simple data elements or
+composite data elements in the segment directory, or component data
+elements in the composite directory, to indicate a CR against the
+status of the requirement designator or the addition of a data element
+at that directory level.
+
+The notation is NOT being carried "up to" or "down from" a
+higher/lower level directory.
+
+"+" indicates addition of a simple or composite data element in the
+    segment directory, or an addition of a component data element in
+    the composite directory.
+
+"*" indicates a change to the status of the requirement designator of
+    a simple or composite data element in the segment directory, or
+    to a component data element in the composite directory.
+
+
+CROSS-REFERENCE TABLES CHANGE INDICATORS
+========================================
+
+Header notation
+---------------
+
+Same as the Draft Directory PLUS:
+
+"-" indicates the item has been deleted (removed) from the directory.
+    This is due to the item not being used by any message in that
+    directory set.
+
+
+Structure notation (including message segment tables)
+----------------------------------------------------
+
+Same as Draft Directory PLUS:
+
+"-" indicating the Segment/Segment Group in the message, simple
+    data element or composite in the segment, or component data
+    element in the composite, has been removed (deleted) by a CR.
+
+">" indicating the Segment/Segment Group in the message, simple
+    data element or composite in the segment, or component data
+    element in the composite, have been moved (changed location)
+    by a CR.
+
+                  ___________________________________
+                          ___________________
+
+
+
+
+========================================================================
+RELEVANT EXCERPTS FROM: TRADE/WP.4/R.1023/Rev.1
+========================================================================
+
+"2.2   REQUIREMENTS FOR ALL MESSAGE BOILERPLATE TEXT......
+
+     
+      d)   Changes to data contents in all sections of the message   
+           boilerplate shall be indicated against the relevant lines,
+           in column 6, by                                           
+      
+           a plus sign (+)    for an addition 
+           an asterisk (*)    for an amendment to structure 
+           a pound sign (#)   for changes to names *1*               
+           a vertical bar (³) for changes in boilerplate text.  
+             Note that this indicator is to be placed beside an entire    
+             section where a change has occurred and not beside      
+             individual lines that have changed. *2*                 
+           a minus sign (-)   for a deletion
+           an X sign (X)      for marked for deletion 
+       
+2.2.1 Section 4.1 (Data segment clarification)
+      
+      The following list of requirements shall be considered as a
+      generic implementation guideline:
+      
+      a)   The segment and segment group usage shall be explained in
+           the order they appear in the message;
+      
+      b)   Each segment and segment group explanation shall commence
+           with a sequential number starting at 0010 and incremented
+           by 10 for each subsequent segment or segment group.  There
+           will be three spaces between this sequential number and
+           the following text.  The second of these three spaces may
+           contain a change indicator as described above under
+           2.2 d);
+      
+      c)   Each segment explanation shall commence, after its sequen-
+           tial number, with: the segment tag, comma, followed by the
+           segment name.  The explanatory text shall go on a new line;
+
+      d)   Each segment group explanation shall commence, after its
+           sequential number, with "Segment Group XX:" followed by
+           the segment tags and segment groups, in the correct order,
+           contained within it. Segment groups shall be specified
+           with their tags e.g. 'SGXX'.  All tags are separated by
+           hyphens;
+      
+      e)   Each new segment, or segment group, when it is at the next
+           lower level shall be indented by reference to the one
+           above.
+      
+2.2.2 Section 4.2 (Data segment index)
+      
+      The list of segments shall show the segments exactly as they
+      are listed in the Segment Directory indexes, including the
+      status indicators listed below under the requirements for sup-
+      porting directories."
+      
+
+"2.3   REQUIREMENTS FOR SUPPORTING DIRECTORIES.......
+
+      d)   Changes in supporting directories shall be shown using the
+           following indicators: 
+      
+           a plus sign (+)    for an addition 
+           an asterisk (*)    for an amendment to structure
+           a pound sign (#)   for changes to names *1*                  
+           a vertical bar (³) for changes to text for descriptions,     
+                              notes and functions *2*                   
+           a minus sign (-)   for a deletion 
+           a X sign (X)       for marked for deletion
+      
+      e)   Changes to data contents in the Supporting Directories
+           shall be indicated only for information that is unique to
+           the directory in question.
+      
+           For example, a change in a code value for a data element
+           shall not be indicated at the data element directory level
+           and a change in the data element directory shall not be
+           indicated at the segment directory level.
+
+           To be specific:
+
+              In the Segment directory, changes shall be indicated when
+              they occur in the segment name, functional description
+              or structure.  Structure changes at the segment level
+              are the addition, deletion or marking for deletion of
+              data elements or composite data elements and changes in
+              the number of repeats on the status of a data element or
+              composite data element.
+
+              In the Composite data element directory, changes shall be
+              indicated when they occur in the composite data element
+              name, functional description and structure.  Structure
+              changes at the composite data element level are the
+              addition, deletion or marking for deletion of component
+              data elements and changes in the number of repeats of
+              status of a component data element.
+
+              In the Data element directory, changes shall be indicated
+              when they occur in the data element name, functional
+              description or format.
+
+              In the Code directory, changes shall be indicated when
+              they occur in the name or functional description.
+
+      f)   Indexes for all directories shall show, in column 2, any
+           change indicator shown in the actual directory beside the
+           tag of the data structure being indexed."
+
+
+"4.4   EXAMPLE SUPPORTING DIRECTORIES.......................
+
+CHAPTER 7 Code lists (UNCL and UNSL)
+
+In UN/EDIFACT four classes of code lists are distinguished:
+
+     Class 1: service data element code lists: to be used in
+     conjunction with the service data elements defined in the
+     UN/EDIFACT syntax (ISO 9735)
+
+     Class 2: user data element code lists, maintained under
+     UN/EDIFACT procedures;
+
+     Class 3: user data element code lists included in international
+     code lists, issued as ISO international standards or by the
+     UN/ECE
+
+     Class 4: proprietary code lists (industry or sector code sets)
+     maintained by parties other than UN/EDIFACT, ISO and UN/ECE.
+
+Chapter 7, section 1 includes class 2 code lists. Class 3 lists are 
+cross-referenced. Chapter 7, section 2 contains those class 1 codes
+maintained by the UN/ECE for implementation with UN/EDIFACT (to be
+used if data element S001-001 in the UNB starts with UNO). For the
+identification of class 4 code lists, data element 1131 - (Code list
+qualifier) and data element 3055 - (Code list responsible agency,
+coded) have to be used.
+
+If a generic data element combined with a qualifier value is            
+identical to an existing specific data element in UNTDED - then the     
+description of the qualifier code value starts with the tag of the       
+specific data element in square brackets.                               
+                                                                        
+   Example:                                                             
+                                                                        
+       3035 Party qualifier                                              
+            BB   Buyer's bank                                          
+                 [3420] Bank employed by the buyer to make payment.     
+                                                                        
+                 [3420] indicates that 3420 is a specific data          
+                 element in the current United Nations Trade Data       
+                 Element Directory (UNTDED):                             
+                      3420 Buyer's bank                                 
+                      Desc: Bank employed by the buyer to make          
+                            payment.                                    
+
+If a generic data element combined with a qualifier value is covered
+by an existing specific data element in UNTDED, but the specific
+UNTDED data element includes information normally (in EDIFACT
+messages) provided in more than one associated, separate data element
+- then only the functional meaning is copied and the description of
+the qualifier code value starts with the tag of the specific data
+element in round brackets.
+      
+   Example: 
+    
+       3035 Party qualifier 
+    
+            AL   Principal 
+                 (3340) Party accepting liability for goods held or 
+                 moving (e.g. transit) under a Customs authorization
+                 and - when applicable - a guarantee. 
+    
+                 (3340) indicates that 3340 is a specific data
+                 element in the current UNTDED: 
+    
+                 3340 Principal responsible party 
+                      Desc: Name and address of a party 
+                            accepting etc.    
+
+EXPLANATION: In an EDIFACT message the code value AL, if it is used
+as a qualifier for one generic data element, will cover only the
+name OR the address information found in UNTDED data element 3340
+(not both). In order for all of the information in UNTDED 3340 to
+be provided, the code value AL must qualify more than one generic 
+data element (For example; see the NAD segment).
+
+1.   Code lists
+
+     Change indicators
+
+     a plus sign (+)    for an addition 
+     an asterisk (*)    for an addition/substraction/change to a code   
+                        entry for a particular data element             
+     a pound sign (#)   for changes to names (See *1*)                 
+     a vertical bar (³) for changes to text for descriptions,           
+                        notes and functions (See *2*)                  
+     a minus sign (-)   for a deletion 
+     a X sign (X)       for marked for deletion"
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+*1*  To be implemented beginning in D.95A.
+
+*2*  In D.94A and D.94B a vertical bar (³) is used for changes to both
+     names and functions (i.e. text).
+
+
+

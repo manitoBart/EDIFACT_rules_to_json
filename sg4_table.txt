@@ -1,0 +1,2 @@
+Found at index: 11641
+'          A segment to specify a date/time related to the indicated\n             document.\n\n\n0190   Segment group 4:  TCC-PRI-EQN-PCD-MOA-QTY-LOC\n       A group of segments to specify charges associated with the\n       transport of the consolidation.\n\n0200      TCC, Transport charge/rate calculation'
